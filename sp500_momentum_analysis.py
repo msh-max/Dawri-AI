@@ -373,7 +373,7 @@ def main():
     print(f"Momentum signal: 12-1 month (past year return excluding last month)")
 
     # Step 4: Optimize K
-    k_values = [3, 5, 8, 10, 12, 15, 20, 25, 30, 40, 50, 75, 100]
+    k_values = list(range(1, 21))
     print(f"\n{'─' * 70}")
     print(f"Optimizing K across {k_values} ...")
     print(f"{'─' * 70}")
