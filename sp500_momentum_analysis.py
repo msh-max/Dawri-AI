@@ -135,28 +135,54 @@ def compute_monthly_returns(prices):
 
 # ── 4. Momentum strategy ────────────────────────────────────────────────────
 
-def momentum_strategy(monthly_returns, k):
+def momentum_strategy(monthly_prices, monthly_returns, k):
     """
-    Each month, pick the top-k stocks by prior-month return.
-    Equal-weight portfolio held for the next month.
-    Returns a Series of monthly portfolio returns.
+    Classic 12-1 month momentum (Jegadeesh & Titman).
+
+    Signal: cumulative return from month t-12 to t-1 (skip the most recent
+    month to avoid short-term reversal noise).
+
+    Each month:
+      1. Compute the 12-1 month return for every stock.
+      2. Rank and pick the top-k.
+      3. Hold equal-weight for 1 month.
+
+    Parameters
+    ----------
+    monthly_prices : DataFrame  – month-end prices (used for 12-1 signal)
+    monthly_returns : DataFrame – month-over-month returns (used for holding-period return)
+    k : int                     – number of top stocks to hold
     """
     spy_col = "SPY"
+    stock_prices = monthly_prices.drop(columns=[spy_col], errors="ignore")
     stock_rets = monthly_returns.drop(columns=[spy_col], errors="ignore")
 
     port_returns = []
-    dates = stock_rets.index.tolist()
+    # Align on common dates
+    common_dates = stock_prices.index.intersection(stock_rets.index)
+    common_dates = common_dates.sort_values()
 
-    for i in range(1, len(dates)):
-        prev = stock_rets.iloc[i - 1].dropna()
-        if len(prev) < k:
+    for idx in range(len(common_dates)):
+        date = common_dates[idx]
+        # Need the price 12 months and 1 month before this date in the prices index
+        price_pos = stock_prices.index.get_loc(date)
+        if price_pos < 12:
             continue
-        top_k = prev.nlargest(k).index
-        # Equal-weight return of those stocks in the *current* month
-        curr = stock_rets.iloc[i][top_k].dropna()
+
+        p_start = stock_prices.iloc[price_pos - 12]  # price 12 months ago
+        p_end = stock_prices.iloc[price_pos - 1]      # price 1 month ago (skip current)
+        signal = (p_end / p_start - 1).dropna()
+
+        if len(signal) < k:
+            continue
+
+        top_k = signal.nlargest(k).index
+
+        # Hold those stocks for the current month
+        curr = stock_rets.loc[date][top_k].dropna()
         if len(curr) == 0:
             continue
-        port_returns.append((dates[i], curr.mean()))
+        port_returns.append((date, curr.mean()))
 
     result = pd.Series(dict(port_returns), name=f"Top{k}_Momentum")
     result.index = pd.to_datetime(result.index)
@@ -212,12 +238,12 @@ def calc_metrics(monthly_rets, label="Strategy", rf_annual=0.03):
 
 # ── 6. Optimize K ───────────────────────────────────────────────────────────
 
-def optimize_k(monthly_returns, k_values):
+def optimize_k(monthly_prices, monthly_returns, k_values):
     """Run the momentum strategy for each k and collect metrics."""
     results = []
     strats = {}
     for k in k_values:
-        s = momentum_strategy(monthly_returns, k)
+        s = momentum_strategy(monthly_prices, monthly_returns, k)
         m = calc_metrics(s, label=f"Top {k}")
         m["K"] = k
         results.append(m)
@@ -240,7 +266,7 @@ def plot_results(spy_monthly, best_strat, best_k, metrics_df, k_values, strats, 
     mom_c = (1 + best_strat.loc[common]).cumprod()
     ax.plot(spy_c.index, spy_c.values, label="S&P 500 (SPY)", linewidth=2)
     ax.plot(mom_c.index, mom_c.values, label=f"Top-{best_k} Momentum", linewidth=2)
-    ax.set_title(f"Cumulative Growth: S&P 500 vs Top-{best_k} Momentum Strategy",
+    ax.set_title(f"Cumulative Growth: S&P 500 vs Top-{best_k} Momentum (12-1 Signal)",
                  fontsize=14, fontweight="bold")
     ax.set_ylabel("Growth of $1")
     ax.legend(fontsize=12)
@@ -330,26 +356,28 @@ def main():
 
     # Step 1: Get S&P 500 tickers
     print("=" * 70)
-    print("S&P 500 MOMENTUM STRATEGY ANALYSIS")
+    print("S&P 500 MOMENTUM STRATEGY ANALYSIS (12-1 Month Signal)")
     print("=" * 70)
     tickers = get_sp500_tickers()
     print(f"\nFetched {len(tickers)} S&P 500 constituents")
 
-    # Step 2: Download data
-    prices = download_data(tickers, start="2005-01-01", end="2026-03-31")
+    # Step 2: Download data (start 1yr earlier to have 12-month lookback from 2005)
+    prices = download_data(tickers, start="2004-01-01", end="2026-03-31")
 
-    # Step 3: Monthly returns
+    # Step 3: Monthly prices & returns
+    monthly_prices = prices.resample("ME").last()
     monthly_returns = compute_monthly_returns(prices)
     spy_monthly = monthly_returns["SPY"].dropna()
     print(f"Monthly return series: {monthly_returns.shape[0]} months × "
           f"{monthly_returns.shape[1]} tickers")
+    print(f"Momentum signal: 12-1 month (past year return excluding last month)")
 
     # Step 4: Optimize K
     k_values = [3, 5, 8, 10, 12, 15, 20, 25, 30, 40, 50, 75, 100]
     print(f"\n{'─' * 70}")
     print(f"Optimizing K across {k_values} ...")
     print(f"{'─' * 70}")
-    metrics_df, strats = optimize_k(monthly_returns, k_values)
+    metrics_df, strats = optimize_k(monthly_prices, monthly_returns, k_values)
 
     # Find optimal K by Sharpe ratio
     best_idx = metrics_df["Sharpe"].idxmax()
