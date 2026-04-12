@@ -24,16 +24,16 @@ HALAL_SP500 = [
     "GOOGL","GOOG","META","NFLX","DIS","CMCSA","CHTR","TMUS","T","VZ","EA","TTWO","OMC","IPG","LYV","WBD","FOX","FOXA","NWS","NWSA","PARA",
     # Consumer Discretionary (non-gambling, non-alcohol)
     "AMZN","TSLA","HD","MCD","NKE","LOW","SBUX","TJX","BKNG","CMG","ORLY","AZO","GM","F","LULU","ROST","DHI","LEN","NVR","PHM","YUM",
-    "DPZ","DRI","MAR","HLT","ABNB","GRMN","POOL","TSCO","BBY","ULTA","RL","TPR","CCL","RCL","NCLH","APTV","BWA","LKQ","LVS",
+    "DPZ","DRI","MAR","HLT","ABNB","GRMN","POOL","TSCO","BBY","ULTA","RL","TPR","CCL","RCL","NCLH","APTV","BWA","LKQ",
     # Consumer Staples (non-alcohol, non-tobacco)
-    "WMT","COST","PG","KO","PEP","MDLZ","CL","KMB","GIS","K","HSY","MKC","CLX","CHD","MNST","KDP","KHC","SJM","CAG","CPB","HRL","TSN","TAP",
+    "WMT","COST","PG","KO","PEP","MDLZ","CL","KMB","GIS","K","HSY","MKC","CLX","CHD","MNST","KDP","KHC","SJM","CAG","CPB","HRL","TSN",
     "ADM","SYY","KR","DG","DLTR","WBA","CVS","ELV",
     # Healthcare
     "UNH","JNJ","LLY","ABBV","PFE","MRK","TMO","ABT","DHR","AMGN","BMY","GILD","MDT","ISRG","SYK","REGN","VRTX","ZTS","BSX","ELV",
     "CI","HUM","CNC","MOH","HCA","ZBH","BDX","EW","DXCM","IDXX","IQV","A","WAT","MTD","BIO","CRL","HOLX","ALGN","STE","COO",
     "LH","DGX","RMD","BAX","BIIB","INCY","MRNA","TECH","RVTY","HSIC","PODD","DVA","UHS","VTRS","SOLV",
     # Industrials (non-defense heavy)
-    "CAT","DE","HON","UPS","UNP","BA","GE","ETN","LIN","EMR","ITW","CSX","NSC","WM","RSG","FDX","NOC","PH","CMI","PCAR",
+    "CAT","DE","HON","UPS","UNP","GE","ETN","LIN","EMR","ITW","CSX","NSC","WM","RSG","FDX","PH","CMI","PCAR",
     "ROK","JCI","OTIS","CARR","FAST","VMC","MLM","URI","PWR","GWW","XYL","ROP","DOV","IR","IEX","PNR","SNA","LECO","TT","HWM",
     "LUV","DAL","AAL","UAL","HEI","CHRW","EXPD","JBHT","ODFL","XPO","WAB","TRMB","ZBRA","ALLE","AOS","DAY","MAS","GNRC","TDY",
     # Materials (excluding defense)
