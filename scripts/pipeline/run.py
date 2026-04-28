@@ -1,18 +1,12 @@
 """Dawri AI daily pipeline entry point.
 
-This is the orchestrator that runs end-to-end every day:
-  1. scrape   — pull raw HTML/JSON from FBref, SPL official site, Wikidata
-  2. etl      — normalize into canonical players / matches / events tables
-  3. predict  — train models, generate W/D/L + score + props predictions
-  4. explain  — compute SHAP feature contributions, render bilingual sentences
-  5. narrate  — local LLM (Qwen2.5-1.5B GGUF) writes scout reports + previews
-  6. snapshot — write everything to JSON for the static frontend to consume
-
-The frontend reads these JSON files directly from the `data` branch via
-GitHub raw URLs.
-
-Phase 0: this file is a scaffold. Each step logs and writes a placeholder
-manifest so the workflow is wired up end-to-end before real scrapers land.
+Stages (Phase 1 implements 1, 2, and 6):
+  1. scrape   — pull from FBref + Wikidata
+  2. etl      — merge into canonical Team / Player records
+  3. predict  — TODO (Phase 4)
+  4. explain  — TODO (Phase 4)
+  5. narrate  — TODO (Phase 5, local Qwen2.5-1.5B)
+  6. snapshot — write canonical JSON the frontend reads
 """
 
 from __future__ import annotations
@@ -23,6 +17,11 @@ import logging
 from datetime import datetime, timezone
 from pathlib import Path
 
+from .cache import HttpCache
+from .etl.normalize import merge_players, merge_teams
+from .schema import SeasonSnapshot, to_jsonable
+from .sources import fbref, wikidata
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
@@ -30,46 +29,88 @@ logging.basicConfig(
 log = logging.getLogger("dawri.pipeline")
 
 
-def write_manifest(out_dir: Path) -> None:
-    """Write a tiny manifest file so the frontend can detect 'data is live'."""
-    out_dir.mkdir(parents=True, exist_ok=True)
-    manifest = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
-        "version": "0.1.0-scaffold",
-        "stage": "phase-0",
-        "status": "pipeline-not-yet-implemented",
-        "league": "spl-saudi-pro-league",
-        "season": "2025-26",
-    }
-    (out_dir / "manifest.json").write_text(
-        json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8"
+def _write_json(path: Path, payload: object) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
     )
-    log.info("Wrote manifest to %s", out_dir / "manifest.json")
+    log.info("wrote %s", path)
+
+
+def run(output_dir: Path, cache_dir: Path, season: str = "2025-26") -> None:
+    cache = HttpCache(cache_dir=cache_dir)
+
+    log.info("[1/6] scrape — FBref")
+    fbref_teams = fbref.list_teams(cache)
+    fbref_rows: list[tuple[fbref.FbrefTeam, fbref.FbrefPlayerRow]] = []
+    for ft in fbref_teams:
+        for row in fbref.list_players_for_team(cache, ft):
+            fbref_rows.append((ft, row))
+
+    log.info("[1/6] scrape — Wikidata")
+    wd_clubs = wikidata.fetch_clubs(cache)
+    wd_players = wikidata.fetch_players(cache)
+
+    log.info("[2/6] etl")
+    teams = merge_teams(fbref_teams, wd_clubs)
+    players = merge_players(fbref_rows, wd_players, teams)
+
+    log.info("[6/6] snapshot")
+    snapshot = SeasonSnapshot(
+        league_id="spl-saudi-pro-league",
+        season=season,
+        generated_at=datetime.now(timezone.utc).isoformat(),
+        teams=teams,
+        players=players,
+        fixtures=[],  # Phase 1.5
+    )
+
+    _write_json(
+        output_dir / "season.json",
+        to_jsonable(snapshot),
+    )
+    _write_json(
+        output_dir / "teams.json",
+        [to_jsonable(t) for t in teams],
+    )
+    _write_json(
+        output_dir / "players.json",
+        [to_jsonable(p) for p in players],
+    )
+    _write_json(
+        output_dir / "manifest.json",
+        {
+            "generated_at": snapshot.generated_at,
+            "version": "0.2.0",
+            "stage": "phase-1",
+            "league": snapshot.league_id,
+            "season": snapshot.season,
+            "team_count": len(teams),
+            "player_count": len(players),
+        },
+    )
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Dawri AI daily pipeline")
+    parser.add_argument("--output", type=Path, required=True)
     parser.add_argument(
-        "--output",
+        "--cache-dir",
         type=Path,
-        required=True,
-        help="Directory to write JSON artifacts",
+        default=Path(".pipeline-cache"),
+        help="Directory for HTTP cache (default: .pipeline-cache)",
     )
+    parser.add_argument("--season", default="2025-26")
     args = parser.parse_args()
 
-    log.info("Starting Dawri AI pipeline")
-    log.info("Output directory: %s", args.output)
-
-    # Stages — each will become a real module under scripts/pipeline/.
-    log.info("[1/6] scrape — TODO")
-    log.info("[2/6] etl — TODO")
-    log.info("[3/6] predict — TODO")
-    log.info("[4/6] explain — TODO")
-    log.info("[5/6] narrate — TODO")
-    log.info("[6/6] snapshot")
-
-    write_manifest(args.output)
-    log.info("Pipeline finished (scaffold mode)")
+    log.info("Dawri AI pipeline → %s", args.output)
+    run(
+        output_dir=args.output.resolve(),
+        cache_dir=args.cache_dir.resolve(),
+        season=args.season,
+    )
+    log.info("done")
     return 0
 
 

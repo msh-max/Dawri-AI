@@ -53,7 +53,8 @@ jobs:
           DATA_DIR: ${{ github.workspace }}/data-out
         run: |
           mkdir -p "$DATA_DIR"
-          python main/scripts/pipeline/run.py --output "$DATA_DIR"
+          cd main
+          python -m scripts.pipeline.run --output "$DATA_DIR" --cache-dir "$DATA_DIR/../cache"
 
       - name: Commit data snapshot
         run: |

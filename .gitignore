@@ -42,3 +42,6 @@ venv/
 # data branch artifacts (generated, kept on data branch only)
 data/raw/
 data/cache/
+data-out/
+data-out-dryrun/
+.pipeline-cache/
