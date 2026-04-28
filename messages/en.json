@@ -150,5 +150,38 @@
     "squad": "Squad",
     "noSquad": "No squad data yet.",
     "playerCount": "{count, plural, one {# player} other {# players}}"
+  },
+  "matches": {
+    "pageTitle": "Matches",
+    "pageSubtitle": "Fixtures, results, and AI predictions across the Saudi Pro League.",
+    "today": "Today",
+    "upcoming": "Upcoming",
+    "recent": "Recent",
+    "matchweek": "Matchweek {n}",
+    "vs": "vs",
+    "kickoff": "Kickoff",
+    "venue": "Venue",
+    "status": {
+      "scheduled": "Scheduled",
+      "live": "Live",
+      "finished": "FT",
+      "postponed": "Postponed"
+    },
+    "noFixtures": "No fixtures yet — check back after the daily refresh.",
+    "expectedGoalsTimeline": "Expected goals (xG) timeline",
+    "keyEvents": "Key events",
+    "headToHead": "Head to head",
+    "predictedXI": "Predicted XI",
+    "prediction": "Prediction",
+    "predictionPending": "AI predictions and the \"Why?\" panel will appear after the prediction stage of the daily pipeline runs.",
+    "minutes": "min",
+    "events": {
+      "goal": "Goal",
+      "ownGoal": "Own goal",
+      "penalty": "Penalty",
+      "yellow": "Yellow card",
+      "red": "Red card",
+      "sub": "Substitution"
+    }
   }
 }

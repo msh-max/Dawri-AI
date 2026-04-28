@@ -85,6 +85,25 @@ class Player:
 
 
 @dataclass
+class MatchEvent:
+    """Single notable event in a match — goal, card, sub, etc."""
+
+    minute: int  # 0–120
+    team_id: str
+    type: str  # "goal" | "own_goal" | "penalty" | "yellow" | "red" | "sub"
+    player_id: str | None = None
+    player_name: BilingualText | None = None
+    detail: BilingualText | None = None  # e.g. "Assist: X" or "Penalty"
+
+
+@dataclass
+class XgFlowPoint:
+    minute: int
+    home_xg: float
+    away_xg: float
+
+
+@dataclass
 class Fixture:
     id: str  # e.g. "2025-08-29-al-hilal-al-nassr"
     date: str  # ISO YYYY-MM-DD
@@ -95,8 +114,12 @@ class Fixture:
     venue: BilingualText | None = None
     home_goals: int | None = None
     away_goals: int | None = None
+    home_xg: float | None = None
+    away_xg: float | None = None
     status: str = "scheduled"  # scheduled | live | finished | postponed
     fbref_match_id: str | None = None
+    events: list[MatchEvent] = field(default_factory=list)
+    xg_flow: list[XgFlowPoint] = field(default_factory=list)
     sources: dict[str, str] = field(default_factory=dict)
 
 

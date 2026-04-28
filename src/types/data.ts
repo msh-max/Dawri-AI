@@ -68,6 +68,29 @@ export interface Player {
 
 export type FixtureStatus = 'scheduled' | 'live' | 'finished' | 'postponed';
 
+export type MatchEventType =
+  | 'goal'
+  | 'own_goal'
+  | 'penalty'
+  | 'yellow'
+  | 'red'
+  | 'sub';
+
+export interface MatchEvent {
+  minute: number;
+  team_id: string;
+  type: MatchEventType;
+  player_id: string | null;
+  player_name: BilingualText | null;
+  detail: BilingualText | null;
+}
+
+export interface XgFlowPoint {
+  minute: number;
+  home_xg: number;
+  away_xg: number;
+}
+
 export interface Fixture {
   id: string;
   date: string;
@@ -78,8 +101,12 @@ export interface Fixture {
   venue: BilingualText | null;
   home_goals: number | null;
   away_goals: number | null;
+  home_xg: number | null;
+  away_xg: number | null;
   status: FixtureStatus;
   fbref_match_id: string | null;
+  events: MatchEvent[];
+  xg_flow: XgFlowPoint[];
   sources: Record<string, string>;
 }
 

@@ -14,9 +14,9 @@ import logging
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .etl.normalize import merge_players, merge_teams
+from .etl.normalize import merge_fixtures, merge_players, merge_teams
 from .schema import SeasonSnapshot, to_jsonable
-from .sources.fbref import FbrefPlayerRow, FbrefTeam
+from .sources.fbref import FbrefFixtureRow, FbrefPlayerRow, FbrefTeam
 from .sources.wikidata import WdClub, WdPlayer
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -119,9 +119,40 @@ SYNTHETIC_WD_PLAYERS = [
 ]
 
 
+SYNTHETIC_FBREF_FIXTURES = [
+    FbrefFixtureRow(
+        fbref_match_id="abcd1234",
+        date="2025-08-29",
+        kickoff="17:00",
+        matchweek=1,
+        home_team_name="Al-Hilal",
+        away_team_name="Al-Nassr",
+        venue="Kingdom Arena",
+        home_goals=2,
+        away_goals=1,
+        home_xg=2.4,
+        away_xg=1.6,
+    ),
+    FbrefFixtureRow(
+        fbref_match_id=None,
+        date="2025-09-12",
+        kickoff="18:00",
+        matchweek=2,
+        home_team_name="Al-Nassr",
+        away_team_name="Al-Hilal",
+        venue=None,
+        home_goals=None,
+        away_goals=None,
+        home_xg=None,
+        away_xg=None,
+    ),
+]
+
+
 def main() -> int:
     teams = merge_teams(SYNTHETIC_FBREF_TEAMS, SYNTHETIC_WD_CLUBS)
     players = merge_players(SYNTHETIC_FBREF_PLAYERS, SYNTHETIC_WD_PLAYERS, teams)
+    fixtures = merge_fixtures(SYNTHETIC_FBREF_FIXTURES, teams)
 
     snap = SeasonSnapshot(
         league_id="spl-saudi-pro-league",
@@ -129,7 +160,7 @@ def main() -> int:
         generated_at=datetime.now(timezone.utc).isoformat(),
         teams=teams,
         players=players,
-        fixtures=[],
+        fixtures=fixtures,
     )
 
     out_dir = Path("data-out-dryrun")
@@ -143,6 +174,17 @@ def main() -> int:
     # Sanity assertions
     assert len(teams) == 2, f"expected 2 teams, got {len(teams)}"
     assert len(players) == 2, f"expected 2 players, got {len(players)}"
+    assert len(fixtures) == 2, f"expected 2 fixtures, got {len(fixtures)}"
+
+    fx_finished = next(f for f in fixtures if f.status == "finished")
+    assert fx_finished.home_team_id == "al-hilal"
+    assert fx_finished.away_team_id == "al-nassr"
+    assert fx_finished.home_goals == 2
+    assert fx_finished.away_xg == 1.6
+
+    fx_scheduled = next(f for f in fixtures if f.status == "scheduled")
+    assert fx_scheduled.matchweek == 2
+    assert fx_scheduled.home_goals is None
 
     al_hilal = next(t for t in teams if t.id == "al-hilal")
     assert al_hilal.name.ar == "نادي الهلال"
@@ -161,7 +203,9 @@ def main() -> int:
     assert ronaldo.height_cm == 187
 
     print("OK — dry-run produced", out_dir / "season.json")
-    print(f"  {len(teams)} teams, {len(players)} players")
+    print(
+        f"  {len(teams)} teams, {len(players)} players, {len(fixtures)} fixtures"
+    )
     return 0
 
 

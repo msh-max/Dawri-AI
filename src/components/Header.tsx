@@ -9,6 +9,7 @@ export function Header() {
 
   const navItems = [
     { href: `/${locale}/`, label: t('home') },
+    { href: `/${locale}/matches/`, label: t('matches') },
     { href: `/${locale}/players/`, label: t('players') },
     { href: `/${locale}/teams/`, label: t('teams') },
   ];

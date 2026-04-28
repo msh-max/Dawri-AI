@@ -36,6 +36,21 @@ class FbrefTeam:
 
 
 @dataclass
+class FbrefFixtureRow:
+    fbref_match_id: str | None
+    date: str  # YYYY-MM-DD
+    kickoff: str | None  # HH:MM (UTC if FBref shows it that way)
+    matchweek: int | None
+    home_team_name: str
+    away_team_name: str
+    venue: str | None
+    home_goals: int | None
+    away_goals: int | None
+    home_xg: float | None
+    away_xg: float | None
+
+
+@dataclass
 class FbrefPlayerRow:
     fbref_id: str | None
     name: str
@@ -205,3 +220,86 @@ def iter_all_player_rows(cache: HttpCache) -> Iterator[tuple[FbrefTeam, FbrefPla
     for team in teams:
         for row in list_players_for_team(cache, team):
             yield team, row
+
+
+_FBREF_MATCH_HREF_RE = re.compile(r"^/en/matches/([0-9a-f]{8})/")
+
+
+def list_fixtures(cache: HttpCache) -> list[FbrefFixtureRow]:
+    """Scrape the season schedule table for the SPL fixture list.
+
+    The schedule lives at /en/comps/<id>/schedule/ and contains one row per
+    fixture with date, matchweek, both teams, and (for finished matches)
+    score and xG.
+    """
+    url = f"{BASE_URL}/en/comps/{COMP_ID}/schedule/{COMP_SLUG}-Scores-and-Fixtures"
+    res = cache.get(url)
+    if res.status_code != 200:
+        log.warning("FBref schedule returned %s", res.status_code)
+        return []
+    html = _strip_comments(res.text)
+    soup = BeautifulSoup(html, "lxml")
+
+    tables = soup.select('table[id^="sched_"]')
+    if not tables:
+        log.warning("FBref: no schedule table found")
+        return []
+    table = tables[0]
+
+    rows: list[FbrefFixtureRow] = []
+    for tr in table.select("tbody > tr"):
+        if "thead" in (tr.get("class") or []) or tr.get("class") and "spacer" in (tr.get("class") or []):
+            continue
+        cells = {
+            (td.get("data-stat") or ""): td for td in tr.find_all(["td", "th"])
+        }
+        date_cell = cells.get("date")
+        if date_cell is None or not date_cell.get_text(strip=True):
+            continue
+
+        # match link
+        score_cell = cells.get("score")
+        match_id: str | None = None
+        if score_cell is not None:
+            a = score_cell.find("a")
+            if a:
+                href = a.get("href") or ""
+                m = _FBREF_MATCH_HREF_RE.match(href)
+                if m:
+                    match_id = m.group(1)
+
+        home = _text_or_none(cells.get("home_team")) or ""
+        away = _text_or_none(cells.get("away_team")) or ""
+        if not home or not away:
+            continue
+
+        # parse score "2–1" if finished
+        home_g: int | None = None
+        away_g: int | None = None
+        score_text = _text_or_none(cells.get("score"))
+        if score_text:
+            for sep in ("–", "-", "—"):
+                if sep in score_text:
+                    parts = score_text.split(sep)
+                    if len(parts) == 2:
+                        home_g = _parse_int(parts[0])
+                        away_g = _parse_int(parts[1])
+                    break
+
+        rows.append(
+            FbrefFixtureRow(
+                fbref_match_id=match_id,
+                date=date_cell.get_text(strip=True),
+                kickoff=_text_or_none(cells.get("start_time")),
+                matchweek=_parse_int(_text_or_none(cells.get("gameweek"))),
+                home_team_name=home,
+                away_team_name=away,
+                venue=_text_or_none(cells.get("venue")),
+                home_goals=home_g,
+                away_goals=away_g,
+                home_xg=_parse_float(_text_or_none(cells.get("home_xg"))),
+                away_xg=_parse_float(_text_or_none(cells.get("away_xg"))),
+            )
+        )
+    log.info("FBref: %d fixtures", len(rows))
+    return rows

@@ -16,11 +16,12 @@ from typing import Iterable
 
 from ..schema import (
     BilingualText,
+    Fixture,
     Player,
     PlayerSeasonStats,
     Team,
 )
-from ..sources.fbref import FbrefPlayerRow, FbrefTeam
+from ..sources.fbref import FbrefFixtureRow, FbrefPlayerRow, FbrefTeam
 from ..sources.wikidata import WdClub, WdPlayer
 from .slug import to_slug
 
@@ -163,4 +164,72 @@ def merge_players(
             )
         )
     log.info("merged %d players", len(out))
+    return out
+
+
+def merge_fixtures(
+    rows: list[FbrefFixtureRow], teams: list[Team]
+) -> list[Fixture]:
+    """Map FBref fixture rows to canonical Fixture records keyed by team slug."""
+    by_norm: dict[str, str] = {}
+    for t in teams:
+        by_norm[_normalize_name(t.name.en)] = t.id
+
+    def lookup_team(name: str) -> str | None:
+        norm = _normalize_name(name)
+        if norm in by_norm:
+            return by_norm[norm]
+        # fuzzy: drop common suffixes
+        stripped = re.sub(r"\b(fc|club|saudi|al)\b", "", norm).strip()
+        for k, v in by_norm.items():
+            if (
+                re.sub(r"\b(fc|club|saudi|al)\b", "", k).strip() == stripped
+                and stripped
+            ):
+                return v
+        return None
+
+    out: list[Fixture] = []
+    for r in rows:
+        home_id = lookup_team(r.home_team_name)
+        away_id = lookup_team(r.away_team_name)
+        if not home_id or not away_id:
+            log.debug("skipping fixture: unmatched team %s vs %s", r.home_team_name, r.away_team_name)
+            continue
+
+        status = "finished" if r.home_goals is not None and r.away_goals is not None else "scheduled"
+        kickoff_iso: str | None = None
+        if r.kickoff and r.date:
+            try:
+                # Best-effort: some FBref schedules surface UTC, some local.
+                kickoff_iso = f"{r.date}T{r.kickoff}:00Z"
+            except Exception:
+                kickoff_iso = None
+
+        fid = f"{r.date}-{home_id}-vs-{away_id}"
+        out.append(
+            Fixture(
+                id=fid,
+                date=r.date,
+                kickoff=kickoff_iso,
+                matchweek=r.matchweek,
+                home_team_id=home_id,
+                away_team_id=away_id,
+                venue=BilingualText(en=r.venue or "", ar=r.venue or "") if r.venue else None,
+                home_goals=r.home_goals,
+                away_goals=r.away_goals,
+                home_xg=r.home_xg,
+                away_xg=r.away_xg,
+                status=status,
+                fbref_match_id=r.fbref_match_id,
+                events=[],
+                xg_flow=[],
+                sources=(
+                    {"fbref": f"https://fbref.com/en/matches/{r.fbref_match_id}/"}
+                    if r.fbref_match_id
+                    else {}
+                ),
+            )
+        )
+    log.info("merged %d fixtures", len(out))
     return out

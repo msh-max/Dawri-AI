@@ -4,7 +4,7 @@
  * Centralizes the "by id" lookups so pages stay terse.
  */
 
-import type { Player, SeasonSnapshot, Team } from '@/types/data';
+import type { Fixture, Player, SeasonSnapshot, Team } from '@/types/data';
 import { loadSeasonSnapshot } from './data';
 
 let _cached: Promise<SeasonSnapshot> | null = null;
@@ -32,4 +32,18 @@ export async function getTeamById(id: string): Promise<Team | null> {
 
 export async function getPlayersForTeam(teamId: string): Promise<Player[]> {
   return (await getAllPlayers()).filter((p) => p.team_id === teamId);
+}
+
+export async function getAllFixtures(): Promise<Fixture[]> {
+  return (await getSeason()).fixtures;
+}
+
+export async function getFixtureById(id: string): Promise<Fixture | null> {
+  return (await getAllFixtures()).find((f) => f.id === id) ?? null;
+}
+
+export async function getFixturesForTeam(teamId: string): Promise<Fixture[]> {
+  return (await getAllFixtures()).filter(
+    (f) => f.home_team_id === teamId || f.away_team_id === teamId
+  );
 }
