@@ -6,6 +6,7 @@
   "nav": {
     "home": "Home",
     "players": "Players",
+    "teams": "Teams",
     "matches": "Matches",
     "tableLabel": "Table",
     "leaderboards": "Leaderboards",
@@ -82,6 +83,72 @@
   },
   "common": {
     "comingSoon": "Coming soon",
-    "loading": "Loading…"
+    "loading": "Loading…",
+    "noData": "Data refresh hasn't run yet — check back tomorrow.",
+    "sampleBanner": "Showing sample data. The daily pipeline hasn't run yet — real data lands after the first refresh.",
+    "viewAll": "View all",
+    "back": "Back",
+    "search": "Search",
+    "all": "All",
+    "filters": "Filters",
+    "and": "and"
+  },
+  "players": {
+    "pageTitle": "Players",
+    "pageSubtitle": "Every player tracked in the Saudi Pro League this season.",
+    "searchPlaceholder": "Search by name…",
+    "filterPosition": "Position",
+    "positionAll": "All positions",
+    "position": {
+      "GK": "Goalkeeper",
+      "DF": "Defender",
+      "MF": "Midfielder",
+      "FW": "Forward"
+    },
+    "noResults": "No players match your search.",
+    "noResultsHint": "Try clearing filters or typing a different name.",
+    "stats": {
+      "matches": "Matches",
+      "minutes": "Minutes",
+      "goals": "Goals",
+      "assists": "Assists",
+      "xg": "xG",
+      "xa": "xA",
+      "yellowCards": "Yellow cards",
+      "redCards": "Red cards",
+      "shots": "Shots",
+      "shotsOnTarget": "Shots on target",
+      "passCompletion": "Pass completion %",
+      "progressivePasses": "Progressive passes",
+      "progressiveCarries": "Progressive carries",
+      "tackles": "Tackles",
+      "interceptions": "Interceptions",
+      "aerialsWonPct": "Aerials won %"
+    },
+    "categories": {
+      "attacking": "Attacking",
+      "possession": "Possession",
+      "defending": "Defending",
+      "discipline": "Discipline"
+    },
+    "seasonStats": "Season stats",
+    "perNinety": "Per 90",
+    "raw": "Raw",
+    "percentile": "Percentile",
+    "scoutReport": "AI Scout Report",
+    "scoutReportPending": "Scout reports will appear once the local LLM stage runs.",
+    "born": "Born",
+    "height": "Height",
+    "nationality": "Nationality",
+    "noPhoto": "No photo",
+    "comparePlaceholder": "Compare with other players (coming soon)"
+  },
+  "teams": {
+    "pageTitle": "Teams",
+    "pageSubtitle": "All clubs competing in the Saudi Pro League this season.",
+    "founded": "Founded",
+    "squad": "Squad",
+    "noSquad": "No squad data yet.",
+    "playerCount": "{count, plural, one {# player} other {# players}}"
   }
 }

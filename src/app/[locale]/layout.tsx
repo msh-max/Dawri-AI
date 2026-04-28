@@ -4,6 +4,8 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { locales, isLocale, type Locale } from '@/i18n/routing';
 import { LocaleHtmlAttributes } from '@/components/LocaleHtmlAttributes';
+import { SampleDataBanner } from '@/components/SampleDataBanner';
+import { isUsingSampleData } from '@/lib/data';
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -34,6 +36,7 @@ export default async function LocaleLayout({
   if (!isLocale(locale)) notFound();
   setRequestLocale(locale as Locale);
   const messages = await getMessages();
+  const usingSample = await isUsingSampleData();
 
   const isRtl = locale === 'ar';
 
@@ -48,6 +51,7 @@ export default async function LocaleLayout({
         }
         dir={isRtl ? 'rtl' : 'ltr'}
       >
+        <SampleDataBanner visible={usingSample} />
         {children}
       </div>
     </NextIntlClientProvider>

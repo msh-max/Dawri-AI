@@ -6,6 +6,7 @@
   "nav": {
     "home": "الرئيسية",
     "players": "اللاعبون",
+    "teams": "الفرق",
     "matches": "المباريات",
     "tableLabel": "الترتيب",
     "leaderboards": "المتصدرون",
@@ -82,6 +83,72 @@
   },
   "common": {
     "comingSoon": "قريباً",
-    "loading": "جارٍ التحميل…"
+    "loading": "جارٍ التحميل…",
+    "noData": "لم يبدأ التحديث اليومي بعد — راجع غداً.",
+    "sampleBanner": "تُعرض بيانات تجريبية. لم يبدأ التحديث اليومي بعد — البيانات الحقيقية ستظهر بعد أوّل تحديث.",
+    "viewAll": "عرض الكل",
+    "back": "رجوع",
+    "search": "بحث",
+    "all": "الكل",
+    "filters": "الفلاتر",
+    "and": "و"
+  },
+  "players": {
+    "pageTitle": "اللاعبون",
+    "pageSubtitle": "كل لاعب يتم متابعته في دوري روشن السعودي هذا الموسم.",
+    "searchPlaceholder": "ابحث بالاسم…",
+    "filterPosition": "المركز",
+    "positionAll": "كل المراكز",
+    "position": {
+      "GK": "حارس مرمى",
+      "DF": "مدافع",
+      "MF": "وسط",
+      "FW": "مهاجم"
+    },
+    "noResults": "لا يوجد لاعبون يطابقون بحثك.",
+    "noResultsHint": "جرّب إزالة الفلاتر أو كتابة اسم آخر.",
+    "stats": {
+      "matches": "المباريات",
+      "minutes": "الدقائق",
+      "goals": "الأهداف",
+      "assists": "الصناعات",
+      "xg": "xG",
+      "xa": "xA",
+      "yellowCards": "بطاقات صفراء",
+      "redCards": "بطاقات حمراء",
+      "shots": "تسديدات",
+      "shotsOnTarget": "تسديدات على المرمى",
+      "passCompletion": "نسبة دقة التمرير",
+      "progressivePasses": "تمريرات تقدّمية",
+      "progressiveCarries": "حمل تقدّمي للكرة",
+      "tackles": "تدخّلات",
+      "interceptions": "اعتراضات",
+      "aerialsWonPct": "نسبة الكرات الهوائية"
+    },
+    "categories": {
+      "attacking": "الهجوم",
+      "possession": "الاستحواذ",
+      "defending": "الدفاع",
+      "discipline": "الانضباط"
+    },
+    "seasonStats": "إحصاءات الموسم",
+    "perNinety": "لكل 90 دقيقة",
+    "raw": "إجمالي",
+    "percentile": "المئين",
+    "scoutReport": "تقرير الكشّاف الذكي",
+    "scoutReportPending": "ستظهر التقارير الكشفية بعد تشغيل مرحلة الذكاء الاصطناعي.",
+    "born": "تاريخ الميلاد",
+    "height": "الطول",
+    "nationality": "الجنسية",
+    "noPhoto": "لا توجد صورة",
+    "comparePlaceholder": "المقارنة مع لاعبين آخرين (قريباً)"
+  },
+  "teams": {
+    "pageTitle": "الفرق",
+    "pageSubtitle": "جميع الأندية المشاركة في دوري روشن السعودي هذا الموسم.",
+    "founded": "تأسّس",
+    "squad": "التشكيلة",
+    "noSquad": "لا توجد بيانات للتشكيلة بعد.",
+    "playerCount": "{count, plural, zero {لا يوجد لاعبون} one {لاعب واحد} two {لاعبان} few {# لاعبين} many {# لاعباً} other {# لاعب}}"
   }
 }
