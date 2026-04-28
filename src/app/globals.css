@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background-color: theme('colors.ink.950');
+  color: theme('colors.ink.50');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Selection */
+::selection {
+  background-color: theme('colors.gold.500');
+  color: theme('colors.ink.950');
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: theme('colors.ink.950');
+}
+::-webkit-scrollbar-thumb {
+  background: theme('colors.saudi.800');
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: theme('colors.saudi.600');
+}
+
+/* Subtle pitch-pattern background */
+.bg-pitch-pattern {
+  background-image:
+    linear-gradient(
+      180deg,
+      transparent 0,
+      transparent 4rem,
+      rgba(0, 108, 53, 0.05) 4rem,
+      rgba(0, 108, 53, 0.05) 8rem
+    );
+  background-size: 100% 8rem;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Logical-property utilities the design relies on for RTL */
+.gold-text {
+  background: linear-gradient(135deg, #d3b057 0%, #c9a14a 50%, #856630 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gold-border-gradient {
+  position: relative;
+}
+.gold-border-gradient::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(201, 161, 74, 0.6),
+    rgba(201, 161, 74, 0.05) 40%,
+    rgba(0, 108, 53, 0.4) 100%
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* Small dot grid backdrop for hero */
+.bg-dotgrid {
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.06) 1px,
+    transparent 1px
+  );
+  background-size: 20px 20px;
+}

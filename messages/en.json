@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "title": "Dawri AI — Saudi Pro League Analytics",
+    "description": "AI-powered analytics, predictions, and deep insights for the Saudi Pro League. Data refreshed daily."
+  },
+  "nav": {
+    "home": "Home",
+    "players": "Players",
+    "matches": "Matches",
+    "tableLabel": "Table",
+    "leaderboards": "Leaderboards",
+    "compare": "Compare"
+  },
+  "hero": {
+    "eyebrow": "Saudi Pro League · 2025/26",
+    "titleLine1": "Every player.",
+    "titleLine2": "Every match.",
+    "titleAccent": "Every angle.",
+    "subtitle": "AI-powered analytics, predictions, and deep insights — refreshed every day, in Arabic and English.",
+    "ctaPrimary": "Explore the league",
+    "ctaSecondary": "How predictions work",
+    "stats": {
+      "players": "Players tracked",
+      "matches": "Matches analyzed",
+      "metrics": "Advanced metrics",
+      "refresh": "Daily refresh"
+    }
+  },
+  "features": {
+    "sectionEyebrow": "What's inside",
+    "sectionTitle": "Built for fans, scouts, and curious minds",
+    "sectionSubtitle": "Premium-grade visualization, transparent AI, and complete bilingual support.",
+    "items": {
+      "playerProfiles": {
+        "title": "Player Intelligence",
+        "description": "Percentile pizza charts, shot maps, form trends, and AI scouting reports for every SPL player."
+      },
+      "matchPreview": {
+        "title": "Match Predictions",
+        "description": "Win/draw/loss probabilities, expected goals, and predicted scorelines — with a transparent \"Why?\" panel."
+      },
+      "compare": {
+        "title": "Side-by-Side Compare",
+        "description": "Stack up to three players on overlapping radars to see who really edges who."
+      },
+      "titleRace": {
+        "title": "Title Race Simulator",
+        "description": "Drag match outcomes and watch the championship probabilities shift in real time."
+      },
+      "bilingual": {
+        "title": "Bilingual, Properly",
+        "description": "Full Arabic with right-to-left layout — not a translation hack, a first-class experience."
+      },
+      "transparent": {
+        "title": "Transparent AI",
+        "description": "Every prediction comes with the exact features that drove it. No black box."
+      }
+    }
+  },
+  "preview": {
+    "sectionEyebrow": "A taste of what's coming",
+    "sectionTitle": "Today across the Dawri",
+    "sectionSubtitle": "Live previews unlock when the data pipeline goes online.",
+    "playerOfWeek": "Player of the Week",
+    "topMatch": "Top Match Today",
+    "leagueSnapshot": "League Snapshot",
+    "comingSoon": "Coming soon",
+    "placeholderText": "This panel will populate once the daily data refresh is live.",
+    "predictedXI": "Predicted starting XI",
+    "winProbability": "Win probability",
+    "expectedGoals": "Expected goals"
+  },
+  "footer": {
+    "tagline": "Built with open data and open AI.",
+    "dataSources": "Data sources",
+    "attribution": "Stats sourced from FBref, the official SPL site, Wikidata, and API-Football. Used under fair use with attribution.",
+    "disclaimer": "Predictions are probabilistic. Past performance does not guarantee future results.",
+    "viewSource": "View source"
+  },
+  "languageToggle": {
+    "switchTo": "Switch to {language}"
+  },
+  "common": {
+    "comingSoon": "Coming soon",
+    "loading": "Loading…"
+  }
+}

@@ -1,0 +1,68 @@
+name: Daily data refresh
+
+on:
+  schedule:
+    # 03:00 UTC = 06:00 KSA every day
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330 # < 6 hour Actions cap
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: data
+          # If 'data' branch doesn't exist yet, the next step will create it.
+          fetch-depth: 1
+        continue-on-error: true
+
+      - name: Ensure data branch exists
+        run: |
+          if ! git show-ref --verify --quiet refs/heads/data; then
+            git checkout --orphan data
+            git rm -rf . 2>/dev/null || true
+            mkdir -p data
+            echo "# Dawri AI data branch" > README.md
+            git add README.md
+            git -c user.email="bot@dawri-ai" -c user.name="dawri-bot" commit -m "Initialize data branch"
+          fi
+
+      - name: Checkout main code
+        uses: actions/checkout@v4
+        with:
+          path: main
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: main/scripts/pipeline/requirements.txt
+
+      - name: Install pipeline dependencies
+        run: pip install -r main/scripts/pipeline/requirements.txt
+
+      - name: Run pipeline
+        env:
+          DATA_DIR: ${{ github.workspace }}/data-out
+        run: |
+          mkdir -p "$DATA_DIR"
+          python main/scripts/pipeline/run.py --output "$DATA_DIR"
+
+      - name: Commit data snapshot
+        run: |
+          git -c user.email="bot@dawri-ai" -c user.name="dawri-bot" \
+              add -A
+          if ! git diff --cached --quiet; then
+            git -c user.email="bot@dawri-ai" -c user.name="dawri-bot" \
+                commit -m "Daily refresh $(date -u +%Y-%m-%d)"
+            git push origin data
+          else
+            echo "No data changes."
+          fi
