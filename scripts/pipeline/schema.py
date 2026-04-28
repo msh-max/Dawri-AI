@@ -124,6 +124,38 @@ class Fixture:
 
 
 @dataclass
+class FeatureContribution:
+    """A single line of the bilingual "Why?" panel.
+
+    `value` is a signed delta in the *home win* probability (in
+    percentage points), so positive favors the home team and negative
+    favors the away team. The frontend uses this to color the row and
+    stack the top contributors visually.
+    """
+
+    feature: str  # canonical key, e.g. "home_advantage"
+    label: BilingualText  # short display label
+    value: float  # signed pp impact on home-win probability
+    explanation: BilingualText  # full sentence shown in "Why?" panel
+
+
+@dataclass
+class MatchPrediction:
+    fixture_id: str
+    home_win_prob: float  # 0..1
+    draw_prob: float
+    away_win_prob: float
+    home_xg_predicted: float
+    away_xg_predicted: float
+    btts_prob: float  # both teams to score, 0..1
+    over25_prob: float  # over 2.5 goals, 0..1
+    most_likely_score: tuple[int, int]
+    contributions: list[FeatureContribution] = field(default_factory=list)
+    generated_at: str = ""
+    model_version: str = "elo-poisson-0.1"
+
+
+@dataclass
 class SeasonSnapshot:
     """Top-level container written to disk as season.json."""
 
@@ -133,6 +165,7 @@ class SeasonSnapshot:
     teams: list[Team]
     players: list[Player]
     fixtures: list[Fixture]
+    predictions: list[MatchPrediction] = field(default_factory=list)
 
 
 def to_jsonable(obj: Any) -> Any:

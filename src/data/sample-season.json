@@ -6,8 +6,14 @@
   "teams": [
     {
       "id": "al-hilal",
-      "name": { "en": "Al-Hilal", "ar": "نادي الهلال" },
-      "short_name": { "en": "Al-Hilal", "ar": "الهلال" },
+      "name": {
+        "en": "Al-Hilal",
+        "ar": "نادي الهلال"
+      },
+      "short_name": {
+        "en": "Al-Hilal",
+        "ar": "الهلال"
+      },
       "fbref_id": null,
       "wikidata_id": "Q221054",
       "founded": 1957,
@@ -18,8 +24,14 @@
     },
     {
       "id": "al-nassr",
-      "name": { "en": "Al-Nassr", "ar": "نادي النصر" },
-      "short_name": { "en": "Al-Nassr", "ar": "النصر" },
+      "name": {
+        "en": "Al-Nassr",
+        "ar": "نادي النصر"
+      },
+      "short_name": {
+        "en": "Al-Nassr",
+        "ar": "النصر"
+      },
       "fbref_id": null,
       "wikidata_id": "Q221055",
       "founded": 1955,
@@ -30,8 +42,14 @@
     },
     {
       "id": "al-ittihad",
-      "name": { "en": "Al-Ittihad", "ar": "نادي الاتحاد" },
-      "short_name": { "en": "Al-Ittihad", "ar": "الاتحاد" },
+      "name": {
+        "en": "Al-Ittihad",
+        "ar": "نادي الاتحاد"
+      },
+      "short_name": {
+        "en": "Al-Ittihad",
+        "ar": "الاتحاد"
+      },
       "fbref_id": null,
       "wikidata_id": null,
       "founded": 1927,
@@ -42,8 +60,14 @@
     },
     {
       "id": "al-ahli",
-      "name": { "en": "Al-Ahli", "ar": "نادي الأهلي" },
-      "short_name": { "en": "Al-Ahli", "ar": "الأهلي" },
+      "name": {
+        "en": "Al-Ahli",
+        "ar": "نادي الأهلي"
+      },
+      "short_name": {
+        "en": "Al-Ahli",
+        "ar": "الأهلي"
+      },
       "fbref_id": null,
       "wikidata_id": null,
       "founded": 1937,
@@ -56,12 +80,18 @@
   "players": [
     {
       "id": "salem-al-dawsari",
-      "name": { "en": "Salem Al-Dawsari", "ar": "سالم الدوسري" },
+      "name": {
+        "en": "Salem Al-Dawsari",
+        "ar": "سالم الدوسري"
+      },
       "team_id": "al-hilal",
       "position": "MF",
       "detailed_position": "LW",
       "jersey_number": 10,
-      "nationality": { "en": "Saudi Arabia", "ar": "المملكة العربية السعودية" },
+      "nationality": {
+        "en": "Saudi Arabia",
+        "ar": "المملكة العربية السعودية"
+      },
       "birth_date": "1991-08-19",
       "height_cm": 171,
       "foot": "right",
@@ -69,23 +99,40 @@
       "fbref_id": null,
       "wikidata_id": null,
       "season_stats": {
-        "matches": 22, "starts": 20, "minutes": 1820,
-        "goals": 12, "assists": 8, "yellow_cards": 3, "red_cards": 0,
-        "xg": 9.4, "xa": 6.8, "shots": 56, "shots_on_target": 24,
-        "pass_completion_pct": 81.2, "progressive_carries": 142,
-        "progressive_passes": 96, "tackles": 18, "interceptions": 9,
+        "matches": 22,
+        "starts": 20,
+        "minutes": 1820,
+        "goals": 12,
+        "assists": 8,
+        "yellow_cards": 3,
+        "red_cards": 0,
+        "xg": 9.4,
+        "xa": 6.8,
+        "shots": 56,
+        "shots_on_target": 24,
+        "pass_completion_pct": 81.2,
+        "progressive_carries": 142,
+        "progressive_passes": 96,
+        "tackles": 18,
+        "interceptions": 9,
         "aerials_won_pct": 41.0
       },
       "sources": {}
     },
     {
       "id": "ruben-neves",
-      "name": { "en": "Rúben Neves", "ar": "روبن نيفيش" },
+      "name": {
+        "en": "Rúben Neves",
+        "ar": "روبن نيفيش"
+      },
       "team_id": "al-hilal",
       "position": "MF",
       "detailed_position": "DM",
       "jersey_number": 8,
-      "nationality": { "en": "Portugal", "ar": "البرتغال" },
+      "nationality": {
+        "en": "Portugal",
+        "ar": "البرتغال"
+      },
       "birth_date": "1997-03-13",
       "height_cm": 180,
       "foot": "right",
@@ -93,23 +140,40 @@
       "fbref_id": null,
       "wikidata_id": null,
       "season_stats": {
-        "matches": 24, "starts": 24, "minutes": 2160,
-        "goals": 4, "assists": 6, "yellow_cards": 7, "red_cards": 0,
-        "xg": 3.1, "xa": 5.2, "shots": 41, "shots_on_target": 14,
-        "pass_completion_pct": 89.6, "progressive_carries": 88,
-        "progressive_passes": 218, "tackles": 52, "interceptions": 38,
+        "matches": 24,
+        "starts": 24,
+        "minutes": 2160,
+        "goals": 4,
+        "assists": 6,
+        "yellow_cards": 7,
+        "red_cards": 0,
+        "xg": 3.1,
+        "xa": 5.2,
+        "shots": 41,
+        "shots_on_target": 14,
+        "pass_completion_pct": 89.6,
+        "progressive_carries": 88,
+        "progressive_passes": 218,
+        "tackles": 52,
+        "interceptions": 38,
         "aerials_won_pct": 56.0
       },
       "sources": {}
     },
     {
       "id": "aleksandar-mitrovic",
-      "name": { "en": "Aleksandar Mitrović", "ar": "ألكسندر ميتروفيتش" },
+      "name": {
+        "en": "Aleksandar Mitrović",
+        "ar": "ألكسندر ميتروفيتش"
+      },
       "team_id": "al-hilal",
       "position": "FW",
       "detailed_position": "ST",
       "jersey_number": 9,
-      "nationality": { "en": "Serbia", "ar": "صربيا" },
+      "nationality": {
+        "en": "Serbia",
+        "ar": "صربيا"
+      },
       "birth_date": "1994-09-16",
       "height_cm": 189,
       "foot": "right",
@@ -117,23 +181,40 @@
       "fbref_id": null,
       "wikidata_id": null,
       "season_stats": {
-        "matches": 23, "starts": 22, "minutes": 1980,
-        "goals": 24, "assists": 4, "yellow_cards": 4, "red_cards": 0,
-        "xg": 21.3, "xa": 3.6, "shots": 78, "shots_on_target": 38,
-        "pass_completion_pct": 71.0, "progressive_carries": 24,
-        "progressive_passes": 18, "tackles": 6, "interceptions": 3,
+        "matches": 23,
+        "starts": 22,
+        "minutes": 1980,
+        "goals": 24,
+        "assists": 4,
+        "yellow_cards": 4,
+        "red_cards": 0,
+        "xg": 21.3,
+        "xa": 3.6,
+        "shots": 78,
+        "shots_on_target": 38,
+        "pass_completion_pct": 71.0,
+        "progressive_carries": 24,
+        "progressive_passes": 18,
+        "tackles": 6,
+        "interceptions": 3,
         "aerials_won_pct": 64.0
       },
       "sources": {}
     },
     {
       "id": "cristiano-ronaldo",
-      "name": { "en": "Cristiano Ronaldo", "ar": "كريستيانو رونالدو" },
+      "name": {
+        "en": "Cristiano Ronaldo",
+        "ar": "كريستيانو رونالدو"
+      },
       "team_id": "al-nassr",
       "position": "FW",
       "detailed_position": "ST",
       "jersey_number": 7,
-      "nationality": { "en": "Portugal", "ar": "البرتغال" },
+      "nationality": {
+        "en": "Portugal",
+        "ar": "البرتغال"
+      },
       "birth_date": "1985-02-05",
       "height_cm": 187,
       "foot": "right",
@@ -141,23 +222,40 @@
       "fbref_id": null,
       "wikidata_id": "Q11571",
       "season_stats": {
-        "matches": 24, "starts": 24, "minutes": 2160,
-        "goals": 28, "assists": 4, "yellow_cards": 5, "red_cards": 1,
-        "xg": 22.1, "xa": 3.7, "shots": 102, "shots_on_target": 48,
-        "pass_completion_pct": 73.5, "progressive_carries": 38,
-        "progressive_passes": 22, "tackles": 4, "interceptions": 2,
+        "matches": 24,
+        "starts": 24,
+        "minutes": 2160,
+        "goals": 28,
+        "assists": 4,
+        "yellow_cards": 5,
+        "red_cards": 1,
+        "xg": 22.1,
+        "xa": 3.7,
+        "shots": 102,
+        "shots_on_target": 48,
+        "pass_completion_pct": 73.5,
+        "progressive_carries": 38,
+        "progressive_passes": 22,
+        "tackles": 4,
+        "interceptions": 2,
         "aerials_won_pct": 51.0
       },
       "sources": {}
     },
     {
       "id": "sadio-mane",
-      "name": { "en": "Sadio Mané", "ar": "ساديو ماني" },
+      "name": {
+        "en": "Sadio Mané",
+        "ar": "ساديو ماني"
+      },
       "team_id": "al-nassr",
       "position": "FW",
       "detailed_position": "RW",
       "jersey_number": 10,
-      "nationality": { "en": "Senegal", "ar": "السنغال" },
+      "nationality": {
+        "en": "Senegal",
+        "ar": "السنغال"
+      },
       "birth_date": "1992-04-10",
       "height_cm": 175,
       "foot": "right",
@@ -165,23 +263,40 @@
       "fbref_id": null,
       "wikidata_id": null,
       "season_stats": {
-        "matches": 22, "starts": 19, "minutes": 1700,
-        "goals": 11, "assists": 7, "yellow_cards": 2, "red_cards": 0,
-        "xg": 9.8, "xa": 5.4, "shots": 52, "shots_on_target": 22,
-        "pass_completion_pct": 79.0, "progressive_carries": 134,
-        "progressive_passes": 88, "tackles": 14, "interceptions": 7,
+        "matches": 22,
+        "starts": 19,
+        "minutes": 1700,
+        "goals": 11,
+        "assists": 7,
+        "yellow_cards": 2,
+        "red_cards": 0,
+        "xg": 9.8,
+        "xa": 5.4,
+        "shots": 52,
+        "shots_on_target": 22,
+        "pass_completion_pct": 79.0,
+        "progressive_carries": 134,
+        "progressive_passes": 88,
+        "tackles": 14,
+        "interceptions": 7,
         "aerials_won_pct": 43.0
       },
       "sources": {}
     },
     {
       "id": "karim-benzema",
-      "name": { "en": "Karim Benzema", "ar": "كريم بنزيمة" },
+      "name": {
+        "en": "Karim Benzema",
+        "ar": "كريم بنزيمة"
+      },
       "team_id": "al-ittihad",
       "position": "FW",
       "detailed_position": "ST",
       "jersey_number": 9,
-      "nationality": { "en": "France", "ar": "فرنسا" },
+      "nationality": {
+        "en": "France",
+        "ar": "فرنسا"
+      },
       "birth_date": "1987-12-19",
       "height_cm": 185,
       "foot": "right",
@@ -189,23 +304,40 @@
       "fbref_id": null,
       "wikidata_id": null,
       "season_stats": {
-        "matches": 21, "starts": 20, "minutes": 1840,
-        "goals": 18, "assists": 5, "yellow_cards": 3, "red_cards": 0,
-        "xg": 16.7, "xa": 5.8, "shots": 68, "shots_on_target": 30,
-        "pass_completion_pct": 80.5, "progressive_carries": 56,
-        "progressive_passes": 41, "tackles": 8, "interceptions": 4,
+        "matches": 21,
+        "starts": 20,
+        "minutes": 1840,
+        "goals": 18,
+        "assists": 5,
+        "yellow_cards": 3,
+        "red_cards": 0,
+        "xg": 16.7,
+        "xa": 5.8,
+        "shots": 68,
+        "shots_on_target": 30,
+        "pass_completion_pct": 80.5,
+        "progressive_carries": 56,
+        "progressive_passes": 41,
+        "tackles": 8,
+        "interceptions": 4,
         "aerials_won_pct": 58.0
       },
       "sources": {}
     },
     {
       "id": "n-golo-kante",
-      "name": { "en": "N'Golo Kanté", "ar": "نغولو كانتي" },
+      "name": {
+        "en": "N'Golo Kanté",
+        "ar": "نغولو كانتي"
+      },
       "team_id": "al-ittihad",
       "position": "MF",
       "detailed_position": "DM",
       "jersey_number": 7,
-      "nationality": { "en": "France", "ar": "فرنسا" },
+      "nationality": {
+        "en": "France",
+        "ar": "فرنسا"
+      },
       "birth_date": "1991-03-29",
       "height_cm": 168,
       "foot": "right",
@@ -213,23 +345,40 @@
       "fbref_id": null,
       "wikidata_id": null,
       "season_stats": {
-        "matches": 23, "starts": 22, "minutes": 1980,
-        "goals": 1, "assists": 4, "yellow_cards": 5, "red_cards": 0,
-        "xg": 1.4, "xa": 3.3, "shots": 18, "shots_on_target": 6,
-        "pass_completion_pct": 87.2, "progressive_carries": 92,
-        "progressive_passes": 184, "tackles": 78, "interceptions": 51,
+        "matches": 23,
+        "starts": 22,
+        "minutes": 1980,
+        "goals": 1,
+        "assists": 4,
+        "yellow_cards": 5,
+        "red_cards": 0,
+        "xg": 1.4,
+        "xa": 3.3,
+        "shots": 18,
+        "shots_on_target": 6,
+        "pass_completion_pct": 87.2,
+        "progressive_carries": 92,
+        "progressive_passes": 184,
+        "tackles": 78,
+        "interceptions": 51,
         "aerials_won_pct": 48.0
       },
       "sources": {}
     },
     {
       "id": "firas-al-buraikan",
-      "name": { "en": "Firas Al-Buraikan", "ar": "فراس البريكان" },
+      "name": {
+        "en": "Firas Al-Buraikan",
+        "ar": "فراس البريكان"
+      },
       "team_id": "al-ahli",
       "position": "FW",
       "detailed_position": "ST",
       "jersey_number": 9,
-      "nationality": { "en": "Saudi Arabia", "ar": "المملكة العربية السعودية" },
+      "nationality": {
+        "en": "Saudi Arabia",
+        "ar": "المملكة العربية السعودية"
+      },
       "birth_date": "2000-05-14",
       "height_cm": 187,
       "foot": "right",
@@ -237,23 +386,40 @@
       "fbref_id": null,
       "wikidata_id": null,
       "season_stats": {
-        "matches": 22, "starts": 18, "minutes": 1620,
-        "goals": 10, "assists": 3, "yellow_cards": 4, "red_cards": 0,
-        "xg": 9.1, "xa": 2.4, "shots": 47, "shots_on_target": 19,
-        "pass_completion_pct": 72.0, "progressive_carries": 38,
-        "progressive_passes": 22, "tackles": 7, "interceptions": 3,
+        "matches": 22,
+        "starts": 18,
+        "minutes": 1620,
+        "goals": 10,
+        "assists": 3,
+        "yellow_cards": 4,
+        "red_cards": 0,
+        "xg": 9.1,
+        "xa": 2.4,
+        "shots": 47,
+        "shots_on_target": 19,
+        "pass_completion_pct": 72.0,
+        "progressive_carries": 38,
+        "progressive_passes": 22,
+        "tackles": 7,
+        "interceptions": 3,
         "aerials_won_pct": 60.0
       },
       "sources": {}
     },
     {
       "id": "edouard-mendy",
-      "name": { "en": "Édouard Mendy", "ar": "إدوار ميندي" },
+      "name": {
+        "en": "Édouard Mendy",
+        "ar": "إدوار ميندي"
+      },
       "team_id": "al-ahli",
       "position": "GK",
       "detailed_position": "GK",
       "jersey_number": 16,
-      "nationality": { "en": "Senegal", "ar": "السنغال" },
+      "nationality": {
+        "en": "Senegal",
+        "ar": "السنغال"
+      },
       "birth_date": "1992-03-01",
       "height_cm": 197,
       "foot": "right",
@@ -261,10 +427,17 @@
       "fbref_id": null,
       "wikidata_id": null,
       "season_stats": {
-        "matches": 24, "starts": 24, "minutes": 2160,
-        "goals": 0, "assists": 0, "yellow_cards": 1, "red_cards": 0,
-        "xg": null, "xa": null,
-        "save_pct": 73.0, "clean_sheets": 8
+        "matches": 24,
+        "starts": 24,
+        "minutes": 2160,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "xg": null,
+        "xa": null,
+        "save_pct": 73.0,
+        "clean_sheets": 8
       },
       "sources": {}
     }
@@ -277,40 +450,119 @@
       "matchweek": 28,
       "home_team_id": "al-hilal",
       "away_team_id": "al-nassr",
-      "venue": { "en": "Kingdom Arena", "ar": "أرينا المملكة" },
-      "home_goals": 2, "away_goals": 1,
-      "home_xg": 2.4, "away_xg": 1.6,
+      "venue": {
+        "en": "Kingdom Arena",
+        "ar": "أرينا المملكة"
+      },
+      "home_goals": 2,
+      "away_goals": 1,
+      "home_xg": 2.4,
+      "away_xg": 1.6,
       "status": "finished",
       "fbref_match_id": null,
       "events": [
-        { "minute": 14, "team_id": "al-nassr", "type": "goal",
+        {
+          "minute": 14,
+          "team_id": "al-nassr",
+          "type": "goal",
           "player_id": "cristiano-ronaldo",
-          "player_name": { "en": "Cristiano Ronaldo", "ar": "كريستيانو رونالدو" },
-          "detail": null },
-        { "minute": 38, "team_id": "al-hilal", "type": "goal",
+          "player_name": {
+            "en": "Cristiano Ronaldo",
+            "ar": "كريستيانو رونالدو"
+          },
+          "detail": null
+        },
+        {
+          "minute": 38,
+          "team_id": "al-hilal",
+          "type": "goal",
           "player_id": "aleksandar-mitrovic",
-          "player_name": { "en": "Aleksandar Mitrović", "ar": "ألكسندر ميتروفيتش" },
-          "detail": { "en": "Assist: Salem Al-Dawsari", "ar": "صناعة: سالم الدوسري" } },
-        { "minute": 52, "team_id": "al-nassr", "type": "yellow",
+          "player_name": {
+            "en": "Aleksandar Mitrović",
+            "ar": "ألكسندر ميتروفيتش"
+          },
+          "detail": {
+            "en": "Assist: Salem Al-Dawsari",
+            "ar": "صناعة: سالم الدوسري"
+          }
+        },
+        {
+          "minute": 52,
+          "team_id": "al-nassr",
+          "type": "yellow",
           "player_id": "sadio-mane",
-          "player_name": { "en": "Sadio Mané", "ar": "ساديو ماني" },
-          "detail": null },
-        { "minute": 71, "team_id": "al-hilal", "type": "goal",
+          "player_name": {
+            "en": "Sadio Mané",
+            "ar": "ساديو ماني"
+          },
+          "detail": null
+        },
+        {
+          "minute": 71,
+          "team_id": "al-hilal",
+          "type": "goal",
           "player_id": "salem-al-dawsari",
-          "player_name": { "en": "Salem Al-Dawsari", "ar": "سالم الدوسري" },
-          "detail": { "en": "Assist: Rúben Neves", "ar": "صناعة: روبن نيفيش" } }
+          "player_name": {
+            "en": "Salem Al-Dawsari",
+            "ar": "سالم الدوسري"
+          },
+          "detail": {
+            "en": "Assist: Rúben Neves",
+            "ar": "صناعة: روبن نيفيش"
+          }
+        }
       ],
       "xg_flow": [
-        { "minute": 0, "home_xg": 0.0, "away_xg": 0.0 },
-        { "minute": 10, "home_xg": 0.15, "away_xg": 0.10 },
-        { "minute": 14, "home_xg": 0.18, "away_xg": 0.42 },
-        { "minute": 25, "home_xg": 0.42, "away_xg": 0.55 },
-        { "minute": 38, "home_xg": 0.96, "away_xg": 0.71 },
-        { "minute": 45, "home_xg": 1.10, "away_xg": 0.95 },
-        { "minute": 60, "home_xg": 1.42, "away_xg": 1.18 },
-        { "minute": 71, "home_xg": 2.05, "away_xg": 1.36 },
-        { "minute": 80, "home_xg": 2.28, "away_xg": 1.50 },
-        { "minute": 90, "home_xg": 2.40, "away_xg": 1.60 }
+        {
+          "minute": 0,
+          "home_xg": 0.0,
+          "away_xg": 0.0
+        },
+        {
+          "minute": 10,
+          "home_xg": 0.15,
+          "away_xg": 0.1
+        },
+        {
+          "minute": 14,
+          "home_xg": 0.18,
+          "away_xg": 0.42
+        },
+        {
+          "minute": 25,
+          "home_xg": 0.42,
+          "away_xg": 0.55
+        },
+        {
+          "minute": 38,
+          "home_xg": 0.96,
+          "away_xg": 0.71
+        },
+        {
+          "minute": 45,
+          "home_xg": 1.1,
+          "away_xg": 0.95
+        },
+        {
+          "minute": 60,
+          "home_xg": 1.42,
+          "away_xg": 1.18
+        },
+        {
+          "minute": 71,
+          "home_xg": 2.05,
+          "away_xg": 1.36
+        },
+        {
+          "minute": 80,
+          "home_xg": 2.28,
+          "away_xg": 1.5
+        },
+        {
+          "minute": 90,
+          "home_xg": 2.4,
+          "away_xg": 1.6
+        }
       ],
       "sources": {}
     },
@@ -321,27 +573,66 @@
       "matchweek": 28,
       "home_team_id": "al-ittihad",
       "away_team_id": "al-ahli",
-      "venue": { "en": "King Abdullah Sports City", "ar": "مدينة الملك عبدالله الرياضية" },
-      "home_goals": 1, "away_goals": 1,
-      "home_xg": 1.8, "away_xg": 1.4,
+      "venue": {
+        "en": "King Abdullah Sports City",
+        "ar": "مدينة الملك عبدالله الرياضية"
+      },
+      "home_goals": 1,
+      "away_goals": 1,
+      "home_xg": 1.8,
+      "away_xg": 1.4,
       "status": "finished",
       "fbref_match_id": null,
       "events": [
-        { "minute": 22, "team_id": "al-ittihad", "type": "goal",
+        {
+          "minute": 22,
+          "team_id": "al-ittihad",
+          "type": "goal",
           "player_id": "karim-benzema",
-          "player_name": { "en": "Karim Benzema", "ar": "كريم بنزيمة" },
-          "detail": null },
-        { "minute": 67, "team_id": "al-ahli", "type": "goal",
+          "player_name": {
+            "en": "Karim Benzema",
+            "ar": "كريم بنزيمة"
+          },
+          "detail": null
+        },
+        {
+          "minute": 67,
+          "team_id": "al-ahli",
+          "type": "goal",
           "player_id": "firas-al-buraikan",
-          "player_name": { "en": "Firas Al-Buraikan", "ar": "فراس البريكان" },
-          "detail": null }
+          "player_name": {
+            "en": "Firas Al-Buraikan",
+            "ar": "فراس البريكان"
+          },
+          "detail": null
+        }
       ],
       "xg_flow": [
-        { "minute": 0, "home_xg": 0.0, "away_xg": 0.0 },
-        { "minute": 22, "home_xg": 0.85, "away_xg": 0.30 },
-        { "minute": 45, "home_xg": 1.20, "away_xg": 0.75 },
-        { "minute": 67, "home_xg": 1.55, "away_xg": 1.18 },
-        { "minute": 90, "home_xg": 1.80, "away_xg": 1.40 }
+        {
+          "minute": 0,
+          "home_xg": 0.0,
+          "away_xg": 0.0
+        },
+        {
+          "minute": 22,
+          "home_xg": 0.85,
+          "away_xg": 0.3
+        },
+        {
+          "minute": 45,
+          "home_xg": 1.2,
+          "away_xg": 0.75
+        },
+        {
+          "minute": 67,
+          "home_xg": 1.55,
+          "away_xg": 1.18
+        },
+        {
+          "minute": 90,
+          "home_xg": 1.8,
+          "away_xg": 1.4
+        }
       ],
       "sources": {}
     },
@@ -352,9 +643,14 @@
       "matchweek": 29,
       "home_team_id": "al-nassr",
       "away_team_id": "al-ittihad",
-      "venue": { "en": "Al-Awwal Park", "ar": "ملعب الأول بارك" },
-      "home_goals": null, "away_goals": null,
-      "home_xg": null, "away_xg": null,
+      "venue": {
+        "en": "Al-Awwal Park",
+        "ar": "ملعب الأول بارك"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "home_xg": null,
+      "away_xg": null,
       "status": "scheduled",
       "fbref_match_id": null,
       "events": [],
@@ -368,9 +664,14 @@
       "matchweek": 29,
       "home_team_id": "al-hilal",
       "away_team_id": "al-ahli",
-      "venue": { "en": "Kingdom Arena", "ar": "أرينا المملكة" },
-      "home_goals": null, "away_goals": null,
-      "home_xg": null, "away_xg": null,
+      "venue": {
+        "en": "Kingdom Arena",
+        "ar": "أرينا المملكة"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "home_xg": null,
+      "away_xg": null,
       "status": "scheduled",
       "fbref_match_id": null,
       "events": [],
@@ -384,9 +685,14 @@
       "matchweek": 30,
       "home_team_id": "al-ahli",
       "away_team_id": "al-nassr",
-      "venue": { "en": "Prince Abdullah Al-Faisal Stadium", "ar": "ملعب الأمير عبدالله الفيصل" },
-      "home_goals": null, "away_goals": null,
-      "home_xg": null, "away_xg": null,
+      "venue": {
+        "en": "Prince Abdullah Al-Faisal Stadium",
+        "ar": "ملعب الأمير عبدالله الفيصل"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "home_xg": null,
+      "away_xg": null,
       "status": "scheduled",
       "fbref_match_id": null,
       "events": [],
@@ -400,14 +706,213 @@
       "matchweek": 30,
       "home_team_id": "al-ittihad",
       "away_team_id": "al-hilal",
-      "venue": { "en": "King Abdullah Sports City", "ar": "مدينة الملك عبدالله الرياضية" },
-      "home_goals": null, "away_goals": null,
-      "home_xg": null, "away_xg": null,
+      "venue": {
+        "en": "King Abdullah Sports City",
+        "ar": "مدينة الملك عبدالله الرياضية"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "home_xg": null,
+      "away_xg": null,
       "status": "scheduled",
       "fbref_match_id": null,
       "events": [],
       "xg_flow": [],
       "sources": {}
+    }
+  ],
+  "predictions": [
+    {
+      "fixture_id": "2026-05-01-al-nassr-vs-al-ittihad",
+      "home_win_prob": 0.22496764643099035,
+      "draw_prob": 0.29442415110581244,
+      "away_win_prob": 0.48060820246319713,
+      "home_xg_predicted": 0.7586206896551725,
+      "away_xg_predicted": 1.2539184952978055,
+      "btts_prob": 0.3799249787373829,
+      "over25_prob": 0.32666600114074396,
+      "most_likely_score": [
+        0,
+        1
+      ],
+      "contributions": [
+        {
+          "feature": "team_strength",
+          "label": {
+            "en": "Team strength",
+            "ar": "قوّة الفريقين"
+          },
+          "value": -21.415688224678462,
+          "explanation": {
+            "en": "Al-Ittihad carries a 7-point Elo edge from prior results.",
+            "ar": "الاتحاد يتقدّم بفارق Elo قدره 7 نقطة بناءً على النتائج السابقة."
+          }
+        },
+        {
+          "feature": "defensive_record",
+          "label": {
+            "en": "Defensive record",
+            "ar": "الصلابة الدفاعية"
+          },
+          "value": -6.0,
+          "explanation": {
+            "en": "Al-Ittihad concedes only 1.0 per match.",
+            "ar": "يستقبل الاتحاد 1.0 هدف فقط في المباراة."
+          }
+        },
+        {
+          "feature": "home_advantage",
+          "label": {
+            "en": "Home advantage",
+            "ar": "عامل الأرض"
+          },
+          "value": 3.8149773192893117,
+          "explanation": {
+            "en": "Home teams in the SPL win ~10% more often; this match is at Al-Nassr.",
+            "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب النصر."
+          }
+        }
+      ],
+      "generated_at": "2026-04-28T21:07:56.614070+00:00",
+      "model_version": "elo-poisson-0.1"
+    },
+    {
+      "fixture_id": "2026-05-02-al-hilal-vs-al-ahli",
+      "home_win_prob": 0.5890845200619008,
+      "draw_prob": 0.25813735619662415,
+      "away_win_prob": 0.15277812374147495,
+      "home_xg_predicted": 1.517241379310345,
+      "away_xg_predicted": 0.6269592476489028,
+      "btts_prob": 0.36354633048214163,
+      "over25_prob": 0.36210588450730186,
+      "most_likely_score": [
+        1,
+        0
+      ],
+      "contributions": [
+        {
+          "feature": "team_strength",
+          "label": {
+            "en": "Team strength",
+            "ar": "قوّة الفريقين"
+          },
+          "value": 14.995999138412586,
+          "explanation": {
+            "en": "Al-Hilal carries a 7-point Elo edge from prior results.",
+            "ar": "الهلال يتقدّم بفارق Elo قدره 7 نقطة بناءً على النتائج السابقة."
+          }
+        },
+        {
+          "feature": "attacking_form",
+          "label": {
+            "en": "Attacking form",
+            "ar": "الإنتاج الهجومي"
+          },
+          "value": 8.0,
+          "explanation": {
+            "en": "Al-Hilal averages 2.0 goals per match this season.",
+            "ar": "يسجّل الهلال 2.0 هدف في المباراة بالمتوسط هذا الموسم."
+          }
+        },
+        {
+          "feature": "home_advantage",
+          "label": {
+            "en": "Home advantage",
+            "ar": "عامل الأرض"
+          },
+          "value": 5.418594423612467,
+          "explanation": {
+            "en": "Home teams in the SPL win ~10% more often; this match is at Al-Hilal.",
+            "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الهلال."
+          }
+        }
+      ],
+      "generated_at": "2026-04-28T21:07:56.614070+00:00",
+      "model_version": "elo-poisson-0.1"
+    },
+    {
+      "fixture_id": "2026-05-08-al-ahli-vs-al-nassr",
+      "home_win_prob": 0.5890845200619008,
+      "draw_prob": 0.25813735619662415,
+      "away_win_prob": 0.15277812374147495,
+      "home_xg_predicted": 1.517241379310345,
+      "away_xg_predicted": 0.6269592476489028,
+      "btts_prob": 0.36354633048214163,
+      "over25_prob": 0.36210588450730186,
+      "most_likely_score": [
+        1,
+        0
+      ],
+      "contributions": [
+        {
+          "feature": "defensive_record",
+          "label": {
+            "en": "Defensive record",
+            "ar": "الصلابة الدفاعية"
+          },
+          "value": 6.0,
+          "explanation": {
+            "en": "Al-Ahli concedes only 1.0 per match.",
+            "ar": "يستقبل الأهلي 1.0 هدف فقط في المباراة."
+          }
+        },
+        {
+          "feature": "home_advantage",
+          "label": {
+            "en": "Home advantage",
+            "ar": "عامل الأرض"
+          },
+          "value": 5.418594423612467,
+          "explanation": {
+            "en": "Home teams in the SPL win ~10% more often; this match is at Al-Ahli.",
+            "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الأهلي."
+          }
+        }
+      ],
+      "generated_at": "2026-04-28T21:07:56.614070+00:00",
+      "model_version": "elo-poisson-0.1"
+    },
+    {
+      "fixture_id": "2026-05-09-al-ittihad-vs-al-hilal",
+      "home_win_prob": 0.22496764643099035,
+      "draw_prob": 0.29442415110581244,
+      "away_win_prob": 0.48060820246319713,
+      "home_xg_predicted": 0.7586206896551725,
+      "away_xg_predicted": 1.2539184952978055,
+      "btts_prob": 0.3799249787373829,
+      "over25_prob": 0.32666600114074396,
+      "most_likely_score": [
+        0,
+        1
+      ],
+      "contributions": [
+        {
+          "feature": "attacking_form",
+          "label": {
+            "en": "Attacking form",
+            "ar": "الإنتاج الهجومي"
+          },
+          "value": -8.0,
+          "explanation": {
+            "en": "Al-Hilal averages 2.0 goals per match this season.",
+            "ar": "يسجّل الهلال 2.0 هدف في المباراة بالمتوسط هذا الموسم."
+          }
+        },
+        {
+          "feature": "home_advantage",
+          "label": {
+            "en": "Home advantage",
+            "ar": "عامل الأرض"
+          },
+          "value": 3.8149773192893117,
+          "explanation": {
+            "en": "Home teams in the SPL win ~10% more often; this match is at Al-Ittihad.",
+            "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الاتحاد."
+          }
+        }
+      ],
+      "generated_at": "2026-04-28T21:07:56.614070+00:00",
+      "model_version": "elo-poisson-0.1"
     }
   ]
 }

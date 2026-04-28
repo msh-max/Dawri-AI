@@ -19,6 +19,7 @@ from pathlib import Path
 
 from .cache import HttpCache
 from .etl.normalize import merge_fixtures, merge_players, merge_teams
+from .predict import predict_upcoming
 from .schema import SeasonSnapshot, to_jsonable
 from .sources import fbref, wikidata
 
@@ -60,6 +61,9 @@ def run(output_dir: Path, cache_dir: Path, season: str = "2025-26") -> None:
     players = merge_players(fbref_rows, wd_players, teams)
     fixtures = merge_fixtures(fbref_fixtures, teams)
 
+    log.info("[3/6] predict")
+    predictions = predict_upcoming(teams, fixtures)
+
     log.info("[6/6] snapshot")
     snapshot = SeasonSnapshot(
         league_id="spl-saudi-pro-league",
@@ -68,6 +72,7 @@ def run(output_dir: Path, cache_dir: Path, season: str = "2025-26") -> None:
         teams=teams,
         players=players,
         fixtures=fixtures,
+        predictions=predictions,
     )
 
     _write_json(
@@ -87,16 +92,21 @@ def run(output_dir: Path, cache_dir: Path, season: str = "2025-26") -> None:
         [to_jsonable(f) for f in fixtures],
     )
     _write_json(
+        output_dir / "predictions.json",
+        [to_jsonable(p) for p in predictions],
+    )
+    _write_json(
         output_dir / "manifest.json",
         {
             "generated_at": snapshot.generated_at,
-            "version": "0.3.0",
-            "stage": "phase-3",
+            "version": "0.4.0",
+            "stage": "phase-4",
             "league": snapshot.league_id,
             "season": snapshot.season,
             "team_count": len(teams),
             "player_count": len(players),
             "fixture_count": len(fixtures),
+            "prediction_count": len(predictions),
         },
     )
 

@@ -5,10 +5,12 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { MatchHero } from '@/components/MatchHero';
 import { MatchEventsTimeline } from '@/components/MatchEventsTimeline';
+import { PredictionPanel } from '@/components/PredictionPanel';
 import { XgFlowChart } from '@/components/charts/XgFlowChart';
 import {
   getAllFixtures,
   getFixtureById,
+  getPredictionForFixture,
   getTeamById,
 } from '@/lib/datasets';
 import { isLocale, locales } from '@/i18n/routing';
@@ -59,9 +61,10 @@ export default async function MatchDetailPage({
 
   const fixture = await getFixtureById(matchId);
   if (!fixture) notFound();
-  const [homeTeam, awayTeam, t] = await Promise.all([
+  const [homeTeam, awayTeam, prediction, t] = await Promise.all([
     getTeamById(fixture.home_team_id),
     getTeamById(fixture.away_team_id),
+    getPredictionForFixture(matchId),
     getTranslations({ locale, namespace: 'matches' }),
   ]);
 
@@ -92,6 +95,15 @@ export default async function MatchDetailPage({
         />
 
         <div className="mx-auto max-w-7xl space-y-6 px-6 py-12">
+          {!isFinished && prediction ? (
+            <PredictionPanel
+              prediction={prediction}
+              homeTeam={homeTeam}
+              awayTeam={awayTeam}
+              locale={locale}
+            />
+          ) : null}
+
           {hasFlow ? (
             <XgFlowChart
               flow={fixture.xg_flow}
@@ -112,17 +124,21 @@ export default async function MatchDetailPage({
             />
           ) : null}
 
-          <section className="gold-border-gradient relative overflow-hidden rounded-2xl bg-ink-900/60 p-6 backdrop-blur">
-            <div className="mb-3 flex items-center gap-2">
-              <span className="grid h-7 w-7 place-items-center rounded-lg bg-gold-shine text-ink-950">
-                <Sparkles size={14} aria-hidden />
-              </span>
-              <h2 className="text-base font-semibold text-ink-50/90">
-                {t('prediction')}
-              </h2>
-            </div>
-            <p className="text-sm text-ink-50/60">{t('predictionPending')}</p>
-          </section>
+          {!isFinished && !prediction ? (
+            <section className="gold-border-gradient relative overflow-hidden rounded-2xl bg-ink-900/60 p-6 backdrop-blur">
+              <div className="mb-3 flex items-center gap-2">
+                <span className="grid h-7 w-7 place-items-center rounded-lg bg-gold-shine text-ink-950">
+                  <Sparkles size={14} aria-hidden />
+                </span>
+                <h2 className="text-base font-semibold text-ink-50/90">
+                  {t('prediction')}
+                </h2>
+              </div>
+              <p className="text-sm text-ink-50/60">
+                {t('predictionPending')}
+              </p>
+            </section>
+          ) : null}
         </div>
       </main>
       <Footer />

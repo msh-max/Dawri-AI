@@ -15,6 +15,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .etl.normalize import merge_fixtures, merge_players, merge_teams
+from .predict import predict_upcoming
 from .schema import SeasonSnapshot, to_jsonable
 from .sources.fbref import FbrefFixtureRow, FbrefPlayerRow, FbrefTeam
 from .sources.wikidata import WdClub, WdPlayer
@@ -153,6 +154,7 @@ def main() -> int:
     teams = merge_teams(SYNTHETIC_FBREF_TEAMS, SYNTHETIC_WD_CLUBS)
     players = merge_players(SYNTHETIC_FBREF_PLAYERS, SYNTHETIC_WD_PLAYERS, teams)
     fixtures = merge_fixtures(SYNTHETIC_FBREF_FIXTURES, teams)
+    predictions = predict_upcoming(teams, fixtures)
 
     snap = SeasonSnapshot(
         league_id="spl-saudi-pro-league",
@@ -161,6 +163,7 @@ def main() -> int:
         teams=teams,
         players=players,
         fixtures=fixtures,
+        predictions=predictions,
     )
 
     out_dir = Path("data-out-dryrun")
@@ -185,6 +188,16 @@ def main() -> int:
     fx_scheduled = next(f for f in fixtures if f.status == "scheduled")
     assert fx_scheduled.matchweek == 2
     assert fx_scheduled.home_goals is None
+
+    # One prediction was emitted for the scheduled fixture
+    assert len(predictions) == 1
+    pred = predictions[0]
+    assert pred.fixture_id == fx_scheduled.id
+    total = pred.home_win_prob + pred.draw_prob + pred.away_win_prob
+    assert 0.99 <= total <= 1.01, f"W/D/L probs do not sum to 1: {total}"
+    assert 0 < pred.home_xg_predicted < 6
+    assert 0 < pred.away_xg_predicted < 6
+    assert len(pred.contributions) >= 1
 
     al_hilal = next(t for t in teams if t.id == "al-hilal")
     assert al_hilal.name.ar == "نادي الهلال"

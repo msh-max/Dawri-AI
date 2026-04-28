@@ -110,6 +110,30 @@ export interface Fixture {
   sources: Record<string, string>;
 }
 
+export interface FeatureContribution {
+  feature: string;
+  label: BilingualText;
+  /** signed pp impact on home-win probability */
+  value: number;
+  explanation: BilingualText;
+}
+
+export interface MatchPrediction {
+  fixture_id: string;
+  home_win_prob: number;
+  draw_prob: number;
+  away_win_prob: number;
+  home_xg_predicted: number;
+  away_xg_predicted: number;
+  btts_prob: number;
+  over25_prob: number;
+  /** [home_goals, away_goals] */
+  most_likely_score: [number, number];
+  contributions: FeatureContribution[];
+  generated_at: string;
+  model_version: string;
+}
+
 export interface SeasonSnapshot {
   league_id: string;
   season: string;
@@ -117,6 +141,7 @@ export interface SeasonSnapshot {
   teams: Team[];
   players: Player[];
   fixtures: Fixture[];
+  predictions?: MatchPrediction[];
 }
 
 export interface DataManifest {
