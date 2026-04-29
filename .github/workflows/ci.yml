@@ -18,7 +18,7 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /msh-max
+          NEXT_PUBLIC_BASE_PATH: /dawri
 
   pipeline-dryrun:
     runs-on: ubuntu-latest

@@ -10,7 +10,7 @@
 import type { DataManifest, SeasonSnapshot } from '@/types/data';
 import sampleSeason from '@/data/sample-season.json';
 
-const REPO = 'msh-max/msh-max';
+const REPO = 'msh-max/dawri';
 const DATA_BRANCH = 'data';
 
 const RAW_BASE = `https://raw.githubusercontent.com/${REPO}/${DATA_BRANCH}`;

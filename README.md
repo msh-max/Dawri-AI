@@ -3,7 +3,7 @@
 > AI-powered analytics, predictions, and deep insights for the **Saudi Pro League** —
 > bilingual (Arabic + English), refreshed every day, 100% free, hosted on GitHub Pages.
 
-**Live site:** `https://msh-max.github.io/msh-max/` *(Phase 0 scaffold)*
+**Live site:** `https://msh-max.github.io/dawri/` *(Phase 0 scaffold)*
 
 ---
 
@@ -42,7 +42,7 @@ GitHub Actions
 ├── deploy-site.yml     — on push: build + deploy to Pages
 └── daily-refresh.yml   — cron 03:00 UTC: scrape → predict → narrate → commit
 
-GitHub Pages → https://msh-max.github.io/msh-max/
+GitHub Pages → https://msh-max.github.io/dawri/
 ```
 
 ## Data sources

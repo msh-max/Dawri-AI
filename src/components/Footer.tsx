@@ -21,7 +21,7 @@ export function Footer() {
         </div>
         <div className="md:text-end">
           <a
-            href="https://github.com/msh-max/msh-max"
+            href="https://github.com/msh-max/dawri"
             target="_blank"
             rel="noreferrer noopener"
             className="inline-flex items-center gap-1.5 text-xs text-ink-50/60 hover:text-gold-300"
