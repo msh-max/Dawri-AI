@@ -5,6 +5,12 @@ on:
     # 03:00 UTC = 06:00 KSA every day
     - cron: '0 3 * * *'
   workflow_dispatch:
+    inputs:
+      use_llm:
+        description: 'Run narratives through the local Qwen 2.5 LLM (slower, richer prose)'
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -51,10 +57,20 @@ jobs:
       - name: Run pipeline
         env:
           DATA_DIR: ${{ github.workspace }}/data-out
+          USE_LLM: ${{ inputs.use_llm }}
         run: |
           mkdir -p "$DATA_DIR"
           cd main
-          python -m scripts.pipeline.run --output "$DATA_DIR" --cache-dir "$DATA_DIR/../cache"
+          if [ "$USE_LLM" = "true" ]; then
+            python -m scripts.pipeline.run \
+              --output "$DATA_DIR" \
+              --cache-dir "$DATA_DIR/../cache" \
+              --use-llm
+          else
+            python -m scripts.pipeline.run \
+              --output "$DATA_DIR" \
+              --cache-dir "$DATA_DIR/../cache"
+          fi
 
       - name: Commit data snapshot
         run: |

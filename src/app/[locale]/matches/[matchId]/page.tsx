@@ -5,6 +5,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { MatchHero } from '@/components/MatchHero';
 import { MatchEventsTimeline } from '@/components/MatchEventsTimeline';
+import { NarrativeCard } from '@/components/NarrativeCard';
 import { PredictionPanel } from '@/components/PredictionPanel';
 import { XgFlowChart } from '@/components/charts/XgFlowChart';
 import {
@@ -104,6 +105,14 @@ export default async function MatchDetailPage({
             />
           ) : null}
 
+          {!isFinished && fixture.preview ? (
+            <NarrativeCard
+              narrative={fixture.preview}
+              title={t('matchPreview')}
+              locale={locale}
+            />
+          ) : null}
+
           {hasFlow ? (
             <XgFlowChart
               flow={fixture.xg_flow}
@@ -112,6 +121,14 @@ export default async function MatchDetailPage({
               awayTeamId={fixture.away_team_id}
               homeName={homeName}
               awayName={awayName}
+            />
+          ) : null}
+
+          {isFinished && fixture.recap ? (
+            <NarrativeCard
+              narrative={fixture.recap}
+              title={t('matchRecap')}
+              locale={locale}
             />
           ) : null}
 

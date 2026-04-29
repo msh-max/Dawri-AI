@@ -19,6 +19,7 @@ from pathlib import Path
 
 from .cache import HttpCache
 from .etl.normalize import merge_fixtures, merge_players, merge_teams
+from .narrate import narrate_all
 from .predict import predict_upcoming
 from .schema import SeasonSnapshot, to_jsonable
 from .sources import fbref, wikidata
@@ -39,7 +40,12 @@ def _write_json(path: Path, payload: object) -> None:
     log.info("wrote %s", path)
 
 
-def run(output_dir: Path, cache_dir: Path, season: str = "2025-26") -> None:
+def run(
+    output_dir: Path,
+    cache_dir: Path,
+    season: str = "2025-26",
+    use_llm: bool = False,
+) -> None:
     cache = HttpCache(cache_dir=cache_dir)
 
     log.info("[1/6] scrape — FBref")
@@ -63,6 +69,9 @@ def run(output_dir: Path, cache_dir: Path, season: str = "2025-26") -> None:
 
     log.info("[3/6] predict")
     predictions = predict_upcoming(teams, fixtures)
+
+    log.info("[5/6] narrate")
+    narrate_all(teams, players, fixtures, predictions, use_llm=use_llm)
 
     log.info("[6/6] snapshot")
     snapshot = SeasonSnapshot(
@@ -99,8 +108,9 @@ def run(output_dir: Path, cache_dir: Path, season: str = "2025-26") -> None:
         output_dir / "manifest.json",
         {
             "generated_at": snapshot.generated_at,
-            "version": "0.4.0",
-            "stage": "phase-4",
+            "version": "0.5.0",
+            "stage": "phase-5",
+            "narration_source": "qwen2.5-1.5b" if use_llm else "template",
             "league": snapshot.league_id,
             "season": snapshot.season,
             "team_count": len(teams),
@@ -121,13 +131,20 @@ def main() -> int:
         help="Directory for HTTP cache (default: .pipeline-cache)",
     )
     parser.add_argument("--season", default="2025-26")
+    parser.add_argument(
+        "--use-llm",
+        action="store_true",
+        help="Run scout reports + previews through the local Qwen LLM. "
+        "Without this flag, the pipeline emits deterministic template prose.",
+    )
     args = parser.parse_args()
 
-    log.info("Dawri AI pipeline → %s", args.output)
+    log.info("Dawri AI pipeline → %s (use_llm=%s)", args.output, args.use_llm)
     run(
         output_dir=args.output.resolve(),
         cache_dir=args.cache_dir.resolve(),
         season=args.season,
+        use_llm=args.use_llm,
     )
     log.info("done")
     return 0

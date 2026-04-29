@@ -15,6 +15,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .etl.normalize import merge_fixtures, merge_players, merge_teams
+from .narrate import narrate_all
 from .predict import predict_upcoming
 from .schema import SeasonSnapshot, to_jsonable
 from .sources.fbref import FbrefFixtureRow, FbrefPlayerRow, FbrefTeam
@@ -155,6 +156,7 @@ def main() -> int:
     players = merge_players(SYNTHETIC_FBREF_PLAYERS, SYNTHETIC_WD_PLAYERS, teams)
     fixtures = merge_fixtures(SYNTHETIC_FBREF_FIXTURES, teams)
     predictions = predict_upcoming(teams, fixtures)
+    narrate_all(teams, players, fixtures, predictions, use_llm=False)
 
     snap = SeasonSnapshot(
         league_id="spl-saudi-pro-league",
@@ -198,6 +200,18 @@ def main() -> int:
     assert 0 < pred.home_xg_predicted < 6
     assert 0 < pred.away_xg_predicted < 6
     assert len(pred.contributions) >= 1
+
+    # Narratives attached to every player + fixture (template mode)
+    for p in players:
+        assert p.scout_report is not None, f"missing scout_report for {p.id}"
+        assert p.scout_report.source == "template"
+        assert p.scout_report.text.en
+        assert p.scout_report.text.ar
+    for f in fixtures:
+        if f.status == "finished":
+            assert f.recap is not None and f.preview is None
+        else:
+            assert f.preview is not None and f.recap is None
 
     al_hilal = next(t for t in teams if t.id == "al-hilal")
     assert al_hilal.name.ar == "نادي الهلال"

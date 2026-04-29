@@ -81,6 +81,7 @@ class Player:
     fbref_id: str | None = None
     wikidata_id: str | None = None
     season_stats: PlayerSeasonStats = field(default_factory=PlayerSeasonStats)
+    scout_report: "Narrative | None" = None
     sources: dict[str, str] = field(default_factory=dict)
 
 
@@ -120,7 +121,23 @@ class Fixture:
     fbref_match_id: str | None = None
     events: list[MatchEvent] = field(default_factory=list)
     xg_flow: list[XgFlowPoint] = field(default_factory=list)
+    preview: "Narrative | None" = None  # set for upcoming matches
+    recap: "Narrative | None" = None  # set for finished matches
     sources: dict[str, str] = field(default_factory=dict)
+
+
+@dataclass
+class Narrative:
+    """Bilingual prose attached to a player or fixture.
+
+    `source` records what produced the text:
+      - "template" — deterministic, no LLM needed (fast, free)
+      - "qwen2.5-1.5b" — the local CPU model (richer, slower)
+    """
+
+    text: BilingualText
+    generated_at: str
+    source: str  # "template" | "qwen2.5-1.5b"
 
 
 @dataclass

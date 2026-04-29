@@ -137,6 +137,9 @@
     "percentile": "المئين",
     "scoutReport": "تقرير الكشّاف الذكي",
     "scoutReportPending": "ستظهر التقارير الكشفية بعد تشغيل مرحلة الذكاء الاصطناعي.",
+    "narrativeBy": "أنشئ بواسطة",
+    "narrativeTemplate": "قالب",
+    "narrativeQwen": "Qwen 2.5 (محلي)",
     "born": "تاريخ الميلاد",
     "height": "الطول",
     "nationality": "الجنسية",
@@ -186,6 +189,8 @@
     "predictionFavorsAway": "لصالح الضيف",
     "predictionDisclaimer": "احتمالي وليس قطعياً. الأداء السابق لا يضمن النتائج المستقبلية.",
     "modelLabel": "النموذج",
+    "matchPreview": "معاينة المباراة",
+    "matchRecap": "ملخّص المباراة",
     "minutes": "د",
     "events": {
       "goal": "هدف",

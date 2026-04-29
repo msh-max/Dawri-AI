@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { Sparkles } from 'lucide-react';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { NarrativeCard } from '@/components/NarrativeCard';
 import { PlayerHero } from '@/components/PlayerHero';
 import { PlayerStatsTable } from '@/components/PlayerStatsTable';
 import {
@@ -80,19 +81,29 @@ export default async function PlayerDetailPage({
             </div>
           </div>
 
-          <section className="mt-8 gold-border-gradient relative overflow-hidden rounded-2xl bg-ink-900/60 p-6 backdrop-blur">
-            <div className="mb-3 flex items-center gap-2">
-              <span className="grid h-7 w-7 place-items-center rounded-lg bg-gold-shine text-ink-950">
-                <Sparkles size={14} aria-hidden />
-              </span>
-              <h2 className="text-base font-semibold text-ink-50/90">
-                {t('scoutReport')}
-              </h2>
-            </div>
-            <p className="text-sm text-ink-50/60">
-              {t('scoutReportPending')}
-            </p>
-          </section>
+          <div className="mt-8">
+            {player.scout_report ? (
+              <NarrativeCard
+                narrative={player.scout_report}
+                title={t('scoutReport')}
+                locale={locale}
+              />
+            ) : (
+              <section className="gold-border-gradient relative overflow-hidden rounded-2xl bg-ink-900/60 p-6 backdrop-blur">
+                <div className="mb-3 flex items-center gap-2">
+                  <span className="grid h-7 w-7 place-items-center rounded-lg bg-gold-shine text-ink-950">
+                    <Sparkles size={14} aria-hidden />
+                  </span>
+                  <h2 className="text-base font-semibold text-ink-50/90">
+                    {t('scoutReport')}
+                  </h2>
+                </div>
+                <p className="text-sm text-ink-50/60">
+                  {t('scoutReportPending')}
+                </p>
+              </section>
+            )}
+          </div>
         </div>
       </main>
       <Footer />

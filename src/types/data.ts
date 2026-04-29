@@ -10,6 +10,13 @@ export interface BilingualText {
   ar: string;
 }
 
+export interface Narrative {
+  text: BilingualText;
+  generated_at: string;
+  /** "template" | "qwen2.5-1.5b" */
+  source: string;
+}
+
 export interface PlayerSeasonStats {
   matches: number;
   starts: number;
@@ -63,6 +70,7 @@ export interface Player {
   fbref_id: string | null;
   wikidata_id: string | null;
   season_stats: PlayerSeasonStats;
+  scout_report?: Narrative | null;
   sources: Record<string, string>;
 }
 
@@ -107,6 +115,8 @@ export interface Fixture {
   fbref_match_id: string | null;
   events: MatchEvent[];
   xg_flow: XgFlowPoint[];
+  preview?: Narrative | null;
+  recap?: Narrative | null;
   sources: Record<string, string>;
 }
 
