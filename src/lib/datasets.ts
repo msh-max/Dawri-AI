@@ -60,3 +60,7 @@ export async function getPredictionForFixture(
   const season = await getSeason();
   return season.predictions?.find((p) => p.fixture_id === fixtureId) ?? null;
 }
+
+export async function getAllPredictions(): Promise<MatchPrediction[]> {
+  return (await getSeason()).predictions ?? [];
+}

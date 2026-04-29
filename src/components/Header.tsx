@@ -15,6 +15,7 @@ export function Header() {
     { href: `/${locale}/players/`, label: t('players') },
     { href: `/${locale}/teams/`, label: t('teams') },
     { href: `/${locale}/compare/`, label: t('compare') },
+    { href: `/${locale}/simulator/`, label: t('simulator') },
   ];
 
   return (

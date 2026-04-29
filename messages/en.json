@@ -11,7 +11,8 @@
     "tableLabel": "Table",
     "standings": "Table",
     "leaderboards": "Leaderboards",
-    "compare": "Compare"
+    "compare": "Compare",
+    "simulator": "Simulator"
   },
   "hero": {
     "eyebrow": "Saudi Pro League · 2025/26",
@@ -189,6 +190,23 @@
     "noData": "No data yet — leaderboards will populate after the first refresh.",
     "value": "Value",
     "perNinetyToggle": "Per 90"
+  },
+  "simulator": {
+    "pageTitle": "Title race simulator",
+    "pageSubtitle": "Lock outcomes for the remaining matches and watch championship and relegation odds move in real time. Defaults come from the AI prediction.",
+    "champion": "Champion",
+    "topThree": "Top 3 (continental)",
+    "relegation": "Relegation",
+    "remainingFixtures": "Remaining fixtures",
+    "noRemaining": "All matches in this snapshot have been played.",
+    "lockHome": "Home win",
+    "lockDraw": "Draw",
+    "lockAway": "Away win",
+    "lockAi": "AI",
+    "resetAll": "Reset all to AI",
+    "running": "Running…",
+    "simulations": "Based on {n} Monte Carlo simulations.",
+    "currentTable": "Current table"
   },
   "compare": {
     "pageTitle": "Compare players",
