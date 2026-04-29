@@ -10,8 +10,11 @@ export function Header() {
   const navItems = [
     { href: `/${locale}/`, label: t('home') },
     { href: `/${locale}/matches/`, label: t('matches') },
+    { href: `/${locale}/standings/`, label: t('standings') },
+    { href: `/${locale}/leaderboards/`, label: t('leaderboards') },
     { href: `/${locale}/players/`, label: t('players') },
     { href: `/${locale}/teams/`, label: t('teams') },
+    { href: `/${locale}/compare/`, label: t('compare') },
   ];
 
   return (
