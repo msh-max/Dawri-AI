@@ -14,21 +14,75 @@ from __future__ import annotations
 import argparse
 import json
 import logging
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from .cache import HttpCache
 from .etl.normalize import merge_fixtures, merge_players, merge_teams
 from .narrate import narrate_all
 from .predict import predict_upcoming
-from .schema import SeasonSnapshot, to_jsonable
+from .schema import BilingualText, Fixture, SeasonSnapshot, Team, to_jsonable
 from .sources import fbref, wikidata
+from .sources.spl_roster import SPL_CLUBS
 
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
 )
 log = logging.getLogger("dawri.pipeline")
+
+
+def _synthesise_matchweek(teams: list[Team], *, season: str) -> list[Fixture]:
+    """Pair the curated roster up into a single upcoming matchweek.
+
+    Pure scaffolding: paired in roster order, kicked off on the next Friday.
+    Real fixtures from FBref always win when available — this exists purely
+    so a demo deploy never renders an empty matches/predictions surface.
+    """
+    if len(teams) < 2:
+        return []
+    today = datetime.now(timezone.utc).date()
+    days_until_friday = (4 - today.weekday()) % 7 or 7
+    kickoff_date = today + timedelta(days=days_until_friday)
+    out: list[Fixture] = []
+    pairs = list(zip(teams[0::2], teams[1::2]))
+    for idx, (home, away) in enumerate(pairs):
+        date_iso = kickoff_date.isoformat()
+        out.append(
+            Fixture(
+                id=f"{date_iso}-{home.id}-vs-{away.id}",
+                date=date_iso,
+                kickoff=f"{date_iso}T18:00:00Z",
+                matchweek=1,
+                home_team_id=home.id,
+                away_team_id=away.id,
+                venue=home.city,
+                status="scheduled",
+                sources={},
+            )
+        )
+        _ = idx  # keep mypy quiet
+    return out
+
+
+def _curated_team_fallback() -> list[Team]:
+    return [
+        Team(
+            id=c.slug,
+            name=BilingualText(en=c.name_en, ar=c.name_ar),
+            short_name=BilingualText(en=c.short_en, ar=c.short_ar),
+            wikidata_id=c.wikidata_qid,
+            founded=c.founded,
+            city=BilingualText(en=c.city_en, ar=c.city_ar),
+            primary_color=c.primary_color,
+            sources=(
+                {"wikidata": f"https://www.wikidata.org/wiki/{c.wikidata_qid}"}
+                if c.wikidata_qid
+                else {}
+            ),
+        )
+        for c in SPL_CLUBS
+    ]
 
 
 def _write_json(path: Path, payload: object) -> None:
@@ -66,6 +120,20 @@ def run(
     teams = merge_teams(fbref_teams, wd_clubs)
     players = merge_players(fbref_rows, wd_players, teams)
     fixtures = merge_fixtures(fbref_fixtures, teams)
+
+    if not teams:
+        log.warning(
+            "live sources produced 0 teams — falling back to curated SPL roster "
+            "so the snapshot still ships real club identities"
+        )
+        teams = _curated_team_fallback()
+
+    if not fixtures and teams:
+        log.warning(
+            "no live fixtures — synthesising an upcoming matchweek so the "
+            "predict/narrate stages still have something to chew on"
+        )
+        fixtures = _synthesise_matchweek(teams, season=season)
 
     log.info("[3/6] predict")
     predictions = predict_upcoming(teams, fixtures)

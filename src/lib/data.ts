@@ -36,10 +36,10 @@ const PLACEHOLDER_MANIFEST: DataManifest = {
 
 async function fetchJson<T>(path: string): Promise<T | null> {
   try {
-    const res = await fetch(`${RAW_BASE}/${path}`, {
-      // Build-time fetch; revalidate not needed for static export.
-      cache: 'force-cache',
-    });
+    // `no-store` keeps every build (including back-to-back deploys triggered
+    // by daily-refresh) from re-using a stale Next fetch cache entry, so the
+    // exported `out/` always carries the latest snapshot from the data branch.
+    const res = await fetch(`${RAW_BASE}/${path}`, { cache: 'no-store' });
     if (!res.ok) return null;
     return (await res.json()) as T;
   } catch {

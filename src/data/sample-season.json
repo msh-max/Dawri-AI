@@ -2,7 +2,6 @@
   "league_id": "spl-saudi-pro-league",
   "season": "2025-26",
   "generated_at": "1970-01-01T00:00:00.000Z",
-  "is_sample": true,
   "teams": [
     {
       "id": "al-hilal",
@@ -17,10 +16,15 @@
       "fbref_id": null,
       "wikidata_id": "Q221054",
       "founded": 1957,
-      "city": null,
+      "city": {
+        "en": "Riyadh",
+        "ar": "الرياض"
+      },
       "crest_url": null,
       "primary_color": "#1E4FAD",
-      "sources": {}
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q221054"
+      }
     },
     {
       "id": "al-nassr",
@@ -35,10 +39,15 @@
       "fbref_id": null,
       "wikidata_id": "Q221055",
       "founded": 1955,
-      "city": null,
+      "city": {
+        "en": "Riyadh",
+        "ar": "الرياض"
+      },
       "crest_url": null,
       "primary_color": "#FFCC00",
-      "sources": {}
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q221055"
+      }
     },
     {
       "id": "al-ittihad",
@@ -51,12 +60,17 @@
         "ar": "الاتحاد"
       },
       "fbref_id": null,
-      "wikidata_id": null,
+      "wikidata_id": "Q221061",
       "founded": 1927,
-      "city": null,
+      "city": {
+        "en": "Jeddah",
+        "ar": "جدة"
+      },
       "crest_url": null,
       "primary_color": "#000000",
-      "sources": {}
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q221061"
+      }
     },
     {
       "id": "al-ahli",
@@ -69,12 +83,339 @@
         "ar": "الأهلي"
       },
       "fbref_id": null,
-      "wikidata_id": null,
+      "wikidata_id": "Q221060",
       "founded": 1937,
-      "city": null,
+      "city": {
+        "en": "Jeddah",
+        "ar": "جدة"
+      },
       "crest_url": null,
-      "primary_color": "#1F5E2E",
-      "sources": {}
+      "primary_color": "#007A33",
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q221060"
+      }
+    },
+    {
+      "id": "al-shabab",
+      "name": {
+        "en": "Al-Shabab",
+        "ar": "نادي الشباب"
+      },
+      "short_name": {
+        "en": "Al-Shabab",
+        "ar": "الشباب"
+      },
+      "fbref_id": null,
+      "wikidata_id": "Q221056",
+      "founded": 1947,
+      "city": {
+        "en": "Riyadh",
+        "ar": "الرياض"
+      },
+      "crest_url": null,
+      "primary_color": "#FFFFFF",
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q221056"
+      }
+    },
+    {
+      "id": "al-ettifaq",
+      "name": {
+        "en": "Al-Ettifaq",
+        "ar": "نادي الاتفاق"
+      },
+      "short_name": {
+        "en": "Al-Ettifaq",
+        "ar": "الاتفاق"
+      },
+      "fbref_id": null,
+      "wikidata_id": "Q221062",
+      "founded": 1944,
+      "city": {
+        "en": "Dammam",
+        "ar": "الدمام"
+      },
+      "crest_url": null,
+      "primary_color": "#C8102E",
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q221062"
+      }
+    },
+    {
+      "id": "al-fateh",
+      "name": {
+        "en": "Al-Fateh",
+        "ar": "نادي الفتح"
+      },
+      "short_name": {
+        "en": "Al-Fateh",
+        "ar": "الفتح"
+      },
+      "fbref_id": null,
+      "wikidata_id": "Q1376094",
+      "founded": 1958,
+      "city": {
+        "en": "Al-Hasa",
+        "ar": "الأحساء"
+      },
+      "crest_url": null,
+      "primary_color": "#7B2D8E",
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q1376094"
+      }
+    },
+    {
+      "id": "al-taawoun",
+      "name": {
+        "en": "Al-Taawoun",
+        "ar": "نادي التعاون"
+      },
+      "short_name": {
+        "en": "Al-Taawoun",
+        "ar": "التعاون"
+      },
+      "fbref_id": null,
+      "wikidata_id": "Q1373571",
+      "founded": 1956,
+      "city": {
+        "en": "Buraidah",
+        "ar": "بريدة"
+      },
+      "crest_url": null,
+      "primary_color": "#FFD600",
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q1373571"
+      }
+    },
+    {
+      "id": "al-khaleej",
+      "name": {
+        "en": "Al-Khaleej",
+        "ar": "نادي الخليج"
+      },
+      "short_name": {
+        "en": "Al-Khaleej",
+        "ar": "الخليج"
+      },
+      "fbref_id": null,
+      "wikidata_id": "Q1525057",
+      "founded": 1945,
+      "city": {
+        "en": "Saihat",
+        "ar": "سيهات"
+      },
+      "crest_url": null,
+      "primary_color": "#0033A0",
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q1525057"
+      }
+    },
+    {
+      "id": "al-wehda",
+      "name": {
+        "en": "Al-Wehda",
+        "ar": "نادي الوحدة"
+      },
+      "short_name": {
+        "en": "Al-Wehda",
+        "ar": "الوحدة"
+      },
+      "fbref_id": null,
+      "wikidata_id": "Q1373580",
+      "founded": 1945,
+      "city": {
+        "en": "Mecca",
+        "ar": "مكة"
+      },
+      "crest_url": null,
+      "primary_color": "#C8102E",
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q1373580"
+      }
+    },
+    {
+      "id": "al-riyadh",
+      "name": {
+        "en": "Al-Riyadh",
+        "ar": "نادي الرياض"
+      },
+      "short_name": {
+        "en": "Al-Riyadh",
+        "ar": "الرياض"
+      },
+      "fbref_id": null,
+      "wikidata_id": "Q1373574",
+      "founded": 1954,
+      "city": {
+        "en": "Riyadh",
+        "ar": "الرياض"
+      },
+      "crest_url": null,
+      "primary_color": "#FFFFFF",
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q1373574"
+      }
+    },
+    {
+      "id": "al-fayha",
+      "name": {
+        "en": "Al-Fayha",
+        "ar": "نادي الفيحاء"
+      },
+      "short_name": {
+        "en": "Al-Fayha",
+        "ar": "الفيحاء"
+      },
+      "fbref_id": null,
+      "wikidata_id": "Q4663316",
+      "founded": 1957,
+      "city": {
+        "en": "Al Majma'ah",
+        "ar": "المجمعة"
+      },
+      "crest_url": null,
+      "primary_color": "#3F2E78",
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q4663316"
+      }
+    },
+    {
+      "id": "damac",
+      "name": {
+        "en": "Damac",
+        "ar": "نادي ضمك"
+      },
+      "short_name": {
+        "en": "Damac",
+        "ar": "ضمك"
+      },
+      "fbref_id": null,
+      "wikidata_id": "Q1373577",
+      "founded": 1972,
+      "city": {
+        "en": "Khamis Mushait",
+        "ar": "خميس مشيط"
+      },
+      "crest_url": null,
+      "primary_color": "#1E5BA3",
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q1373577"
+      }
+    },
+    {
+      "id": "al-qadsiah",
+      "name": {
+        "en": "Al-Qadsiah",
+        "ar": "نادي القادسية"
+      },
+      "short_name": {
+        "en": "Al-Qadsiah",
+        "ar": "القادسية"
+      },
+      "fbref_id": null,
+      "wikidata_id": "Q1373587",
+      "founded": 1967,
+      "city": {
+        "en": "Khobar",
+        "ar": "الخبر"
+      },
+      "crest_url": null,
+      "primary_color": "#FFD600",
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q1373587"
+      }
+    },
+    {
+      "id": "al-okhdood",
+      "name": {
+        "en": "Al-Okhdood",
+        "ar": "نادي الأخدود"
+      },
+      "short_name": {
+        "en": "Al-Okhdood",
+        "ar": "الأخدود"
+      },
+      "fbref_id": null,
+      "wikidata_id": "Q56276850",
+      "founded": 1981,
+      "city": {
+        "en": "Najran",
+        "ar": "نجران"
+      },
+      "crest_url": null,
+      "primary_color": "#FFB800",
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q56276850"
+      }
+    },
+    {
+      "id": "al-raed",
+      "name": {
+        "en": "Al-Raed",
+        "ar": "نادي الرائد"
+      },
+      "short_name": {
+        "en": "Al-Raed",
+        "ar": "الرائد"
+      },
+      "fbref_id": null,
+      "wikidata_id": "Q1373575",
+      "founded": 1954,
+      "city": {
+        "en": "Buraidah",
+        "ar": "بريدة"
+      },
+      "crest_url": null,
+      "primary_color": "#FFCC00",
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q1373575"
+      }
+    },
+    {
+      "id": "al-najma",
+      "name": {
+        "en": "Al-Najma",
+        "ar": "نادي النجمة"
+      },
+      "short_name": {
+        "en": "Al-Najma",
+        "ar": "النجمة"
+      },
+      "fbref_id": null,
+      "wikidata_id": "Q1373585",
+      "founded": 1945,
+      "city": {
+        "en": "Unayzah",
+        "ar": "عنيزة"
+      },
+      "crest_url": null,
+      "primary_color": "#0033A0",
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q1373585"
+      }
+    },
+    {
+      "id": "al-kholood",
+      "name": {
+        "en": "Al-Kholood",
+        "ar": "نادي الخلود"
+      },
+      "short_name": {
+        "en": "Al-Kholood",
+        "ar": "الخلود"
+      },
+      "fbref_id": null,
+      "wikidata_id": "Q104836970",
+      "founded": 1980,
+      "city": {
+        "en": "Ar Rass",
+        "ar": "الرس"
+      },
+      "crest_url": null,
+      "primary_color": "#3F2E78",
+      "sources": {
+        "wikidata": "https://www.wikidata.org/wiki/Q104836970"
+      }
     }
   ],
   "players": [
@@ -545,290 +886,246 @@
         "source": "template"
       },
       "sources": {}
+    },
+    {
+      "id": "yassine-bounou",
+      "name": {
+        "en": "Yassine Bounou",
+        "ar": "ياسين بونو"
+      },
+      "team_id": "al-hilal",
+      "position": "GK",
+      "detailed_position": "GK",
+      "jersey_number": 1,
+      "nationality": {
+        "en": "Morocco",
+        "ar": "المغرب"
+      },
+      "birth_date": "1991-04-05",
+      "height_cm": 195,
+      "foot": "right",
+      "photo_url": null,
+      "fbref_id": null,
+      "wikidata_id": "Q3568434",
+      "season_stats": {
+        "matches": 26,
+        "starts": 26,
+        "minutes": 2340,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "xg": 0.0,
+        "xa": 0.1,
+        "save_pct": 78.5,
+        "clean_sheets": 14
+      },
+      "scout_report": null,
+      "sources": {}
+    },
+    {
+      "id": "marcelo-brozovic",
+      "name": {
+        "en": "Marcelo Brozović",
+        "ar": "مارسيلو بروزوفيتش"
+      },
+      "team_id": "al-nassr",
+      "position": "MF",
+      "detailed_position": "DM",
+      "jersey_number": 77,
+      "nationality": {
+        "en": "Croatia",
+        "ar": "كرواتيا"
+      },
+      "birth_date": "1992-11-16",
+      "height_cm": 181,
+      "foot": "right",
+      "photo_url": null,
+      "fbref_id": null,
+      "wikidata_id": "Q1903443",
+      "season_stats": {
+        "matches": 28,
+        "starts": 27,
+        "minutes": 2410,
+        "goals": 4,
+        "assists": 7,
+        "yellow_cards": 8,
+        "red_cards": 0,
+        "xg": 3.1,
+        "xa": 5.4,
+        "progressive_passes": 312,
+        "tackles": 64,
+        "interceptions": 39,
+        "pass_completion_pct": 88.2
+      },
+      "scout_report": null,
+      "sources": {}
+    },
+    {
+      "id": "riyad-mahrez",
+      "name": {
+        "en": "Riyad Mahrez",
+        "ar": "رياض محرز"
+      },
+      "team_id": "al-ahli",
+      "position": "FW",
+      "detailed_position": "RW",
+      "jersey_number": 7,
+      "nationality": {
+        "en": "Algeria",
+        "ar": "الجزائر"
+      },
+      "birth_date": "1991-02-21",
+      "height_cm": 179,
+      "foot": "left",
+      "photo_url": null,
+      "fbref_id": null,
+      "wikidata_id": "Q15630376",
+      "season_stats": {
+        "matches": 27,
+        "starts": 25,
+        "minutes": 2200,
+        "goals": 11,
+        "assists": 9,
+        "yellow_cards": 3,
+        "red_cards": 0,
+        "xg": 9.8,
+        "xa": 7.3,
+        "shots": 86,
+        "shots_on_target": 38,
+        "progressive_carries": 178,
+        "pass_completion_pct": 81.4
+      },
+      "scout_report": null,
+      "sources": {}
+    },
+    {
+      "id": "joao-cancelo",
+      "name": {
+        "en": "João Cancelo",
+        "ar": "جواو كانسيلو"
+      },
+      "team_id": "al-hilal",
+      "position": "DF",
+      "detailed_position": "RB",
+      "jersey_number": 7,
+      "nationality": {
+        "en": "Portugal",
+        "ar": "البرتغال"
+      },
+      "birth_date": "1994-05-27",
+      "height_cm": 182,
+      "foot": "right",
+      "photo_url": null,
+      "fbref_id": null,
+      "wikidata_id": "Q19542252",
+      "season_stats": {
+        "matches": 25,
+        "starts": 24,
+        "minutes": 2150,
+        "goals": 3,
+        "assists": 8,
+        "yellow_cards": 5,
+        "red_cards": 0,
+        "xg": 2.4,
+        "xa": 6.1,
+        "progressive_carries": 142,
+        "progressive_passes": 188,
+        "pass_completion_pct": 84.0,
+        "tackles": 48,
+        "interceptions": 26
+      },
+      "scout_report": null,
+      "sources": {}
+    },
+    {
+      "id": "moussa-diaby",
+      "name": {
+        "en": "Moussa Diaby",
+        "ar": "موسى ديابي"
+      },
+      "team_id": "al-ittihad",
+      "position": "FW",
+      "detailed_position": "LW",
+      "jersey_number": 19,
+      "nationality": {
+        "en": "France",
+        "ar": "فرنسا"
+      },
+      "birth_date": "1999-07-07",
+      "height_cm": 170,
+      "foot": "right",
+      "photo_url": null,
+      "fbref_id": null,
+      "wikidata_id": "Q49764048",
+      "season_stats": {
+        "matches": 26,
+        "starts": 24,
+        "minutes": 2080,
+        "goals": 9,
+        "assists": 6,
+        "yellow_cards": 2,
+        "red_cards": 0,
+        "xg": 8.4,
+        "xa": 5.2,
+        "shots": 74,
+        "shots_on_target": 32,
+        "progressive_carries": 211,
+        "pass_completion_pct": 79.6
+      },
+      "scout_report": null,
+      "sources": {}
+    },
+    {
+      "id": "ivan-toney",
+      "name": {
+        "en": "Ivan Toney",
+        "ar": "إيفان توني"
+      },
+      "team_id": "al-ahli",
+      "position": "FW",
+      "detailed_position": "ST",
+      "jersey_number": 17,
+      "nationality": {
+        "en": "England",
+        "ar": "إنجلترا"
+      },
+      "birth_date": "1996-03-16",
+      "height_cm": 179,
+      "foot": "right",
+      "photo_url": null,
+      "fbref_id": null,
+      "wikidata_id": "Q19362089",
+      "season_stats": {
+        "matches": 27,
+        "starts": 26,
+        "minutes": 2280,
+        "goals": 18,
+        "assists": 4,
+        "yellow_cards": 4,
+        "red_cards": 0,
+        "xg": 16.1,
+        "xa": 3.6,
+        "shots": 92,
+        "shots_on_target": 49,
+        "aerials_won_pct": 58.3,
+        "pass_completion_pct": 71.2
+      },
+      "scout_report": null,
+      "sources": {}
     }
   ],
   "fixtures": [
     {
-      "id": "2026-04-25-al-hilal-vs-al-nassr",
-      "date": "2026-04-25",
-      "kickoff": "2026-04-25T17:00:00Z",
-      "matchweek": 28,
-      "home_team_id": "al-hilal",
-      "away_team_id": "al-nassr",
-      "venue": {
-        "en": "Kingdom Arena",
-        "ar": "أرينا المملكة"
-      },
-      "home_goals": 2,
-      "away_goals": 1,
-      "home_xg": 2.4,
-      "away_xg": 1.6,
-      "status": "finished",
-      "fbref_match_id": null,
-      "events": [
-        {
-          "minute": 14,
-          "team_id": "al-nassr",
-          "type": "goal",
-          "player_id": "cristiano-ronaldo",
-          "player_name": {
-            "en": "Cristiano Ronaldo",
-            "ar": "كريستيانو رونالدو"
-          },
-          "detail": null
-        },
-        {
-          "minute": 38,
-          "team_id": "al-hilal",
-          "type": "goal",
-          "player_id": "aleksandar-mitrovic",
-          "player_name": {
-            "en": "Aleksandar Mitrović",
-            "ar": "ألكسندر ميتروفيتش"
-          },
-          "detail": {
-            "en": "Assist: Salem Al-Dawsari",
-            "ar": "صناعة: سالم الدوسري"
-          }
-        },
-        {
-          "minute": 52,
-          "team_id": "al-nassr",
-          "type": "yellow",
-          "player_id": "sadio-mane",
-          "player_name": {
-            "en": "Sadio Mané",
-            "ar": "ساديو ماني"
-          },
-          "detail": null
-        },
-        {
-          "minute": 71,
-          "team_id": "al-hilal",
-          "type": "goal",
-          "player_id": "salem-al-dawsari",
-          "player_name": {
-            "en": "Salem Al-Dawsari",
-            "ar": "سالم الدوسري"
-          },
-          "detail": {
-            "en": "Assist: Rúben Neves",
-            "ar": "صناعة: روبن نيفيش"
-          }
-        }
-      ],
-      "xg_flow": [
-        {
-          "minute": 0,
-          "home_xg": 0.0,
-          "away_xg": 0.0
-        },
-        {
-          "minute": 10,
-          "home_xg": 0.15,
-          "away_xg": 0.1
-        },
-        {
-          "minute": 14,
-          "home_xg": 0.18,
-          "away_xg": 0.42
-        },
-        {
-          "minute": 25,
-          "home_xg": 0.42,
-          "away_xg": 0.55
-        },
-        {
-          "minute": 38,
-          "home_xg": 0.96,
-          "away_xg": 0.71
-        },
-        {
-          "minute": 45,
-          "home_xg": 1.1,
-          "away_xg": 0.95
-        },
-        {
-          "minute": 60,
-          "home_xg": 1.42,
-          "away_xg": 1.18
-        },
-        {
-          "minute": 71,
-          "home_xg": 2.05,
-          "away_xg": 1.36
-        },
-        {
-          "minute": 80,
-          "home_xg": 2.28,
-          "away_xg": 1.5
-        },
-        {
-          "minute": 90,
-          "home_xg": 2.4,
-          "away_xg": 1.6
-        }
-      ],
-      "preview": null,
-      "recap": {
-        "text": {
-          "en": "Al-Hilal beat Al-Nassr 2–1, with xG of 2.4–1.6 backing up the result.",
-          "ar": "فاز الهلال على النصر 2–1، بأهداف متوقّعة 2.4–1.6 تدعم النتيجة."
-        },
-        "generated_at": "2026-04-29T12:28:38.103732+00:00",
-        "source": "template"
-      },
-      "sources": {}
-    },
-    {
-      "id": "2026-04-22-al-ittihad-vs-al-ahli",
-      "date": "2026-04-22",
-      "kickoff": "2026-04-22T16:30:00Z",
-      "matchweek": 28,
-      "home_team_id": "al-ittihad",
-      "away_team_id": "al-ahli",
-      "venue": {
-        "en": "King Abdullah Sports City",
-        "ar": "مدينة الملك عبدالله الرياضية"
-      },
-      "home_goals": 1,
-      "away_goals": 1,
-      "home_xg": 1.8,
-      "away_xg": 1.4,
-      "status": "finished",
-      "fbref_match_id": null,
-      "events": [
-        {
-          "minute": 22,
-          "team_id": "al-ittihad",
-          "type": "goal",
-          "player_id": "karim-benzema",
-          "player_name": {
-            "en": "Karim Benzema",
-            "ar": "كريم بنزيمة"
-          },
-          "detail": null
-        },
-        {
-          "minute": 67,
-          "team_id": "al-ahli",
-          "type": "goal",
-          "player_id": "firas-al-buraikan",
-          "player_name": {
-            "en": "Firas Al-Buraikan",
-            "ar": "فراس البريكان"
-          },
-          "detail": null
-        }
-      ],
-      "xg_flow": [
-        {
-          "minute": 0,
-          "home_xg": 0.0,
-          "away_xg": 0.0
-        },
-        {
-          "minute": 22,
-          "home_xg": 0.85,
-          "away_xg": 0.3
-        },
-        {
-          "minute": 45,
-          "home_xg": 1.2,
-          "away_xg": 0.75
-        },
-        {
-          "minute": 67,
-          "home_xg": 1.55,
-          "away_xg": 1.18
-        },
-        {
-          "minute": 90,
-          "home_xg": 1.8,
-          "away_xg": 1.4
-        }
-      ],
-      "preview": null,
-      "recap": {
-        "text": {
-          "en": "Al-Ittihad and Al-Ahli drew 1–1, with xG of 1.8–1.4 backing up the result.",
-          "ar": "تعادل الاتحاد مع الأهلي 1–1، بأهداف متوقّعة 1.8–1.4 تدعم النتيجة."
-        },
-        "generated_at": "2026-04-29T12:28:38.103780+00:00",
-        "source": "template"
-      },
-      "sources": {}
-    },
-    {
-      "id": "2026-05-01-al-nassr-vs-al-ittihad",
-      "date": "2026-05-01",
-      "kickoff": "2026-05-01T17:30:00Z",
-      "matchweek": 29,
-      "home_team_id": "al-nassr",
-      "away_team_id": "al-ittihad",
-      "venue": {
-        "en": "Al-Awwal Park",
-        "ar": "ملعب الأول بارك"
-      },
-      "home_goals": null,
-      "away_goals": null,
-      "home_xg": null,
-      "away_xg": null,
-      "status": "scheduled",
-      "fbref_match_id": null,
-      "events": [],
-      "xg_flow": [],
-      "preview": {
-        "text": {
-          "en": "Al-Nassr vs Al-Ittihad: the model favors Al-Ittihad with a 48% win probability (22/29/48 W/D/L). Expected goals lean 0.8–1.3, with 0–1 the most likely scoreline.",
-          "ar": "النصر ضدّ الاتحاد: يُرجّح النموذج فوز الاتحاد باحتمالية 48٪ (22/29/48 ف/ت/خ). الأهداف المتوقّعة 0.8–1.3، والنتيجة الأرجح 0–1."
-        },
-        "generated_at": "2026-04-29T12:28:38.103793+00:00",
-        "source": "template"
-      },
-      "recap": null,
-      "sources": {}
-    },
-    {
-      "id": "2026-05-02-al-hilal-vs-al-ahli",
-      "date": "2026-05-02",
-      "kickoff": "2026-05-02T17:00:00Z",
-      "matchweek": 29,
-      "home_team_id": "al-hilal",
-      "away_team_id": "al-ahli",
-      "venue": {
-        "en": "Kingdom Arena",
-        "ar": "أرينا المملكة"
-      },
-      "home_goals": null,
-      "away_goals": null,
-      "home_xg": null,
-      "away_xg": null,
-      "status": "scheduled",
-      "fbref_match_id": null,
-      "events": [],
-      "xg_flow": [],
-      "preview": {
-        "text": {
-          "en": "Al-Hilal vs Al-Ahli: the model favors Al-Hilal with a 59% win probability (59/26/15 W/D/L). Expected goals lean 1.5–0.6, with 1–0 the most likely scoreline.",
-          "ar": "الهلال ضدّ الأهلي: يُرجّح النموذج فوز الهلال باحتمالية 59٪ (59/26/15 ف/ت/خ). الأهداف المتوقّعة 1.5–0.6، والنتيجة الأرجح 1–0."
-        },
-        "generated_at": "2026-04-29T12:28:38.103801+00:00",
-        "source": "template"
-      },
-      "recap": null,
-      "sources": {}
-    },
-    {
-      "id": "2026-05-08-al-ahli-vs-al-nassr",
+      "id": "2026-05-08-al-hilal-vs-al-nassr",
       "date": "2026-05-08",
       "kickoff": "2026-05-08T18:00:00Z",
-      "matchweek": 30,
-      "home_team_id": "al-ahli",
+      "matchweek": 1,
+      "home_team_id": "al-hilal",
       "away_team_id": "al-nassr",
       "venue": {
-        "en": "Prince Abdullah Al-Faisal Stadium",
-        "ar": "ملعب الأمير عبدالله الفيصل"
+        "en": "Riyadh",
+        "ar": "الرياض"
       },
       "home_goals": null,
       "away_goals": null,
@@ -840,25 +1137,25 @@
       "xg_flow": [],
       "preview": {
         "text": {
-          "en": "Al-Ahli vs Al-Nassr: the model favors Al-Ahli with a 59% win probability (59/26/15 W/D/L). Expected goals lean 1.5–0.6, with 1–0 the most likely scoreline.",
-          "ar": "الأهلي ضدّ النصر: يُرجّح النموذج فوز الأهلي باحتمالية 59٪ (59/26/15 ف/ت/خ). الأهداف المتوقّعة 1.5–0.6، والنتيجة الأرجح 1–0."
+          "en": "Al-Hilal vs Al-Nassr: the model favors Al-Hilal with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
+          "ar": "الهلال ضدّ النصر: يُرجّح النموذج فوز الهلال باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
         },
-        "generated_at": "2026-04-29T12:28:38.103808+00:00",
+        "generated_at": "2026-05-01T22:46:28.195048+00:00",
         "source": "template"
       },
       "recap": null,
       "sources": {}
     },
     {
-      "id": "2026-05-09-al-ittihad-vs-al-hilal",
-      "date": "2026-05-09",
-      "kickoff": "2026-05-09T17:30:00Z",
-      "matchweek": 30,
+      "id": "2026-05-08-al-ittihad-vs-al-ahli",
+      "date": "2026-05-08",
+      "kickoff": "2026-05-08T18:00:00Z",
+      "matchweek": 1,
       "home_team_id": "al-ittihad",
-      "away_team_id": "al-hilal",
+      "away_team_id": "al-ahli",
       "venue": {
-        "en": "King Abdullah Sports City",
-        "ar": "مدينة الملك عبدالله الرياضية"
+        "en": "Jeddah",
+        "ar": "جدة"
       },
       "home_goals": null,
       "away_goals": null,
@@ -870,10 +1167,220 @@
       "xg_flow": [],
       "preview": {
         "text": {
-          "en": "Al-Ittihad vs Al-Hilal: the model favors Al-Hilal with a 48% win probability (22/29/48 W/D/L). Expected goals lean 0.8–1.3, with 0–1 the most likely scoreline.",
-          "ar": "الاتحاد ضدّ الهلال: يُرجّح النموذج فوز الهلال باحتمالية 48٪ (22/29/48 ف/ت/خ). الأهداف المتوقّعة 0.8–1.3، والنتيجة الأرجح 0–1."
+          "en": "Al-Ittihad vs Al-Ahli: the model favors Al-Ittihad with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
+          "ar": "الاتحاد ضدّ الأهلي: يُرجّح النموذج فوز الاتحاد باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
         },
-        "generated_at": "2026-04-29T12:28:38.103814+00:00",
+        "generated_at": "2026-05-01T22:46:28.195061+00:00",
+        "source": "template"
+      },
+      "recap": null,
+      "sources": {}
+    },
+    {
+      "id": "2026-05-08-al-shabab-vs-al-ettifaq",
+      "date": "2026-05-08",
+      "kickoff": "2026-05-08T18:00:00Z",
+      "matchweek": 1,
+      "home_team_id": "al-shabab",
+      "away_team_id": "al-ettifaq",
+      "venue": {
+        "en": "Riyadh",
+        "ar": "الرياض"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "home_xg": null,
+      "away_xg": null,
+      "status": "scheduled",
+      "fbref_match_id": null,
+      "events": [],
+      "xg_flow": [],
+      "preview": {
+        "text": {
+          "en": "Al-Shabab vs Al-Ettifaq: the model favors Al-Shabab with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
+          "ar": "الشباب ضدّ الاتفاق: يُرجّح النموذج فوز الشباب باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
+        },
+        "generated_at": "2026-05-01T22:46:28.195070+00:00",
+        "source": "template"
+      },
+      "recap": null,
+      "sources": {}
+    },
+    {
+      "id": "2026-05-08-al-fateh-vs-al-taawoun",
+      "date": "2026-05-08",
+      "kickoff": "2026-05-08T18:00:00Z",
+      "matchweek": 1,
+      "home_team_id": "al-fateh",
+      "away_team_id": "al-taawoun",
+      "venue": {
+        "en": "Al-Hasa",
+        "ar": "الأحساء"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "home_xg": null,
+      "away_xg": null,
+      "status": "scheduled",
+      "fbref_match_id": null,
+      "events": [],
+      "xg_flow": [],
+      "preview": {
+        "text": {
+          "en": "Al-Fateh vs Al-Taawoun: the model favors Al-Fateh with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
+          "ar": "الفتح ضدّ التعاون: يُرجّح النموذج فوز الفتح باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
+        },
+        "generated_at": "2026-05-01T22:46:28.195079+00:00",
+        "source": "template"
+      },
+      "recap": null,
+      "sources": {}
+    },
+    {
+      "id": "2026-05-08-al-khaleej-vs-al-wehda",
+      "date": "2026-05-08",
+      "kickoff": "2026-05-08T18:00:00Z",
+      "matchweek": 1,
+      "home_team_id": "al-khaleej",
+      "away_team_id": "al-wehda",
+      "venue": {
+        "en": "Saihat",
+        "ar": "سيهات"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "home_xg": null,
+      "away_xg": null,
+      "status": "scheduled",
+      "fbref_match_id": null,
+      "events": [],
+      "xg_flow": [],
+      "preview": {
+        "text": {
+          "en": "Al-Khaleej vs Al-Wehda: the model favors Al-Khaleej with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
+          "ar": "الخليج ضدّ الوحدة: يُرجّح النموذج فوز الخليج باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
+        },
+        "generated_at": "2026-05-01T22:46:28.195090+00:00",
+        "source": "template"
+      },
+      "recap": null,
+      "sources": {}
+    },
+    {
+      "id": "2026-05-08-al-riyadh-vs-al-fayha",
+      "date": "2026-05-08",
+      "kickoff": "2026-05-08T18:00:00Z",
+      "matchweek": 1,
+      "home_team_id": "al-riyadh",
+      "away_team_id": "al-fayha",
+      "venue": {
+        "en": "Riyadh",
+        "ar": "الرياض"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "home_xg": null,
+      "away_xg": null,
+      "status": "scheduled",
+      "fbref_match_id": null,
+      "events": [],
+      "xg_flow": [],
+      "preview": {
+        "text": {
+          "en": "Al-Riyadh vs Al-Fayha: the model favors Al-Riyadh with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
+          "ar": "الرياض ضدّ الفيحاء: يُرجّح النموذج فوز الرياض باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
+        },
+        "generated_at": "2026-05-01T22:46:28.195097+00:00",
+        "source": "template"
+      },
+      "recap": null,
+      "sources": {}
+    },
+    {
+      "id": "2026-05-08-damac-vs-al-qadsiah",
+      "date": "2026-05-08",
+      "kickoff": "2026-05-08T18:00:00Z",
+      "matchweek": 1,
+      "home_team_id": "damac",
+      "away_team_id": "al-qadsiah",
+      "venue": {
+        "en": "Khamis Mushait",
+        "ar": "خميس مشيط"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "home_xg": null,
+      "away_xg": null,
+      "status": "scheduled",
+      "fbref_match_id": null,
+      "events": [],
+      "xg_flow": [],
+      "preview": {
+        "text": {
+          "en": "Damac vs Al-Qadsiah: the model favors Damac with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
+          "ar": "ضمك ضدّ القادسية: يُرجّح النموذج فوز ضمك باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
+        },
+        "generated_at": "2026-05-01T22:46:28.195104+00:00",
+        "source": "template"
+      },
+      "recap": null,
+      "sources": {}
+    },
+    {
+      "id": "2026-05-08-al-okhdood-vs-al-raed",
+      "date": "2026-05-08",
+      "kickoff": "2026-05-08T18:00:00Z",
+      "matchweek": 1,
+      "home_team_id": "al-okhdood",
+      "away_team_id": "al-raed",
+      "venue": {
+        "en": "Najran",
+        "ar": "نجران"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "home_xg": null,
+      "away_xg": null,
+      "status": "scheduled",
+      "fbref_match_id": null,
+      "events": [],
+      "xg_flow": [],
+      "preview": {
+        "text": {
+          "en": "Al-Okhdood vs Al-Raed: the model favors Al-Okhdood with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
+          "ar": "الأخدود ضدّ الرائد: يُرجّح النموذج فوز الأخدود باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
+        },
+        "generated_at": "2026-05-01T22:46:28.195117+00:00",
+        "source": "template"
+      },
+      "recap": null,
+      "sources": {}
+    },
+    {
+      "id": "2026-05-08-al-najma-vs-al-kholood",
+      "date": "2026-05-08",
+      "kickoff": "2026-05-08T18:00:00Z",
+      "matchweek": 1,
+      "home_team_id": "al-najma",
+      "away_team_id": "al-kholood",
+      "venue": {
+        "en": "Unayzah",
+        "ar": "عنيزة"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "home_xg": null,
+      "away_xg": null,
+      "status": "scheduled",
+      "fbref_match_id": null,
+      "events": [],
+      "xg_flow": [],
+      "preview": {
+        "text": {
+          "en": "Al-Najma vs Al-Kholood: the model favors Al-Najma with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
+          "ar": "النجمة ضدّ الخلود: يُرجّح النموذج فوز النجمة باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
+        },
+        "generated_at": "2026-05-01T22:46:28.195126+00:00",
         "source": "template"
       },
       "recap": null,
@@ -882,196 +1389,275 @@
   ],
   "predictions": [
     {
-      "fixture_id": "2026-05-01-al-nassr-vs-al-ittihad",
-      "home_win_prob": 0.22496764643099035,
-      "draw_prob": 0.29442415110581244,
-      "away_win_prob": 0.48060820246319713,
-      "home_xg_predicted": 0.7586206896551725,
-      "away_xg_predicted": 1.2539184952978055,
-      "btts_prob": 0.3799249787373829,
-      "over25_prob": 0.32666600114074396,
+      "fixture_id": "2026-05-08-al-hilal-vs-al-nassr",
+      "home_win_prob": 0.43912452867777496,
+      "draw_prob": 0.24459096113871873,
+      "away_win_prob": 0.31628451018350623,
+      "home_xg_predicted": 1.595,
+      "away_xg_predicted": 1.3181818181818181,
+      "btts_prob": 0.5835295329477969,
+      "over25_prob": 0.5567546780088511,
       "most_likely_score": [
-        0,
+        1,
         1
       ],
       "contributions": [
         {
-          "feature": "team_strength",
-          "label": {
-            "en": "Team strength",
-            "ar": "قوّة الفريقين"
-          },
-          "value": -21.415688224678462,
-          "explanation": {
-            "en": "Al-Ittihad carries a 7-point Elo edge from prior results.",
-            "ar": "الاتحاد يتقدّم بفارق Elo قدره 7 نقطة بناءً على النتائج السابقة."
-          }
-        },
-        {
-          "feature": "defensive_record",
-          "label": {
-            "en": "Defensive record",
-            "ar": "الصلابة الدفاعية"
-          },
-          "value": -6.0,
-          "explanation": {
-            "en": "Al-Ittihad concedes only 1.0 per match.",
-            "ar": "يستقبل الاتحاد 1.0 هدف فقط في المباراة."
-          }
-        },
-        {
           "feature": "home_advantage",
           "label": {
             "en": "Home advantage",
             "ar": "عامل الأرض"
           },
-          "value": 3.8149773192893117,
-          "explanation": {
-            "en": "Home teams in the SPL win ~10% more often; this match is at Al-Nassr.",
-            "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب النصر."
-          }
-        }
-      ],
-      "generated_at": "2026-04-29T12:28:38.102548+00:00",
-      "model_version": "elo-poisson-0.1"
-    },
-    {
-      "fixture_id": "2026-05-02-al-hilal-vs-al-ahli",
-      "home_win_prob": 0.5890845200619008,
-      "draw_prob": 0.25813735619662415,
-      "away_win_prob": 0.15277812374147495,
-      "home_xg_predicted": 1.517241379310345,
-      "away_xg_predicted": 0.6269592476489028,
-      "btts_prob": 0.36354633048214163,
-      "over25_prob": 0.36210588450730186,
-      "most_likely_score": [
-        1,
-        0
-      ],
-      "contributions": [
-        {
-          "feature": "team_strength",
-          "label": {
-            "en": "Team strength",
-            "ar": "قوّة الفريقين"
-          },
-          "value": 14.995999138412586,
-          "explanation": {
-            "en": "Al-Hilal carries a 7-point Elo edge from prior results.",
-            "ar": "الهلال يتقدّم بفارق Elo قدره 7 نقطة بناءً على النتائج السابقة."
-          }
-        },
-        {
-          "feature": "attacking_form",
-          "label": {
-            "en": "Attacking form",
-            "ar": "الإنتاج الهجومي"
-          },
-          "value": 8.0,
-          "explanation": {
-            "en": "Al-Hilal averages 2.0 goals per match this season.",
-            "ar": "يسجّل الهلال 2.0 هدف في المباراة بالمتوسط هذا الموسم."
-          }
-        },
-        {
-          "feature": "home_advantage",
-          "label": {
-            "en": "Home advantage",
-            "ar": "عامل الأرض"
-          },
-          "value": 5.418594423612467,
+          "value": 6.303585402755929,
           "explanation": {
             "en": "Home teams in the SPL win ~10% more often; this match is at Al-Hilal.",
             "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الهلال."
           }
         }
       ],
-      "generated_at": "2026-04-29T12:28:38.102548+00:00",
+      "generated_at": "1970-01-01T00:00:00.000Z",
       "model_version": "elo-poisson-0.1"
     },
     {
-      "fixture_id": "2026-05-08-al-ahli-vs-al-nassr",
-      "home_win_prob": 0.5890845200619008,
-      "draw_prob": 0.25813735619662415,
-      "away_win_prob": 0.15277812374147495,
-      "home_xg_predicted": 1.517241379310345,
-      "away_xg_predicted": 0.6269592476489028,
-      "btts_prob": 0.36354633048214163,
-      "over25_prob": 0.36210588450730186,
+      "fixture_id": "2026-05-08-al-ittihad-vs-al-ahli",
+      "home_win_prob": 0.43912452867777496,
+      "draw_prob": 0.24459096113871873,
+      "away_win_prob": 0.31628451018350623,
+      "home_xg_predicted": 1.595,
+      "away_xg_predicted": 1.3181818181818181,
+      "btts_prob": 0.5835295329477969,
+      "over25_prob": 0.5567546780088511,
       "most_likely_score": [
         1,
-        0
-      ],
-      "contributions": [
-        {
-          "feature": "defensive_record",
-          "label": {
-            "en": "Defensive record",
-            "ar": "الصلابة الدفاعية"
-          },
-          "value": 6.0,
-          "explanation": {
-            "en": "Al-Ahli concedes only 1.0 per match.",
-            "ar": "يستقبل الأهلي 1.0 هدف فقط في المباراة."
-          }
-        },
-        {
-          "feature": "home_advantage",
-          "label": {
-            "en": "Home advantage",
-            "ar": "عامل الأرض"
-          },
-          "value": 5.418594423612467,
-          "explanation": {
-            "en": "Home teams in the SPL win ~10% more often; this match is at Al-Ahli.",
-            "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الأهلي."
-          }
-        }
-      ],
-      "generated_at": "2026-04-29T12:28:38.102548+00:00",
-      "model_version": "elo-poisson-0.1"
-    },
-    {
-      "fixture_id": "2026-05-09-al-ittihad-vs-al-hilal",
-      "home_win_prob": 0.22496764643099035,
-      "draw_prob": 0.29442415110581244,
-      "away_win_prob": 0.48060820246319713,
-      "home_xg_predicted": 0.7586206896551725,
-      "away_xg_predicted": 1.2539184952978055,
-      "btts_prob": 0.3799249787373829,
-      "over25_prob": 0.32666600114074396,
-      "most_likely_score": [
-        0,
         1
       ],
       "contributions": [
         {
-          "feature": "attacking_form",
-          "label": {
-            "en": "Attacking form",
-            "ar": "الإنتاج الهجومي"
-          },
-          "value": -8.0,
-          "explanation": {
-            "en": "Al-Hilal averages 2.0 goals per match this season.",
-            "ar": "يسجّل الهلال 2.0 هدف في المباراة بالمتوسط هذا الموسم."
-          }
-        },
-        {
           "feature": "home_advantage",
           "label": {
             "en": "Home advantage",
             "ar": "عامل الأرض"
           },
-          "value": 3.8149773192893117,
+          "value": 6.303585402755929,
           "explanation": {
             "en": "Home teams in the SPL win ~10% more often; this match is at Al-Ittihad.",
             "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الاتحاد."
           }
         }
       ],
-      "generated_at": "2026-04-29T12:28:38.102548+00:00",
+      "generated_at": "1970-01-01T00:00:00.000Z",
+      "model_version": "elo-poisson-0.1"
+    },
+    {
+      "fixture_id": "2026-05-08-al-shabab-vs-al-ettifaq",
+      "home_win_prob": 0.43912452867777496,
+      "draw_prob": 0.24459096113871873,
+      "away_win_prob": 0.31628451018350623,
+      "home_xg_predicted": 1.595,
+      "away_xg_predicted": 1.3181818181818181,
+      "btts_prob": 0.5835295329477969,
+      "over25_prob": 0.5567546780088511,
+      "most_likely_score": [
+        1,
+        1
+      ],
+      "contributions": [
+        {
+          "feature": "home_advantage",
+          "label": {
+            "en": "Home advantage",
+            "ar": "عامل الأرض"
+          },
+          "value": 6.303585402755929,
+          "explanation": {
+            "en": "Home teams in the SPL win ~10% more often; this match is at Al-Shabab.",
+            "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الشباب."
+          }
+        }
+      ],
+      "generated_at": "1970-01-01T00:00:00.000Z",
+      "model_version": "elo-poisson-0.1"
+    },
+    {
+      "fixture_id": "2026-05-08-al-fateh-vs-al-taawoun",
+      "home_win_prob": 0.43912452867777496,
+      "draw_prob": 0.24459096113871873,
+      "away_win_prob": 0.31628451018350623,
+      "home_xg_predicted": 1.595,
+      "away_xg_predicted": 1.3181818181818181,
+      "btts_prob": 0.5835295329477969,
+      "over25_prob": 0.5567546780088511,
+      "most_likely_score": [
+        1,
+        1
+      ],
+      "contributions": [
+        {
+          "feature": "home_advantage",
+          "label": {
+            "en": "Home advantage",
+            "ar": "عامل الأرض"
+          },
+          "value": 6.303585402755929,
+          "explanation": {
+            "en": "Home teams in the SPL win ~10% more often; this match is at Al-Fateh.",
+            "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الفتح."
+          }
+        }
+      ],
+      "generated_at": "1970-01-01T00:00:00.000Z",
+      "model_version": "elo-poisson-0.1"
+    },
+    {
+      "fixture_id": "2026-05-08-al-khaleej-vs-al-wehda",
+      "home_win_prob": 0.43912452867777496,
+      "draw_prob": 0.24459096113871873,
+      "away_win_prob": 0.31628451018350623,
+      "home_xg_predicted": 1.595,
+      "away_xg_predicted": 1.3181818181818181,
+      "btts_prob": 0.5835295329477969,
+      "over25_prob": 0.5567546780088511,
+      "most_likely_score": [
+        1,
+        1
+      ],
+      "contributions": [
+        {
+          "feature": "home_advantage",
+          "label": {
+            "en": "Home advantage",
+            "ar": "عامل الأرض"
+          },
+          "value": 6.303585402755929,
+          "explanation": {
+            "en": "Home teams in the SPL win ~10% more often; this match is at Al-Khaleej.",
+            "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الخليج."
+          }
+        }
+      ],
+      "generated_at": "1970-01-01T00:00:00.000Z",
+      "model_version": "elo-poisson-0.1"
+    },
+    {
+      "fixture_id": "2026-05-08-al-riyadh-vs-al-fayha",
+      "home_win_prob": 0.43912452867777496,
+      "draw_prob": 0.24459096113871873,
+      "away_win_prob": 0.31628451018350623,
+      "home_xg_predicted": 1.595,
+      "away_xg_predicted": 1.3181818181818181,
+      "btts_prob": 0.5835295329477969,
+      "over25_prob": 0.5567546780088511,
+      "most_likely_score": [
+        1,
+        1
+      ],
+      "contributions": [
+        {
+          "feature": "home_advantage",
+          "label": {
+            "en": "Home advantage",
+            "ar": "عامل الأرض"
+          },
+          "value": 6.303585402755929,
+          "explanation": {
+            "en": "Home teams in the SPL win ~10% more often; this match is at Al-Riyadh.",
+            "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الرياض."
+          }
+        }
+      ],
+      "generated_at": "1970-01-01T00:00:00.000Z",
+      "model_version": "elo-poisson-0.1"
+    },
+    {
+      "fixture_id": "2026-05-08-damac-vs-al-qadsiah",
+      "home_win_prob": 0.43912452867777496,
+      "draw_prob": 0.24459096113871873,
+      "away_win_prob": 0.31628451018350623,
+      "home_xg_predicted": 1.595,
+      "away_xg_predicted": 1.3181818181818181,
+      "btts_prob": 0.5835295329477969,
+      "over25_prob": 0.5567546780088511,
+      "most_likely_score": [
+        1,
+        1
+      ],
+      "contributions": [
+        {
+          "feature": "home_advantage",
+          "label": {
+            "en": "Home advantage",
+            "ar": "عامل الأرض"
+          },
+          "value": 6.303585402755929,
+          "explanation": {
+            "en": "Home teams in the SPL win ~10% more often; this match is at Damac.",
+            "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب ضمك."
+          }
+        }
+      ],
+      "generated_at": "1970-01-01T00:00:00.000Z",
+      "model_version": "elo-poisson-0.1"
+    },
+    {
+      "fixture_id": "2026-05-08-al-okhdood-vs-al-raed",
+      "home_win_prob": 0.43912452867777496,
+      "draw_prob": 0.24459096113871873,
+      "away_win_prob": 0.31628451018350623,
+      "home_xg_predicted": 1.595,
+      "away_xg_predicted": 1.3181818181818181,
+      "btts_prob": 0.5835295329477969,
+      "over25_prob": 0.5567546780088511,
+      "most_likely_score": [
+        1,
+        1
+      ],
+      "contributions": [
+        {
+          "feature": "home_advantage",
+          "label": {
+            "en": "Home advantage",
+            "ar": "عامل الأرض"
+          },
+          "value": 6.303585402755929,
+          "explanation": {
+            "en": "Home teams in the SPL win ~10% more often; this match is at Al-Okhdood.",
+            "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الأخدود."
+          }
+        }
+      ],
+      "generated_at": "1970-01-01T00:00:00.000Z",
+      "model_version": "elo-poisson-0.1"
+    },
+    {
+      "fixture_id": "2026-05-08-al-najma-vs-al-kholood",
+      "home_win_prob": 0.43912452867777496,
+      "draw_prob": 0.24459096113871873,
+      "away_win_prob": 0.31628451018350623,
+      "home_xg_predicted": 1.595,
+      "away_xg_predicted": 1.3181818181818181,
+      "btts_prob": 0.5835295329477969,
+      "over25_prob": 0.5567546780088511,
+      "most_likely_score": [
+        1,
+        1
+      ],
+      "contributions": [
+        {
+          "feature": "home_advantage",
+          "label": {
+            "en": "Home advantage",
+            "ar": "عامل الأرض"
+          },
+          "value": 6.303585402755929,
+          "explanation": {
+            "en": "Home teams in the SPL win ~10% more often; this match is at Al-Najma.",
+            "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب النجمة."
+          }
+        }
+      ],
+      "generated_at": "1970-01-01T00:00:00.000Z",
       "model_version": "elo-poisson-0.1"
     }
-  ]
+  ],
+  "is_sample": true
 }

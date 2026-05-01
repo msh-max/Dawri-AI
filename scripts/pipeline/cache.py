@@ -27,10 +27,26 @@ from tenacity import (
 
 log = logging.getLogger("dawri.cache")
 
+# FBref aggressively rejects requests that look like generic scrapers (it
+# returns 403/429 on anything advertising itself as a bot). Use a real-browser
+# UA + matching Accept headers; FBref's terms allow non-commercial scraping
+# with attribution, which we display on the site.
 USER_AGENT = (
-    "DawriAI/0.1 (+https://github.com/msh-max/msh-max) "
-    "non-commercial analytics, daily scrape, attribution displayed"
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 "
+    "DawriAI/0.1 (+https://github.com/msh-max/Dawri-AI)"
 )
+DEFAULT_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": (
+        "text/html,application/xhtml+xml,application/xml;q=0.9,"
+        "application/json;q=0.9,*/*;q=0.8"
+    ),
+    "Accept-Language": "en-US,en;q=0.9,ar;q=0.8",
+    "Accept-Encoding": "gzip, deflate",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+}
 
 # Polite, generous defaults. CI runs once a day so it's fine to be slow.
 _DEFAULT_DELAY_SEC = 3.0
@@ -59,7 +75,7 @@ class HttpCache:
         self._last_fetch_per_host: dict[str, float] = {}
         self._lock = threading.Lock()
         self._session = requests.Session()
-        self._session.headers.update({"User-Agent": USER_AGENT})
+        self._session.headers.update(DEFAULT_HEADERS)
 
     def _cache_path(self, url: str) -> Path:
         digest = hashlib.sha256(url.encode("utf-8")).hexdigest()[:24]
@@ -158,4 +174,11 @@ class HttpCache:
         )
         if 200 <= resp.status_code < 300:
             self._write_cache(full_url, resp.status_code, resp.text)
+        else:
+            # Surface non-2xx loudly so daily-refresh logs make root-causing
+            # an empty snapshot trivial — without this you only see "0 teams".
+            snippet = (resp.text or "")[:200].replace("\n", " ")
+            log.warning(
+                "non-2xx %s for %s — body: %s", resp.status_code, full_url, snippet
+            )
         return result

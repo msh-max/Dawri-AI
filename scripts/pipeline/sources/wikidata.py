@@ -20,34 +20,47 @@ log = logging.getLogger("dawri.sources.wikidata")
 
 SPARQL_URL = "https://query.wikidata.org/sparql"
 
-# Q221054 = Saudi Professional League. Adjust if Wikidata reorganizes.
-SPL_QID = "Q221054"
+# The SPL entity has been renamed multiple times on Wikidata (Saudi Premier
+# League → Saudi Professional League → Roshn Saudi League). Different clubs
+# point P118 at different historical entities. Union over the known set.
+SPL_QIDS: tuple[str, ...] = (
+    "Q221054",   # Saudi Professional League (legacy main entity)
+    "Q23950",    # Saudi Premier League / earlier rebrand
+    "Q104954",   # Saudi Pro League (alt)
+    "Q15978525", # Roshn Saudi League (current sponsor name)
+)
+# Used by `to_jsonable` callers / logging only; first entry stays canonical.
+SPL_QID = SPL_QIDS[0]
 
-CLUBS_QUERY = """
-SELECT ?club ?clubLabel ?clubLabelAr ?founded ?logo ?wikipedia WHERE {
-  ?club wdt:P118 wd:%s .
-  OPTIONAL { ?club wdt:P571 ?founded }
-  OPTIONAL { ?club wdt:P154 ?logo }
-  OPTIONAL { ?club rdfs:label ?clubLabelAr FILTER (lang(?clubLabelAr) = "ar") }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
-}
-""" % SPL_QID
+_VALUES_BLOCK = " ".join(f"wd:{q}" for q in SPL_QIDS)
 
-PLAYERS_QUERY = """
-SELECT ?player ?playerLabel ?playerLabelAr ?dob ?image ?heightCm ?footLabel ?nationalityLabel ?nationalityLabelAr WHERE {
+CLUBS_QUERY = f"""
+SELECT DISTINCT ?club ?clubLabel ?clubLabelAr ?founded ?logo WHERE {{
+  VALUES ?league {{ {_VALUES_BLOCK} }}
+  ?club wdt:P118 ?league .
+  OPTIONAL {{ ?club wdt:P571 ?founded }}
+  OPTIONAL {{ ?club wdt:P154 ?logo }}
+  OPTIONAL {{ ?club rdfs:label ?clubLabelAr FILTER (lang(?clubLabelAr) = "ar") }}
+  SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
+}}
+"""
+
+PLAYERS_QUERY = f"""
+SELECT DISTINCT ?player ?playerLabel ?playerLabelAr ?dob ?image ?heightCm ?footLabel ?nationalityLabel ?nationalityLabelAr WHERE {{
+  VALUES ?league {{ {_VALUES_BLOCK} }}
   ?player wdt:P54 ?club .
-  ?club wdt:P118 wd:%s .
-  OPTIONAL { ?player wdt:P569 ?dob }
-  OPTIONAL { ?player wdt:P18 ?image }
-  OPTIONAL { ?player wdt:P2048 ?heightCm }
-  OPTIONAL { ?player wdt:P741 ?foot }
-  OPTIONAL { ?player wdt:P27 ?nationality }
-  OPTIONAL { ?player rdfs:label ?playerLabelAr FILTER (lang(?playerLabelAr) = "ar") }
-  OPTIONAL { ?nationality rdfs:label ?nationalityLabelAr FILTER (lang(?nationalityLabelAr) = "ar") }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
-}
-LIMIT 2000
-""" % SPL_QID
+  ?club wdt:P118 ?league .
+  OPTIONAL {{ ?player wdt:P569 ?dob }}
+  OPTIONAL {{ ?player wdt:P18 ?image }}
+  OPTIONAL {{ ?player wdt:P2048 ?heightCm }}
+  OPTIONAL {{ ?player wdt:P741 ?foot }}
+  OPTIONAL {{ ?player wdt:P27 ?nationality }}
+  OPTIONAL {{ ?player rdfs:label ?playerLabelAr FILTER (lang(?playerLabelAr) = "ar") }}
+  OPTIONAL {{ ?nationality rdfs:label ?nationalityLabelAr FILTER (lang(?nationalityLabelAr) = "ar") }}
+  SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
+}}
+LIMIT 3000
+"""
 
 
 @dataclass
