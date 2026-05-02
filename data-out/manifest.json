@@ -1,14 +1,12 @@
 {
-  "generated_at": "2026-05-01T12:00:00+00:00",
-  "version": "0.5.0-demo",
+  "generated_at": "2026-05-02T08:15:16.865986+00:00",
+  "version": "0.5.0",
   "stage": "phase-5",
   "narration_source": "template",
   "league": "spl-saudi-pro-league",
   "season": "2025-26",
   "team_count": 18,
-  "player_count": 29,
-  "fixture_count": 126,
-  "fixture_finished": 90,
-  "fixture_scheduled": 36,
-  "prediction_count": 36
+  "player_count": 0,
+  "fixture_count": 9,
+  "prediction_count": 9
 }

@@ -1,2191 +1,133 @@
 [
   {
-    "fixture_id": "2025-10-31-al-hilal-vs-al-riyadh",
-    "home_win_prob": 0.6559743063863394,
-    "draw_prob": 0.24376031608694204,
-    "away_win_prob": 0.10026537752671857,
-    "home_xg_predicted": 1.5703448275862066,
-    "away_xg_predicted": 0.43887147335423193,
-    "btts_prob": 0.28127486325930406,
-    "over25_prob": 0.32558801730451176,
+    "fixture_id": "2026-05-08-al-hilal-vs-al-nassr",
+    "home_win_prob": 0.43912452867777496,
+    "draw_prob": 0.24459096113871873,
+    "away_win_prob": 0.31628451018350623,
+    "home_xg_predicted": 1.595,
+    "away_xg_predicted": 1.3181818181818181,
+    "btts_prob": 0.5835295329477969,
+    "over25_prob": 0.5567546780088511,
     "most_likely_score": [
       1,
-      0
+      1
     ],
     "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": 21.684977770856438,
-        "explanation": {
-          "en": "Al-Hilal carries a 79-point Elo edge from prior results.",
-          "ar": "الهلال يتقدّم بفارق Elo قدره 79 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": 10.399999999999999,
-        "explanation": {
-          "en": "Al-Hilal averages 2.3 goals per match this season.",
-          "ar": "يسجّل الهلال 2.3 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
       {
         "feature": "home_advantage",
         "label": {
           "en": "Home advantage",
           "ar": "عامل الأرض"
         },
-        "value": 4.941882534991904,
+        "value": 6.303585402755929,
         "explanation": {
           "en": "Home teams in the SPL win ~10% more often; this match is at Al-Hilal.",
           "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الهلال."
         }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": 1.2000000000000004,
-        "explanation": {
-          "en": "Al-Hilal concedes only 0.7 per match.",
-          "ar": "يستقبل الهلال 0.7 هدف فقط في المباراة."
-        }
       }
     ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
+    "generated_at": "2026-05-02T08:15:16.864011+00:00",
     "model_version": "elo-poisson-0.1"
   },
   {
-    "fixture_id": "2025-10-31-al-fayha-vs-al-wehda",
-    "home_win_prob": 0.19790361706841864,
-    "draw_prob": 0.2524189468568762,
-    "away_win_prob": 0.5496774360747051,
-    "home_xg_predicted": 0.8344827586206899,
-    "away_xg_predicted": 1.579937304075235,
-    "btts_prob": 0.44919441796861737,
-    "over25_prob": 0.43381181003579844,
+    "fixture_id": "2026-05-08-al-ittihad-vs-al-ahli",
+    "home_win_prob": 0.43912452867777496,
+    "draw_prob": 0.24459096113871873,
+    "away_win_prob": 0.31628451018350623,
+    "home_xg_predicted": 1.595,
+    "away_xg_predicted": 1.3181818181818181,
+    "btts_prob": 0.5835295329477969,
+    "over25_prob": 0.5567546780088511,
     "most_likely_score": [
-      0,
+      1,
       1
     ],
     "contributions": [
       {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": -4.800000000000001,
-        "explanation": {
-          "en": "Al-Wehda concedes only 1.0 per match.",
-          "ar": "يستقبل الوحدة 1.0 هدف فقط في المباراة."
-        }
-      },
-      {
         "feature": "home_advantage",
         "label": {
           "en": "Home advantage",
           "ar": "عامل الأرض"
         },
-        "value": 3.808142100382686,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Fayha.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الفيحاء."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -2.3999999999999986,
-        "explanation": {
-          "en": "Al-Wehda averages 1.4 goals per match this season.",
-          "ar": "يسجّل الوحدة 1.4 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-10-31-damac-vs-al-khaleej",
-    "home_win_prob": 0.5200200837068778,
-    "draw_prob": 0.2509631779397044,
-    "away_win_prob": 0.22901673835341785,
-    "home_xg_predicted": 1.5931034482758621,
-    "away_xg_predicted": 0.9655172413793104,
-    "btts_prob": 0.4931684469066474,
-    "over25_prob": 0.47087241524482776,
-    "most_likely_score": [
-      1,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": 8.089555502910283,
-        "explanation": {
-          "en": "Al-Khaleej carries a 12-point Elo edge from prior results.",
-          "ar": "الخليج يتقدّم بفارق Elo قدره 12 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 6.045728368024761,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Damac.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب ضمك."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": 2.3999999999999995,
-        "explanation": {
-          "en": "Damac concedes only 1.1 per match.",
-          "ar": "يستقبل ضمك 1.1 هدف فقط في المباراة."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-10-31-al-qadsiah-vs-al-taawoun",
-    "home_win_prob": 0.48653728507924554,
-    "draw_prob": 0.32838027721331375,
-    "away_win_prob": 0.18508243770744073,
-    "home_xg_predicted": 1.0924137931034483,
-    "away_xg_predicted": 0.5517241379310346,
-    "btts_prob": 0.281808968436428,
-    "over25_prob": 0.22808895650310193,
-    "most_likely_score": [
-      1,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 4.851062723710453,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Qadsiah.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب القادسية."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": 4.800000000000001,
-        "explanation": {
-          "en": "Al-Qadsiah concedes only 0.8 per match.",
-          "ar": "يستقبل القادسية 0.8 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": 4.741275640147058,
-        "explanation": {
-          "en": "Al-Qadsiah carries a 34-point Elo edge from prior results.",
-          "ar": "القادسية يتقدّم بفارق Elo قدره 34 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -1.6000000000000005,
-        "explanation": {
-          "en": "Al-Taawoun averages 1.1 goals per match this season.",
-          "ar": "يسجّل التعاون 1.1 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-10-31-al-okhdood-vs-al-fateh",
-    "home_win_prob": 0.28341357245442034,
-    "draw_prob": 0.34648655409923496,
-    "away_win_prob": 0.37009987344634476,
-    "home_xg_predicted": 0.743448275862069,
-    "away_xg_predicted": 0.896551724137931,
-    "btts_prob": 0.31053130233442816,
-    "over25_prob": 0.22702244304703978,
-    "most_likely_score": [
-      0,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -15.571095622335463,
-        "explanation": {
-          "en": "Al-Fateh carries a 29-point Elo edge from prior results.",
-          "ar": "الفتح يتقدّم بفارق Elo قدره 29 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 3.994092594486304,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Okhdood.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الأخدود."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -3.200000000000001,
-        "explanation": {
-          "en": "Al-Fateh averages 1.1 goals per match this season.",
-          "ar": "يسجّل الفتح 1.1 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-10-31-al-raed-vs-al-ettifaq",
-    "home_win_prob": 0.3243766927183537,
-    "draw_prob": 0.3819749125584516,
-    "away_win_prob": 0.29364839472319454,
-    "home_xg_predicted": 0.7282758620689656,
-    "away_xg_predicted": 0.677115987460815,
-    "btts_prob": 0.2544493349440353,
-    "over25_prob": 0.16780515171250235,
-    "most_likely_score": [
-      0,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -11.474783595942128,
-        "explanation": {
-          "en": "Al-Ettifaq carries a 39-point Elo edge from prior results.",
-          "ar": "الاتفاق يتقدّم بفارق Elo قدره 39 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 3.9915085681669513,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Raed.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الرائد."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": 2.400000000000001,
-        "explanation": {
-          "en": "Al-Raed concedes only 1.2 per match.",
-          "ar": "يستقبل الرائد 1.2 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -2.4000000000000004,
-        "explanation": {
-          "en": "Al-Ettifaq averages 0.9 goals per match this season.",
-          "ar": "يسجّل الاتفاق 0.9 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-10-31-al-najma-vs-al-shabab",
-    "home_win_prob": 0.6193299868570934,
-    "draw_prob": 0.24116671759564978,
-    "away_win_prob": 0.13950329554725682,
-    "home_xg_predicted": 1.6386206896551727,
-    "away_xg_predicted": 0.6269592476489028,
-    "btts_prob": 0.3751660759623965,
-    "over25_prob": 0.3945085636547707,
-    "most_likely_score": [
-      1,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 5.4610226276160745,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Najma.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب النجمة."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": 4.800000000000001,
-        "explanation": {
-          "en": "Al-Najma concedes only 1.0 per match.",
-          "ar": "يستقبل النجمة 1.0 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": 1.5999999999999996,
-        "explanation": {
-          "en": "Al-Najma averages 1.2 goals per match this season.",
-          "ar": "يسجّل النجمة 1.2 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-10-31-al-kholood-vs-al-ahli",
-    "home_win_prob": 0.03975096750794269,
-    "draw_prob": 0.17731513735585708,
-    "away_win_prob": 0.7829338951362003,
-    "home_xg_predicted": 0.24275862068965515,
-    "away_xg_predicted": 1.905956112852664,
-    "btts_prob": 0.18331825011982752,
-    "over25_prob": 0.36269546897976146,
-    "most_likely_score": [
-      0,
-      1
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -39.937356116983224,
-        "explanation": {
-          "en": "Al-Ahli carries a 100-point Elo edge from prior results.",
-          "ar": "الأهلي يتقدّم بفارق Elo قدره 100 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -9.600000000000001,
-        "explanation": {
-          "en": "Al-Ahli averages 1.6 goals per match this season.",
-          "ar": "يسجّل الأهلي 1.6 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": -6.6,
-        "explanation": {
-          "en": "Al-Ahli concedes only 0.8 per match.",
-          "ar": "يستقبل الأهلي 0.8 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 0.9523061890467834,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Kholood.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الخلود."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-10-31-al-nassr-vs-al-ittihad",
-    "home_win_prob": 0.4347708673879171,
-    "draw_prob": 0.3379702944128441,
-    "away_win_prob": 0.2272588381992389,
-    "home_xg_predicted": 1.0089655172413794,
-    "away_xg_predicted": 0.6394984326018807,
-    "btts_prob": 0.300186807787271,
-    "over25_prob": 0.22922698793228288,
-    "most_likely_score": [
-      1,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 4.778671778175952,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Nassr.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب النصر."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": 1.5999999999999996,
-        "explanation": {
-          "en": "Al-Nassr averages 1.9 goals per match this season.",
-          "ar": "يسجّل النصر 1.9 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -0.43536612898578686,
-        "explanation": {
-          "en": "Al-Nassr carries a 8-point Elo edge from prior results.",
-          "ar": "النصر يتقدّم بفارق Elo قدره 8 نقطة بناءً على النتائج السابقة."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-07-al-fayha-vs-al-hilal",
-    "home_win_prob": 0.0620684042580714,
-    "draw_prob": 0.13370900116981502,
-    "away_win_prob": 0.8042225945721135,
-    "home_xg_predicted": 0.5841379310344829,
-    "away_xg_predicted": 2.595611285266457,
-    "btts_prob": 0.4070724760050795,
-    "over25_prob": 0.610571631545938,
-    "most_likely_score": [
-      0,
-      2
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -37.70561244197035,
-        "explanation": {
-          "en": "Al-Hilal carries a 81-point Elo edge from prior results.",
-          "ar": "الهلال يتقدّم بفارق Elo قدره 81 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -9.599999999999998,
-        "explanation": {
-          "en": "Al-Hilal averages 2.3 goals per match this season.",
-          "ar": "يسجّل الهلال 2.3 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": -6.6000000000000005,
-        "explanation": {
-          "en": "Al-Hilal concedes only 0.7 per match.",
-          "ar": "يستقبل الهلال 0.7 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 1.7085130029866822,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Fayha.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الفيحاء."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-07-al-riyadh-vs-damac",
-    "home_win_prob": 0.33769363368874106,
-    "draw_prob": 0.34993834012504715,
-    "away_win_prob": 0.31236802618621173,
-    "home_xg_predicted": 0.8344827586206899,
-    "away_xg_predicted": 0.7899686520376175,
-    "btts_prob": 0.309059168033859,
-    "over25_prob": 0.22297463312264815,
-    "most_likely_score": [
-      0,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -10.14308949890339,
-        "explanation": {
-          "en": "Damac carries a 10-point Elo edge from prior results.",
-          "ar": "ضمك يتقدّم بفارق Elo قدره 10 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 4.346418686621556,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Riyadh.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الرياض."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -3.1999999999999993,
-        "explanation": {
-          "en": "Damac averages 1.4 goals per match this season.",
-          "ar": "يسجّل ضمك 1.4 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": 1.2000000000000004,
-        "explanation": {
-          "en": "Al-Riyadh concedes only 0.9 per match.",
-          "ar": "يستقبل الرياض 0.9 هدف فقط في المباراة."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-07-al-wehda-vs-al-qadsiah",
-    "home_win_prob": 0.3978738880435515,
-    "draw_prob": 0.3745229166998318,
-    "away_win_prob": 0.2276031952566167,
-    "home_xg_predicted": 0.8496551724137932,
-    "away_xg_predicted": 0.5642633228840125,
-    "btts_prob": 0.24684568147161767,
-    "over25_prob": 0.16987248498109517,
-    "most_likely_score": [
-      0,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 4.341647024645345,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Wehda.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الوحدة."
-        }
-      },
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -4.125064063422346,
-        "explanation": {
-          "en": "Al-Qadsiah carries a 47-point Elo edge from prior results.",
-          "ar": "القادسية يتقدّم بفارق Elo قدره 47 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": 3.999999999999999,
-        "explanation": {
-          "en": "Al-Wehda averages 1.4 goals per match this season.",
-          "ar": "يسجّل الوحدة 1.4 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": -1.1999999999999997,
-        "explanation": {
-          "en": "Al-Qadsiah concedes only 0.8 per match.",
-          "ar": "يستقبل القادسية 0.8 هدف فقط في المباراة."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-07-al-khaleej-vs-al-okhdood",
-    "home_win_prob": 0.543841760440815,
-    "draw_prob": 0.2782473708419885,
-    "away_win_prob": 0.1779108687171966,
-    "home_xg_predicted": 1.3806896551724137,
-    "away_xg_predicted": 0.658307210031348,
-    "btts_prob": 0.36097997669755183,
-    "over25_prob": 0.33378010906259875,
-    "most_likely_score": [
-      1,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": 10.471723176304003,
-        "explanation": {
-          "en": "Al-Khaleej carries a 42-point Elo edge from prior results.",
-          "ar": "الخليج يتقدّم بفارق Elo قدره 42 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": 5.6,
-        "explanation": {
-          "en": "Al-Khaleej averages 1.4 goals per match this season.",
-          "ar": "يسجّل الخليج 1.4 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 5.379311111555812,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Khaleej.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الخليج."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": -1.1999999999999997,
-        "explanation": {
-          "en": "Al-Okhdood concedes only 1.3 per match.",
-          "ar": "يستقبل الأخدود 1.3 هدف فقط في المباراة."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-07-al-taawoun-vs-al-raed",
-    "home_win_prob": 0.44220610415037853,
-    "draw_prob": 0.3420788836735783,
-    "away_win_prob": 0.2157150121760431,
-    "home_xg_predicted": 1.0013793103448276,
-    "away_xg_predicted": 0.6018808777429466,
-    "btts_prob": 0.2860818003201933,
-    "over25_prob": 0.21747377394463158,
-    "most_likely_score": [
-      1,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 4.732428667179439,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Taawoun.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب التعاون."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": 4.000000000000001,
-        "explanation": {
-          "en": "Al-Taawoun averages 1.1 goals per match this season.",
-          "ar": "يسجّل التعاون 1.1 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": -2.400000000000001,
-        "explanation": {
-          "en": "Al-Raed concedes only 1.2 per match.",
-          "ar": "يستقبل الرائد 1.2 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": 0.30815754726035705,
-        "explanation": {
-          "en": "Al-Taawoun carries a 43-point Elo edge from prior results.",
-          "ar": "التعاون يتقدّم بفارق Elo قدره 43 نقطة بناءً على النتائج السابقة."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-07-al-fateh-vs-al-najma",
-    "home_win_prob": 0.2830998197700611,
-    "draw_prob": 0.3167564458598431,
-    "away_win_prob": 0.40014373437009576,
-    "home_xg_predicted": 0.8344827586206899,
-    "away_xg_predicted": 1.0532915360501565,
-    "btts_prob": 0.3685114571514326,
-    "over25_prob": 0.2929625591416461,
-    "most_likely_score": [
-      0,
-      1
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -15.602470890771386,
-        "explanation": {
-          "en": "Al-Fateh carries a 10-point Elo edge from prior results.",
-          "ar": "الفتح يتقدّم بفارق Elo قدره 10 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 4.26000609676073,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Fateh.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الفتح."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": -2.3999999999999995,
-        "explanation": {
-          "en": "Al-Najma concedes only 1.0 per match.",
-          "ar": "يستقبل النجمة 1.0 هدف فقط في المباراة."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-07-al-ettifaq-vs-al-kholood",
-    "home_win_prob": 0.5944632962397978,
-    "draw_prob": 0.29134474272289745,
-    "away_win_prob": 0.1141919610373048,
-    "home_xg_predicted": 1.2972413793103448,
-    "away_xg_predicted": 0.40125391849529773,
-    "btts_prob": 0.24017298164317272,
-    "over25_prob": 0.2423162828107845,
-    "most_likely_score": [
-      1,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": 15.53387675620228,
-        "explanation": {
-          "en": "Al-Ettifaq carries a 64-point Elo edge from prior results.",
-          "ar": "الاتفاق يتقدّم بفارق Elo قدره 64 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 4.787401016444881,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Ettifaq.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الاتفاق."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": 4.0,
-        "explanation": {
-          "en": "Al-Ettifaq averages 0.9 goals per match this season.",
-          "ar": "يسجّل الاتفاق 0.9 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": 1.799999999999999,
-        "explanation": {
-          "en": "Al-Ettifaq concedes only 1.6 per match.",
-          "ar": "يستقبل الاتفاق 1.6 هدف فقط في المباراة."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-07-al-shabab-vs-al-nassr",
-    "home_win_prob": 0.0655505992386527,
-    "draw_prob": 0.1668764057466288,
-    "away_win_prob": 0.7675729950147185,
-    "home_xg_predicted": 0.45517241379310347,
-    "away_xg_predicted": 2.1442006269592473,
-    "btts_prob": 0.32220203836756417,
-    "over25_prob": 0.4797233128844993,
-    "most_likely_score": [
-      0,
-      2
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -37.357392943912224,
-        "explanation": {
-          "en": "Al-Nassr carries a 70-point Elo edge from prior results.",
-          "ar": "النصر يتقدّم بفارق Elo قدره 70 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": -7.200000000000001,
-        "explanation": {
-          "en": "Al-Nassr concedes only 0.6 per match.",
-          "ar": "يستقبل النصر 0.6 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -7.199999999999999,
-        "explanation": {
-          "en": "Al-Nassr averages 1.9 goals per match this season.",
-          "ar": "يسجّل النصر 1.9 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 1.6327632371246994,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Shabab.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الشباب."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-07-al-ahli-vs-al-ittihad",
-    "home_win_prob": 0.32904191135493066,
-    "draw_prob": 0.34023468344219415,
-    "away_win_prob": 0.3307234052028753,
-    "home_xg_predicted": 0.8496551724137932,
-    "away_xg_predicted": 0.8526645768025076,
-    "btts_prob": 0.32841663671290855,
-    "over25_prob": 0.2433828430974648,
-    "most_likely_score": [
-      0,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -11.00826173228443,
-        "explanation": {
-          "en": "Al-Ittihad carries a 11-point Elo edge from prior results.",
-          "ar": "الاتحاد يتقدّم بفارق Elo قدره 11 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 4.388901225867736,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Ahli.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الأهلي."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-14-al-hilal-vs-damac",
-    "home_win_prob": 0.6849753378216775,
-    "draw_prob": 0.204611017848167,
-    "away_win_prob": 0.1104136443301555,
-    "home_xg_predicted": 1.9193103448275866,
-    "away_xg_predicted": 0.6144200626959246,
-    "btts_prob": 0.3913111702466642,
-    "over25_prob": 0.4639633041053615,
-    "most_likely_score": [
-      1,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": 24.585080914390257,
-        "explanation": {
-          "en": "Al-Hilal carries a 68-point Elo edge from prior results.",
-          "ar": "الهلال يتقدّم بفارق Elo قدره 68 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": 7.199999999999999,
-        "explanation": {
-          "en": "Al-Hilal averages 2.3 goals per match this season.",
-          "ar": "يسجّل الهلال 2.3 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 5.395580263048016,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Hilal.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الهلال."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": 2.400000000000001,
-        "explanation": {
-          "en": "Al-Hilal concedes only 0.7 per match.",
-          "ar": "يستقبل الهلال 0.7 هدف فقط في المباراة."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-14-al-qadsiah-vs-al-fayha",
-    "home_win_prob": 0.5296637820347478,
-    "draw_prob": 0.30369381817543145,
-    "away_win_prob": 0.1666423997898206,
-    "home_xg_predicted": 1.2289655172413794,
-    "away_xg_predicted": 0.5517241379310346,
-    "btts_prob": 0.2999522588281365,
-    "over25_prob": 0.2641698889417014,
-    "most_likely_score": [
-      1,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": 9.053925335697288,
-        "explanation": {
-          "en": "Al-Qadsiah carries a 50-point Elo edge from prior results.",
-          "ar": "القادسية يتقدّم بفارق Elo قدره 50 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": 6.0,
-        "explanation": {
-          "en": "Al-Qadsiah concedes only 0.8 per match.",
-          "ar": "يستقبل القادسية 0.8 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 5.0405934154940155,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Qadsiah.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب القادسية."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -1.6000000000000005,
-        "explanation": {
-          "en": "Al-Fayha averages 1.1 goals per match this season.",
-          "ar": "يسجّل الفيحاء 1.1 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-14-al-okhdood-vs-al-riyadh",
-    "home_win_prob": 0.2002589862329716,
-    "draw_prob": 0.39223526988840385,
-    "away_win_prob": 0.40750574387862454,
-    "home_xg_predicted": 0.47793103448275864,
-    "away_xg_predicted": 0.8150470219435736,
-    "btts_prob": 0.21176784102643015,
-    "over25_prob": 0.1412711083312706,
-    "most_likely_score": [
-      0,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -23.886554244480337,
-        "explanation": {
-          "en": "Al-Riyadh carries a 20-point Elo edge from prior results.",
-          "ar": "الرياض يتقدّم بفارق Elo قدره 20 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 2.883098610909898,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Okhdood.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الأخدود."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -2.4000000000000004,
-        "explanation": {
-          "en": "Al-Riyadh averages 1.0 goals per match this season.",
-          "ar": "يسجّل الرياض 1.0 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": -2.4000000000000004,
-        "explanation": {
-          "en": "Al-Riyadh concedes only 0.9 per match.",
-          "ar": "يستقبل الرياض 0.9 هدف فقط في المباراة."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-14-al-raed-vs-al-wehda",
-    "home_win_prob": 0.15805875633596475,
-    "draw_prob": 0.3407397724088933,
-    "away_win_prob": 0.5012014712551419,
-    "home_xg_predicted": 0.45517241379310347,
-    "away_xg_predicted": 1.0532915360501565,
-    "btts_prob": 0.23811772988844684,
-    "over25_prob": 0.19326593220931382,
-    "most_likely_score": [
-      0,
-      1
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -28.106577234181017,
-        "explanation": {
-          "en": "Al-Wehda carries a 30-point Elo edge from prior results.",
-          "ar": "الوحدة يتقدّم بفارق Elo قدره 30 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -6.3999999999999995,
-        "explanation": {
-          "en": "Al-Wehda averages 1.4 goals per match this season.",
-          "ar": "يسجّل الوحدة 1.4 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 2.6030036760851694,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Raed.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الرائد."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": -1.1999999999999997,
-        "explanation": {
-          "en": "Al-Wehda concedes only 1.0 per match.",
-          "ar": "يستقبل الوحدة 1.0 هدف فقط في المباراة."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-14-al-najma-vs-al-khaleej",
-    "home_win_prob": 0.48195342988780593,
-    "draw_prob": 0.2769047941682137,
-    "away_win_prob": 0.24114177594398048,
-    "home_xg_predicted": 1.3655172413793104,
-    "away_xg_predicted": 0.8777429467084639,
-    "btts_prob": 0.4350876740068667,
-    "over25_prob": 0.3887679716792551,
-    "most_likely_score": [
-      1,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 5.6445166124707296,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Najma.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب النجمة."
-        }
-      },
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": 4.2828901210030965,
-        "explanation": {
-          "en": "Al-Khaleej carries a 23-point Elo edge from prior results.",
-          "ar": "الخليج يتقدّم بفارق Elo قدره 23 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": 3.0,
-        "explanation": {
-          "en": "Al-Najma concedes only 1.0 per match.",
-          "ar": "يستقبل النجمة 1.0 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -1.5999999999999996,
-        "explanation": {
-          "en": "Al-Khaleej averages 1.4 goals per match this season.",
-          "ar": "يسجّل الخليج 1.4 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-14-al-kholood-vs-al-taawoun",
-    "home_win_prob": 0.13733965754196825,
-    "draw_prob": 0.289633305991616,
-    "away_win_prob": 0.5730270364664156,
-    "home_xg_predicted": 0.4855172413793103,
-    "away_xg_predicted": 1.3103448275862069,
-    "btts_prob": 0.28085231625300566,
-    "over25_prob": 0.26820318404923515,
-    "most_likely_score": [
-      0,
-      1
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -30.178487113580672,
-        "explanation": {
-          "en": "Al-Taawoun carries a 68-point Elo edge from prior results.",
-          "ar": "التعاون يتقدّم بفارق Elo قدره 68 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -5.6000000000000005,
-        "explanation": {
-          "en": "Al-Taawoun averages 1.1 goals per match this season.",
-          "ar": "يسجّل التعاون 1.1 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 2.533072593381934,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Kholood.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الخلود."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": -1.799999999999999,
-        "explanation": {
-          "en": "Al-Taawoun concedes only 1.6 per match.",
-          "ar": "يستقبل التعاون 1.6 هدف فقط في المباراة."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-14-al-nassr-vs-al-fateh",
-    "home_win_prob": 0.756554697850226,
-    "draw_prob": 0.1782937485173858,
-    "away_win_prob": 0.0651515536323882,
-    "home_xg_predicted": 2.017931034482759,
-    "away_xg_predicted": 0.41379310344827586,
-    "btts_prob": 0.29342423581671623,
-    "over25_prob": 0.43739763434143825,
-    "most_likely_score": [
-      2,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": 31.743016917245104,
-        "explanation": {
-          "en": "Al-Nassr carries a 57-point Elo edge from prior results.",
-          "ar": "النصر يتقدّم بفارق Elo قدره 57 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": 6.399999999999999,
-        "explanation": {
-          "en": "Al-Nassr averages 1.9 goals per match this season.",
-          "ar": "يسجّل النصر 1.9 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": 4.8,
-        "explanation": {
-          "en": "Al-Nassr concedes only 0.6 per match.",
-          "ar": "يستقبل النصر 0.6 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 4.617030170627068,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Nassr.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب النصر."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-14-al-ittihad-vs-al-ettifaq",
-    "home_win_prob": 0.7693754710420322,
-    "draw_prob": 0.17110316438058903,
-    "away_win_prob": 0.05952136457737885,
-    "home_xg_predicted": 2.063448275862069,
-    "away_xg_predicted": 0.39498432601880873,
-    "btts_prob": 0.28442823644025045,
-    "over25_prob": 0.4441479785296483,
-    "most_likely_score": [
-      2,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": 33.02509423642572,
-        "explanation": {
-          "en": "Al-Ittihad carries a 47-point Elo edge from prior results.",
-          "ar": "الاتحاد يتقدّم بفارق Elo قدره 47 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": 6.3999999999999995,
-        "explanation": {
-          "en": "Al-Ittihad averages 1.7 goals per match this season.",
-          "ar": "يسجّل الاتحاد 1.7 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": 5.4,
-        "explanation": {
-          "en": "Al-Ittihad concedes only 0.7 per match.",
-          "ar": "يستقبل الاتحاد 0.7 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 4.499243466220348,
+        "value": 6.303585402755929,
         "explanation": {
           "en": "Home teams in the SPL win ~10% more often; this match is at Al-Ittihad.",
           "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الاتحاد."
         }
       }
     ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
+    "generated_at": "2026-05-02T08:15:16.864011+00:00",
     "model_version": "elo-poisson-0.1"
   },
   {
-    "fixture_id": "2025-11-14-al-ahli-vs-al-shabab",
-    "home_win_prob": 0.762728162027155,
-    "draw_prob": 0.1662174498860932,
-    "away_win_prob": 0.07105438808675188,
-    "home_xg_predicted": 2.1848275862068967,
-    "away_xg_predicted": 0.5015673981191222,
-    "btts_prob": 0.34930046839645423,
-    "over25_prob": 0.5011411233169422,
-    "most_likely_score": [
-      2,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": 32.360363334938,
-        "explanation": {
-          "en": "Al-Ahli carries a 51-point Elo edge from prior results.",
-          "ar": "الأهلي يتقدّم بفارق Elo قدره 51 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": 6.0,
-        "explanation": {
-          "en": "Al-Ahli concedes only 0.8 per match.",
-          "ar": "يستقبل الأهلي 0.8 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 4.814208344640569,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Ahli.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الأهلي."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": 4.800000000000001,
-        "explanation": {
-          "en": "Al-Ahli averages 1.6 goals per match this season.",
-          "ar": "يسجّل الأهلي 1.6 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-21-al-qadsiah-vs-al-hilal",
-    "home_win_prob": 0.15309914680878067,
-    "draw_prob": 0.3193061904031406,
-    "away_win_prob": 0.5275946627880788,
-    "home_xg_predicted": 0.47793103448275864,
-    "away_xg_predicted": 1.153605015673981,
-    "btts_prob": 0.26005584076165983,
-    "over25_prob": 0.2247943157235087,
-    "most_likely_score": [
-      0,
-      1
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -28.60253818689943,
-        "explanation": {
-          "en": "Al-Hilal carries a 31-point Elo edge from prior results.",
-          "ar": "الهلال يتقدّم بفارق Elo قدره 31 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -11.2,
-        "explanation": {
-          "en": "Al-Hilal averages 2.3 goals per match this season.",
-          "ar": "يسجّل الهلال 2.3 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 2.6340724792024317,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Qadsiah.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب القادسية."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-21-damac-vs-al-okhdood",
-    "home_win_prob": 0.593758821410812,
-    "draw_prob": 0.2771300444219439,
-    "away_win_prob": 0.1291111341672441,
-    "home_xg_predicted": 1.3806896551724137,
-    "away_xg_predicted": 0.4827586206896552,
-    "btts_prob": 0.2866157209697871,
-    "over25_prob": 0.28632542788417675,
+    "fixture_id": "2026-05-08-al-shabab-vs-al-ettifaq",
+    "home_win_prob": 0.43912452867777496,
+    "draw_prob": 0.24459096113871873,
+    "away_win_prob": 0.31628451018350623,
+    "home_xg_predicted": 1.595,
+    "away_xg_predicted": 1.3181818181818181,
+    "btts_prob": 0.5835295329477969,
+    "over25_prob": 0.5567546780088511,
     "most_likely_score": [
       1,
-      0
+      1
     ],
     "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": 15.463429273303708,
-        "explanation": {
-          "en": "Damac carries a 31-point Elo edge from prior results.",
-          "ar": "ضمك يتقدّم بفارق Elo قدره 31 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": 5.6,
-        "explanation": {
-          "en": "Damac averages 1.4 goals per match this season.",
-          "ar": "يسجّل ضمك 1.4 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
       {
         "feature": "home_advantage",
         "label": {
           "en": "Home advantage",
           "ar": "عامل الأرض"
         },
-        "value": 5.025257193648569,
+        "value": 6.303585402755929,
         "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Damac.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب ضمك."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": 1.1999999999999997,
-        "explanation": {
-          "en": "Damac concedes only 1.1 per match.",
-          "ar": "يستقبل ضمك 1.1 هدف فقط في المباراة."
+          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Shabab.",
+          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الشباب."
         }
       }
     ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
+    "generated_at": "2026-05-02T08:15:16.864011+00:00",
     "model_version": "elo-poisson-0.1"
   },
   {
-    "fixture_id": "2025-11-21-al-fayha-vs-al-raed",
-    "home_win_prob": 0.4224018076356702,
-    "draw_prob": 0.3363598479129924,
-    "away_win_prob": 0.24123834445133743,
-    "home_xg_predicted": 1.0013793103448276,
-    "away_xg_predicted": 0.677115987460815,
-    "btts_prob": 0.31119659019252377,
-    "over25_prob": 0.23710014085771558,
+    "fixture_id": "2026-05-08-al-fateh-vs-al-taawoun",
+    "home_win_prob": 0.43912452867777496,
+    "draw_prob": 0.24459096113871873,
+    "away_win_prob": 0.31628451018350623,
+    "home_xg_predicted": 1.595,
+    "away_xg_predicted": 1.3181818181818181,
+    "btts_prob": 0.5835295329477969,
+    "over25_prob": 0.5567546780088511,
     "most_likely_score": [
       1,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 4.786836957604329,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Fayha.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الفيحاء."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": 4.000000000000001,
-        "explanation": {
-          "en": "Al-Fayha averages 1.1 goals per match this season.",
-          "ar": "يسجّل الفيحاء 1.1 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": -3.6000000000000005,
-        "explanation": {
-          "en": "Al-Raed concedes only 1.2 per match.",
-          "ar": "يستقبل الرائد 1.2 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -1.672272104210476,
-        "explanation": {
-          "en": "Al-Fayha carries a 27-point Elo edge from prior results.",
-          "ar": "الفيحاء يتقدّم بفارق Elo قدره 27 نقطة بناءً على النتائج السابقة."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-21-al-riyadh-vs-al-najma",
-    "home_win_prob": 0.3358886116661365,
-    "draw_prob": 0.3767853896633574,
-    "away_win_prob": 0.2873259986705062,
-    "home_xg_predicted": 0.7586206896551725,
-    "away_xg_predicted": 0.677115987460815,
-    "btts_prob": 0.26154689036079276,
-    "over25_prob": 0.1752011761578835,
-    "most_likely_score": [
-      0,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 4.09628739167297,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Riyadh.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الرياض."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -1.5999999999999996,
-        "explanation": {
-          "en": "Al-Najma averages 1.2 goals per match this season.",
-          "ar": "يسجّل النجمة 1.2 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-21-al-wehda-vs-al-kholood",
-    "home_win_prob": 0.7997155852313537,
-    "draw_prob": 0.16299144274107055,
-    "away_win_prob": 0.03729297202757573,
-    "home_xg_predicted": 2.017931034482759,
-    "away_xg_predicted": 0.2507836990595611,
-    "btts_prob": 0.19206692092033534,
-    "over25_prob": 0.3944886220331827,
-    "most_likely_score": [
-      2,
-      0
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": 36.05910565535787,
-        "explanation": {
-          "en": "Al-Wehda carries a 54-point Elo edge from prior results.",
-          "ar": "الوحدة يتقدّم بفارق Elo قدره 54 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": 7.999999999999999,
-        "explanation": {
-          "en": "Al-Wehda averages 1.4 goals per match this season.",
-          "ar": "يسجّل الوحدة 1.4 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": 5.3999999999999995,
-        "explanation": {
-          "en": "Al-Wehda concedes only 1.0 per match.",
-          "ar": "يستقبل الوحدة 1.0 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 3.9199239841447797,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Wehda.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الوحدة."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-21-al-khaleej-vs-al-nassr",
-    "home_win_prob": 0.12709920625990478,
-    "draw_prob": 0.2221243206320891,
-    "away_win_prob": 0.6507764731080061,
-    "home_xg_predicted": 0.6372413793103449,
-    "away_xg_predicted": 1.7868338557993728,
-    "btts_prob": 0.3920686031860878,
-    "over25_prob": 0.4360325507547023,
-    "most_likely_score": [
-      0,
       1
     ],
     "contributions": [
       {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -31.20253224178702,
-        "explanation": {
-          "en": "Al-Nassr carries a 43-point Elo edge from prior results.",
-          "ar": "النصر يتقدّم بفارق Elo قدره 43 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": -5.4,
-        "explanation": {
-          "en": "Al-Nassr concedes only 0.6 per match.",
-          "ar": "يستقبل النصر 0.6 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -4.0,
-        "explanation": {
-          "en": "Al-Nassr averages 1.9 goals per match this season.",
-          "ar": "يسجّل النصر 1.9 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
         "feature": "home_advantage",
         "label": {
           "en": "Home advantage",
           "ar": "عامل الأرض"
         },
-        "value": 2.7431912000848797,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Khaleej.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الخليج."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-21-al-taawoun-vs-al-ittihad",
-    "home_win_prob": 0.12278861578028931,
-    "draw_prob": 0.23043945325212048,
-    "away_win_prob": 0.6467719309675902,
-    "home_xg_predicted": 0.5841379310344829,
-    "away_xg_predicted": 1.7053291536050152,
-    "btts_prob": 0.36184630666693385,
-    "over25_prob": 0.400770180382401,
-    "most_likely_score": [
-      0,
-      1
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -31.633591289748566,
-        "explanation": {
-          "en": "Al-Ittihad carries a 43-point Elo edge from prior results.",
-          "ar": "الاتحاد يتقدّم بفارق Elo قدره 43 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": -5.4,
-        "explanation": {
-          "en": "Al-Ittihad concedes only 0.7 per match.",
-          "ar": "يستقبل الاتحاد 0.7 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -4.799999999999999,
-        "explanation": {
-          "en": "Al-Ittihad averages 1.7 goals per match this season.",
-          "ar": "يسجّل الاتحاد 1.7 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 2.598903092712848,
-        "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Taawoun.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب التعاون."
-        }
-      }
-    ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
-    "model_version": "elo-poisson-0.1"
-  },
-  {
-    "fixture_id": "2025-11-21-al-fateh-vs-al-ahli",
-    "home_win_prob": 0.1773838937440468,
-    "draw_prob": 0.2747720203067114,
-    "away_win_prob": 0.5478440859492418,
-    "home_xg_predicted": 0.6675862068965519,
-    "away_xg_predicted": 1.404388714733542,
-    "btts_prob": 0.3674210850841577,
-    "over25_prob": 0.3426874445284386,
-    "most_likely_score": [
-      0,
-      1
-    ],
-    "contributions": [
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -26.174063493372813,
-        "explanation": {
-          "en": "Al-Ahli carries a 38-point Elo edge from prior results.",
-          "ar": "الأهلي يتقدّم بفارق Elo قدره 38 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "attacking_form",
-        "label": {
-          "en": "Attacking form",
-          "ar": "الإنتاج الهجومي"
-        },
-        "value": -4.0,
-        "explanation": {
-          "en": "Al-Ahli averages 1.6 goals per match this season.",
-          "ar": "يسجّل الأهلي 1.6 هدف في المباراة بالمتوسط هذا الموسم."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": -3.599999999999999,
-        "explanation": {
-          "en": "Al-Ahli concedes only 0.8 per match.",
-          "ar": "يستقبل الأهلي 0.8 هدف فقط في المباراة."
-        }
-      },
-      {
-        "feature": "home_advantage",
-        "label": {
-          "en": "Home advantage",
-          "ar": "عامل الأرض"
-        },
-        "value": 3.282237036634056,
+        "value": 6.303585402755929,
         "explanation": {
           "en": "Home teams in the SPL win ~10% more often; this match is at Al-Fateh.",
           "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الفتح."
         }
       }
     ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
+    "generated_at": "2026-05-02T08:15:16.864011+00:00",
     "model_version": "elo-poisson-0.1"
   },
   {
-    "fixture_id": "2025-11-21-al-ettifaq-vs-al-shabab",
-    "home_win_prob": 0.41314323146241955,
-    "draw_prob": 0.2864110264246045,
-    "away_win_prob": 0.3004457421129761,
-    "home_xg_predicted": 1.2289655172413794,
-    "away_xg_predicted": 1.0031347962382444,
-    "btts_prob": 0.44794465407406026,
-    "over25_prob": 0.38582648130119823,
+    "fixture_id": "2026-05-08-al-khaleej-vs-al-wehda",
+    "home_win_prob": 0.43912452867777496,
+    "draw_prob": 0.24459096113871873,
+    "away_win_prob": 0.31628451018350623,
+    "home_xg_predicted": 1.595,
+    "away_xg_predicted": 1.3181818181818181,
+    "btts_prob": 0.5835295329477969,
+    "over25_prob": 0.5567546780088511,
     "most_likely_score": [
       1,
       1
@@ -2197,38 +139,134 @@
           "en": "Home advantage",
           "ar": "عامل الأرض"
         },
-        "value": 5.453330629062497,
+        "value": 6.303585402755929,
         "explanation": {
-          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Ettifaq.",
-          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الاتفاق."
-        }
-      },
-      {
-        "feature": "team_strength",
-        "label": {
-          "en": "Team strength",
-          "ar": "قوّة الفريقين"
-        },
-        "value": -2.5981297215355417,
-        "explanation": {
-          "en": "Al-Ettifaq carries a 15-point Elo edge from prior results.",
-          "ar": "الاتفاق يتقدّم بفارق Elo قدره 15 نقطة بناءً على النتائج السابقة."
-        }
-      },
-      {
-        "feature": "defensive_record",
-        "label": {
-          "en": "Defensive record",
-          "ar": "الصلابة الدفاعية"
-        },
-        "value": 1.1999999999999997,
-        "explanation": {
-          "en": "Al-Ettifaq concedes only 1.6 per match.",
-          "ar": "يستقبل الاتفاق 1.6 هدف فقط في المباراة."
+          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Khaleej.",
+          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الخليج."
         }
       }
     ],
-    "generated_at": "2026-05-02T00:36:09.123418+00:00",
+    "generated_at": "2026-05-02T08:15:16.864011+00:00",
+    "model_version": "elo-poisson-0.1"
+  },
+  {
+    "fixture_id": "2026-05-08-al-riyadh-vs-al-fayha",
+    "home_win_prob": 0.43912452867777496,
+    "draw_prob": 0.24459096113871873,
+    "away_win_prob": 0.31628451018350623,
+    "home_xg_predicted": 1.595,
+    "away_xg_predicted": 1.3181818181818181,
+    "btts_prob": 0.5835295329477969,
+    "over25_prob": 0.5567546780088511,
+    "most_likely_score": [
+      1,
+      1
+    ],
+    "contributions": [
+      {
+        "feature": "home_advantage",
+        "label": {
+          "en": "Home advantage",
+          "ar": "عامل الأرض"
+        },
+        "value": 6.303585402755929,
+        "explanation": {
+          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Riyadh.",
+          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الرياض."
+        }
+      }
+    ],
+    "generated_at": "2026-05-02T08:15:16.864011+00:00",
+    "model_version": "elo-poisson-0.1"
+  },
+  {
+    "fixture_id": "2026-05-08-damac-vs-al-qadsiah",
+    "home_win_prob": 0.43912452867777496,
+    "draw_prob": 0.24459096113871873,
+    "away_win_prob": 0.31628451018350623,
+    "home_xg_predicted": 1.595,
+    "away_xg_predicted": 1.3181818181818181,
+    "btts_prob": 0.5835295329477969,
+    "over25_prob": 0.5567546780088511,
+    "most_likely_score": [
+      1,
+      1
+    ],
+    "contributions": [
+      {
+        "feature": "home_advantage",
+        "label": {
+          "en": "Home advantage",
+          "ar": "عامل الأرض"
+        },
+        "value": 6.303585402755929,
+        "explanation": {
+          "en": "Home teams in the SPL win ~10% more often; this match is at Damac.",
+          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب ضمك."
+        }
+      }
+    ],
+    "generated_at": "2026-05-02T08:15:16.864011+00:00",
+    "model_version": "elo-poisson-0.1"
+  },
+  {
+    "fixture_id": "2026-05-08-al-okhdood-vs-al-raed",
+    "home_win_prob": 0.43912452867777496,
+    "draw_prob": 0.24459096113871873,
+    "away_win_prob": 0.31628451018350623,
+    "home_xg_predicted": 1.595,
+    "away_xg_predicted": 1.3181818181818181,
+    "btts_prob": 0.5835295329477969,
+    "over25_prob": 0.5567546780088511,
+    "most_likely_score": [
+      1,
+      1
+    ],
+    "contributions": [
+      {
+        "feature": "home_advantage",
+        "label": {
+          "en": "Home advantage",
+          "ar": "عامل الأرض"
+        },
+        "value": 6.303585402755929,
+        "explanation": {
+          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Okhdood.",
+          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب الأخدود."
+        }
+      }
+    ],
+    "generated_at": "2026-05-02T08:15:16.864011+00:00",
+    "model_version": "elo-poisson-0.1"
+  },
+  {
+    "fixture_id": "2026-05-08-al-najma-vs-al-kholood",
+    "home_win_prob": 0.43912452867777496,
+    "draw_prob": 0.24459096113871873,
+    "away_win_prob": 0.31628451018350623,
+    "home_xg_predicted": 1.595,
+    "away_xg_predicted": 1.3181818181818181,
+    "btts_prob": 0.5835295329477969,
+    "over25_prob": 0.5567546780088511,
+    "most_likely_score": [
+      1,
+      1
+    ],
+    "contributions": [
+      {
+        "feature": "home_advantage",
+        "label": {
+          "en": "Home advantage",
+          "ar": "عامل الأرض"
+        },
+        "value": 6.303585402755929,
+        "explanation": {
+          "en": "Home teams in the SPL win ~10% more often; this match is at Al-Najma.",
+          "ar": "الأندية المضيفة في الدوري السعودي تفوز بنسبة أعلى بنحو 10٪؛ المباراة على ملعب النجمة."
+        }
+      }
+    ],
+    "generated_at": "2026-05-02T08:15:16.864011+00:00",
     "model_version": "elo-poisson-0.1"
   }
 ]
