@@ -1,1 +1,7940 @@
-[]
+[
+  {
+    "id": "2025-08-22-al-hilal-vs-al-kholood",
+    "date": "2025-08-22",
+    "kickoff": "2025-08-22T17:00:00Z",
+    "matchweek": 1,
+    "home_team_id": "al-hilal",
+    "away_team_id": "al-kholood",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_xg": 2.57,
+    "away_xg": 0.65,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 11,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 76,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.43,
+        "away_xg": 0.11
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.86,
+        "away_xg": 0.22
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.71,
+        "away_xg": 0.43
+      },
+      {
+        "minute": 75,
+        "home_xg": 2.14,
+        "away_xg": 0.54
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.57,
+        "away_xg": 0.65
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Hilal beat Al-Kholood 2–0, with xG of 2.6–0.7 backing up the result.",
+        "ar": "فاز الهلال على الخلود 2–0، بأهداف متوقّعة 2.6–0.7 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.131978+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-22-al-nassr-vs-al-najma",
+    "date": "2025-08-22",
+    "kickoff": "2025-08-22T17:00:00Z",
+    "matchweek": 1,
+    "home_team_id": "al-nassr",
+    "away_team_id": "al-najma",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_xg": 2.09,
+    "away_xg": 0.49,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.35,
+        "away_xg": 0.08
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.7,
+        "away_xg": 0.16
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.39,
+        "away_xg": 0.33
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.74,
+        "away_xg": 0.41
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.09,
+        "away_xg": 0.49
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Nassr and Al-Najma drew 0–0, with xG of 2.1–0.5 backing up the result.",
+        "ar": "تعادل النصر مع النجمة 0–0، بأهداف متوقّعة 2.1–0.5 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.131987+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-22-al-ittihad-vs-al-raed",
+    "date": "2025-08-22",
+    "kickoff": "2025-08-22T17:00:00Z",
+    "matchweek": 1,
+    "home_team_id": "al-ittihad",
+    "away_team_id": "al-raed",
+    "venue": {
+      "en": "Jeddah",
+      "ar": "جدة"
+    },
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_xg": 2.26,
+    "away_xg": 0.39,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 45,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 78,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.38,
+        "away_xg": 0.07
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.75,
+        "away_xg": 0.13
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.51,
+        "away_xg": 0.26
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.88,
+        "away_xg": 0.33
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.26,
+        "away_xg": 0.39
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ittihad beat Al-Raed 2–0, with xG of 2.3–0.4 backing up the result.",
+        "ar": "فاز الاتحاد على الرائد 2–0، بأهداف متوقّعة 2.3–0.4 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.131993+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-22-al-ahli-vs-al-okhdood",
+    "date": "2025-08-22",
+    "kickoff": "2025-08-22T17:00:00Z",
+    "matchweek": 1,
+    "home_team_id": "al-ahli",
+    "away_team_id": "al-okhdood",
+    "venue": {
+      "en": "Jeddah",
+      "ar": "جدة"
+    },
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_xg": 1.7,
+    "away_xg": 0.44,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 58,
+        "team_id": "al-ahli",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 63,
+        "team_id": "al-ahli",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.28,
+        "away_xg": 0.07
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.57,
+        "away_xg": 0.15
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.13,
+        "away_xg": 0.29
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.42,
+        "away_xg": 0.37
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.7,
+        "away_xg": 0.44
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ahli beat Al-Okhdood 2–0, with xG of 1.7–0.4 backing up the result.",
+        "ar": "فاز الأهلي على الأخدود 2–0، بأهداف متوقّعة 1.7–0.4 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.131998+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-22-al-shabab-vs-al-qadsiah",
+    "date": "2025-08-22",
+    "kickoff": "2025-08-22T17:00:00Z",
+    "matchweek": 1,
+    "home_team_id": "al-shabab",
+    "away_team_id": "al-qadsiah",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_xg": 1.4,
+    "away_xg": 1.45,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 20,
+        "team_id": "al-shabab",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 75,
+        "team_id": "al-qadsiah",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.23,
+        "away_xg": 0.24
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.47,
+        "away_xg": 0.48
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.93,
+        "away_xg": 0.97
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.17,
+        "away_xg": 1.21
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.4,
+        "away_xg": 1.45
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Shabab and Al-Qadsiah drew 1–1, with xG of 1.4–1.4 backing up the result.",
+        "ar": "تعادل الشباب مع القادسية 1–1، بأهداف متوقّعة 1.4–1.4 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132003+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-22-al-ettifaq-vs-damac",
+    "date": "2025-08-22",
+    "kickoff": "2025-08-22T17:00:00Z",
+    "matchweek": 1,
+    "home_team_id": "al-ettifaq",
+    "away_team_id": "damac",
+    "venue": {
+      "en": "Dammam",
+      "ar": "الدمام"
+    },
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_xg": 1.66,
+    "away_xg": 1.01,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 38,
+        "team_id": "al-ettifaq",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.28,
+        "away_xg": 0.17
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.55,
+        "away_xg": 0.34
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.11,
+        "away_xg": 0.67
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.38,
+        "away_xg": 0.84
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.66,
+        "away_xg": 1.01
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ettifaq beat Damac 1–0, with xG of 1.7–1.0 backing up the result.",
+        "ar": "فاز الاتفاق على ضمك 1–0، بأهداف متوقّعة 1.7–1.0 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132008+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-22-al-fateh-vs-al-fayha",
+    "date": "2025-08-22",
+    "kickoff": "2025-08-22T17:00:00Z",
+    "matchweek": 1,
+    "home_team_id": "al-fateh",
+    "away_team_id": "al-fayha",
+    "venue": {
+      "en": "Al-Hasa",
+      "ar": "الأحساء"
+    },
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_xg": 1.59,
+    "away_xg": 0.99,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 5,
+        "team_id": "al-fateh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 11,
+        "team_id": "al-fayha",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 48,
+        "team_id": "al-fayha",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.27,
+        "away_xg": 0.17
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.53,
+        "away_xg": 0.33
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.06,
+        "away_xg": 0.66
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.32,
+        "away_xg": 0.82
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.59,
+        "away_xg": 0.99
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Fayha won 2–1 at Al-Fateh, with xG of 1.6–1.0 backing up the result.",
+        "ar": "فاز الفيحاء على أرض الفتح 2–1، بأهداف متوقّعة 1.6–1.0 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132014+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-22-al-taawoun-vs-al-riyadh",
+    "date": "2025-08-22",
+    "kickoff": "2025-08-22T17:00:00Z",
+    "matchweek": 1,
+    "home_team_id": "al-taawoun",
+    "away_team_id": "al-riyadh",
+    "venue": {
+      "en": "Buraidah",
+      "ar": "بريدة"
+    },
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_xg": 1.84,
+    "away_xg": 1.06,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 18,
+        "team_id": "al-taawoun",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 51,
+        "team_id": "al-taawoun",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 53,
+        "team_id": "al-taawoun",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 81,
+        "team_id": "al-riyadh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.31,
+        "away_xg": 0.18
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.61,
+        "away_xg": 0.35
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.23,
+        "away_xg": 0.71
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.53,
+        "away_xg": 0.88
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.84,
+        "away_xg": 1.06
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Taawoun beat Al-Riyadh 3–1, with xG of 1.8–1.1 backing up the result.",
+        "ar": "فاز التعاون على الرياض 3–1، بأهداف متوقّعة 1.8–1.1 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132023+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-22-al-khaleej-vs-al-wehda",
+    "date": "2025-08-22",
+    "kickoff": "2025-08-22T17:00:00Z",
+    "matchweek": 1,
+    "home_team_id": "al-khaleej",
+    "away_team_id": "al-wehda",
+    "venue": {
+      "en": "Saihat",
+      "ar": "سيهات"
+    },
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_xg": 2.04,
+    "away_xg": 1.18,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 84,
+        "team_id": "al-khaleej",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.34,
+        "away_xg": 0.2
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.68,
+        "away_xg": 0.39
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.36,
+        "away_xg": 0.79
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.7,
+        "away_xg": 0.98
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.04,
+        "away_xg": 1.18
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Khaleej beat Al-Wehda 1–0, with xG of 2.0–1.2 backing up the result.",
+        "ar": "فاز الخليج على الوحدة 1–0، بأهداف متوقّعة 2.0–1.2 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132030+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-29-al-nassr-vs-al-hilal",
+    "date": "2025-08-29",
+    "kickoff": "2025-08-29T17:00:00Z",
+    "matchweek": 2,
+    "home_team_id": "al-nassr",
+    "away_team_id": "al-hilal",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_xg": 1.71,
+    "away_xg": 1.57,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 34,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 52,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 58,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.28,
+        "away_xg": 0.26
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.57,
+        "away_xg": 0.52
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.14,
+        "away_xg": 1.05
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.43,
+        "away_xg": 1.31
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.71,
+        "away_xg": 1.57
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Nassr beat Al-Hilal 2–1, with xG of 1.7–1.6 backing up the result.",
+        "ar": "فاز النصر على الهلال 2–1، بأهداف متوقّعة 1.7–1.6 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132036+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-29-al-kholood-vs-al-ittihad",
+    "date": "2025-08-29",
+    "kickoff": "2025-08-29T17:00:00Z",
+    "matchweek": 2,
+    "home_team_id": "al-kholood",
+    "away_team_id": "al-ittihad",
+    "venue": {
+      "en": "Ar Rass",
+      "ar": "الرس"
+    },
+    "home_goals": 0,
+    "away_goals": 3,
+    "home_xg": 0.87,
+    "away_xg": 1.96,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 6,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 50,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 83,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.15,
+        "away_xg": 0.33
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.29,
+        "away_xg": 0.65
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.58,
+        "away_xg": 1.31
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.72,
+        "away_xg": 1.63
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.87,
+        "away_xg": 1.96
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ittihad won 3–0 at Al-Kholood, with xG of 0.9–2.0 backing up the result.",
+        "ar": "فاز الاتحاد على أرض الخلود 3–0، بأهداف متوقّعة 0.9–2.0 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132041+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-29-al-najma-vs-al-ahli",
+    "date": "2025-08-29",
+    "kickoff": "2025-08-29T17:00:00Z",
+    "matchweek": 2,
+    "home_team_id": "al-najma",
+    "away_team_id": "al-ahli",
+    "venue": {
+      "en": "Unayzah",
+      "ar": "عنيزة"
+    },
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_xg": 0.98,
+    "away_xg": 1.67,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 13,
+        "team_id": "al-ahli",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 55,
+        "team_id": "al-najma",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 67,
+        "team_id": "al-ahli",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.16,
+        "away_xg": 0.28
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.33,
+        "away_xg": 0.56
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.65,
+        "away_xg": 1.11
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.82,
+        "away_xg": 1.39
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.98,
+        "away_xg": 1.67
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ahli won 2–1 at Al-Najma, with xG of 1.0–1.7 backing up the result.",
+        "ar": "فاز الأهلي على أرض النجمة 2–1، بأهداف متوقّعة 1.0–1.7 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132048+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-29-al-raed-vs-al-shabab",
+    "date": "2025-08-29",
+    "kickoff": "2025-08-29T17:00:00Z",
+    "matchweek": 2,
+    "home_team_id": "al-raed",
+    "away_team_id": "al-shabab",
+    "venue": {
+      "en": "Buraidah",
+      "ar": "بريدة"
+    },
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_xg": 1.74,
+    "away_xg": 1.71,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 23,
+        "team_id": "al-raed",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 39,
+        "team_id": "al-raed",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 82,
+        "team_id": "al-shabab",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.29,
+        "away_xg": 0.28
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.58,
+        "away_xg": 0.57
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.16,
+        "away_xg": 1.14
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.45,
+        "away_xg": 1.43
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.74,
+        "away_xg": 1.71
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Raed beat Al-Shabab 2–1, with xG of 1.7–1.7 backing up the result.",
+        "ar": "فاز الرائد على الشباب 2–1، بأهداف متوقّعة 1.7–1.7 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132052+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-29-al-okhdood-vs-al-ettifaq",
+    "date": "2025-08-29",
+    "kickoff": "2025-08-29T17:00:00Z",
+    "matchweek": 2,
+    "home_team_id": "al-okhdood",
+    "away_team_id": "al-ettifaq",
+    "venue": {
+      "en": "Najran",
+      "ar": "نجران"
+    },
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_xg": 0.83,
+    "away_xg": 1.66,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 25,
+        "team_id": "al-ettifaq",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 72,
+        "team_id": "al-okhdood",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.14,
+        "away_xg": 0.28
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.28,
+        "away_xg": 0.55
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.55,
+        "away_xg": 1.11
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.69,
+        "away_xg": 1.38
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.83,
+        "away_xg": 1.66
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Okhdood and Al-Ettifaq drew 1–1, with xG of 0.8–1.7 backing up the result.",
+        "ar": "تعادل الأخدود مع الاتفاق 1–1، بأهداف متوقّعة 0.8–1.7 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132059+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-29-al-qadsiah-vs-al-fateh",
+    "date": "2025-08-29",
+    "kickoff": "2025-08-29T17:00:00Z",
+    "matchweek": 2,
+    "home_team_id": "al-qadsiah",
+    "away_team_id": "al-fateh",
+    "venue": {
+      "en": "Khobar",
+      "ar": "الخبر"
+    },
+    "home_goals": 0,
+    "away_goals": 3,
+    "home_xg": 2.75,
+    "away_xg": 1.44,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 9,
+        "team_id": "al-fateh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 21,
+        "team_id": "al-fateh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 36,
+        "team_id": "al-fateh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.46,
+        "away_xg": 0.24
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.92,
+        "away_xg": 0.48
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.83,
+        "away_xg": 0.96
+      },
+      {
+        "minute": 75,
+        "home_xg": 2.29,
+        "away_xg": 1.2
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.75,
+        "away_xg": 1.44
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Fateh won 3–0 at Al-Qadsiah, with xG of 2.8–1.4 backing up the result.",
+        "ar": "فاز الفتح على أرض القادسية 3–0، بأهداف متوقّعة 2.8–1.4 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132064+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-29-damac-vs-al-taawoun",
+    "date": "2025-08-29",
+    "kickoff": "2025-08-29T17:00:00Z",
+    "matchweek": 2,
+    "home_team_id": "damac",
+    "away_team_id": "al-taawoun",
+    "venue": {
+      "en": "Khamis Mushait",
+      "ar": "خميس مشيط"
+    },
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_xg": 0.5,
+    "away_xg": 0.71,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 11,
+        "team_id": "damac",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 49,
+        "team_id": "al-taawoun",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.08,
+        "away_xg": 0.12
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.17,
+        "away_xg": 0.24
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.33,
+        "away_xg": 0.47
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.42,
+        "away_xg": 0.59
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.5,
+        "away_xg": 0.71
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Damac and Al-Taawoun drew 1–1, with xG of 0.5–0.7 backing up the result.",
+        "ar": "تعادل ضمك مع التعاون 1–1، بأهداف متوقّعة 0.5–0.7 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132068+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-29-al-fayha-vs-al-khaleej",
+    "date": "2025-08-29",
+    "kickoff": "2025-08-29T17:00:00Z",
+    "matchweek": 2,
+    "home_team_id": "al-fayha",
+    "away_team_id": "al-khaleej",
+    "venue": {
+      "en": "Al Majma'ah",
+      "ar": "المجمعة"
+    },
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_xg": 1.22,
+    "away_xg": 1.13,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 44,
+        "team_id": "al-khaleej",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 62,
+        "team_id": "al-fayha",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 66,
+        "team_id": "al-fayha",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 75,
+        "team_id": "al-khaleej",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.2,
+        "away_xg": 0.19
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.41,
+        "away_xg": 0.38
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.81,
+        "away_xg": 0.75
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.02,
+        "away_xg": 0.94
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.22,
+        "away_xg": 1.13
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Fayha and Al-Khaleej drew 2–2, with xG of 1.2–1.1 backing up the result.",
+        "ar": "تعادل الفيحاء مع الخليج 2–2، بأهداف متوقّعة 1.2–1.1 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132072+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-08-29-al-riyadh-vs-al-wehda",
+    "date": "2025-08-29",
+    "kickoff": "2025-08-29T17:00:00Z",
+    "matchweek": 2,
+    "home_team_id": "al-riyadh",
+    "away_team_id": "al-wehda",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_xg": 1.45,
+    "away_xg": 1.16,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 22,
+        "team_id": "al-wehda",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 67,
+        "team_id": "al-riyadh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.24,
+        "away_xg": 0.19
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.48,
+        "away_xg": 0.39
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.97,
+        "away_xg": 0.77
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.21,
+        "away_xg": 0.97
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.45,
+        "away_xg": 1.16
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Riyadh and Al-Wehda drew 1–1, with xG of 1.4–1.2 backing up the result.",
+        "ar": "تعادل الرياض مع الوحدة 1–1، بأهداف متوقّعة 1.4–1.2 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132077+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-05-al-hilal-vs-al-ittihad",
+    "date": "2025-09-05",
+    "kickoff": "2025-09-05T17:00:00Z",
+    "matchweek": 3,
+    "home_team_id": "al-hilal",
+    "away_team_id": "al-ittihad",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_xg": 2.32,
+    "away_xg": 1.21,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 43,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 80,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.39,
+        "away_xg": 0.2
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.77,
+        "away_xg": 0.4
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.55,
+        "away_xg": 0.81
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.93,
+        "away_xg": 1.01
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.32,
+        "away_xg": 1.21
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Hilal beat Al-Ittihad 2–0, with xG of 2.3–1.2 backing up the result.",
+        "ar": "فاز الهلال على الاتحاد 2–0، بأهداف متوقّعة 2.3–1.2 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132082+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-05-al-ahli-vs-al-nassr",
+    "date": "2025-09-05",
+    "kickoff": "2025-09-05T17:00:00Z",
+    "matchweek": 3,
+    "home_team_id": "al-ahli",
+    "away_team_id": "al-nassr",
+    "venue": {
+      "en": "Jeddah",
+      "ar": "جدة"
+    },
+    "home_goals": 0,
+    "away_goals": 4,
+    "home_xg": 0.63,
+    "away_xg": 1.35,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 10,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 48,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 56,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 77,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.1,
+        "away_xg": 0.23
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.21,
+        "away_xg": 0.45
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.42,
+        "away_xg": 0.9
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.53,
+        "away_xg": 1.12
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.63,
+        "away_xg": 1.35
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Nassr won 4–0 at Al-Ahli, with xG of 0.6–1.4 backing up the result.",
+        "ar": "فاز النصر على أرض الأهلي 4–0، بأهداف متوقّعة 0.6–1.4 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132087+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-05-al-shabab-vs-al-kholood",
+    "date": "2025-09-05",
+    "kickoff": "2025-09-05T17:00:00Z",
+    "matchweek": 3,
+    "home_team_id": "al-shabab",
+    "away_team_id": "al-kholood",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_xg": 1.79,
+    "away_xg": 1.4,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 44,
+        "team_id": "al-shabab",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 55,
+        "team_id": "al-kholood",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.3,
+        "away_xg": 0.23
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.6,
+        "away_xg": 0.47
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.19,
+        "away_xg": 0.93
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.49,
+        "away_xg": 1.17
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.79,
+        "away_xg": 1.4
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Shabab and Al-Kholood drew 1–1, with xG of 1.8–1.4 backing up the result.",
+        "ar": "تعادل الشباب مع الخلود 1–1، بأهداف متوقّعة 1.8–1.4 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132091+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-05-al-ettifaq-vs-al-najma",
+    "date": "2025-09-05",
+    "kickoff": "2025-09-05T17:00:00Z",
+    "matchweek": 3,
+    "home_team_id": "al-ettifaq",
+    "away_team_id": "al-najma",
+    "venue": {
+      "en": "Dammam",
+      "ar": "الدمام"
+    },
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_xg": 2.28,
+    "away_xg": 1.06,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 7,
+        "team_id": "al-ettifaq",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 52,
+        "team_id": "al-najma",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 54,
+        "team_id": "al-najma",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 75,
+        "team_id": "al-ettifaq",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.38,
+        "away_xg": 0.18
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.76,
+        "away_xg": 0.35
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.52,
+        "away_xg": 0.71
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.9,
+        "away_xg": 0.88
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.28,
+        "away_xg": 1.06
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ettifaq and Al-Najma drew 2–2, with xG of 2.3–1.1 backing up the result.",
+        "ar": "تعادل الاتفاق مع النجمة 2–2، بأهداف متوقّعة 2.3–1.1 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132095+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-05-al-fateh-vs-al-raed",
+    "date": "2025-09-05",
+    "kickoff": "2025-09-05T17:00:00Z",
+    "matchweek": 3,
+    "home_team_id": "al-fateh",
+    "away_team_id": "al-raed",
+    "venue": {
+      "en": "Al-Hasa",
+      "ar": "الأحساء"
+    },
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_xg": 1.41,
+    "away_xg": 0.58,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.23,
+        "away_xg": 0.1
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.47,
+        "away_xg": 0.19
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.94,
+        "away_xg": 0.39
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.18,
+        "away_xg": 0.48
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.41,
+        "away_xg": 0.58
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Fateh and Al-Raed drew 0–0, with xG of 1.4–0.6 backing up the result.",
+        "ar": "تعادل الفتح مع الرائد 0–0، بأهداف متوقّعة 1.4–0.6 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132100+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-05-al-taawoun-vs-al-okhdood",
+    "date": "2025-09-05",
+    "kickoff": "2025-09-05T17:00:00Z",
+    "matchweek": 3,
+    "home_team_id": "al-taawoun",
+    "away_team_id": "al-okhdood",
+    "venue": {
+      "en": "Buraidah",
+      "ar": "بريدة"
+    },
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_xg": 1.57,
+    "away_xg": 0.81,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.26,
+        "away_xg": 0.14
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.52,
+        "away_xg": 0.27
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.05,
+        "away_xg": 0.54
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.31,
+        "away_xg": 0.68
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.57,
+        "away_xg": 0.81
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Taawoun and Al-Okhdood drew 0–0, with xG of 1.6–0.8 backing up the result.",
+        "ar": "تعادل التعاون مع الأخدود 0–0، بأهداف متوقّعة 1.6–0.8 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132105+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-05-al-khaleej-vs-al-qadsiah",
+    "date": "2025-09-05",
+    "kickoff": "2025-09-05T17:00:00Z",
+    "matchweek": 3,
+    "home_team_id": "al-khaleej",
+    "away_team_id": "al-qadsiah",
+    "venue": {
+      "en": "Saihat",
+      "ar": "سيهات"
+    },
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_xg": 0.88,
+    "away_xg": 1.52,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 5,
+        "team_id": "al-qadsiah",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 81,
+        "team_id": "al-qadsiah",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.15,
+        "away_xg": 0.25
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.29,
+        "away_xg": 0.51
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.59,
+        "away_xg": 1.01
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.73,
+        "away_xg": 1.27
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.88,
+        "away_xg": 1.52
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Qadsiah won 2–0 at Al-Khaleej, with xG of 0.9–1.5 backing up the result.",
+        "ar": "فاز القادسية على أرض الخليج 2–0، بأهداف متوقّعة 0.9–1.5 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132113+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-05-al-wehda-vs-damac",
+    "date": "2025-09-05",
+    "kickoff": "2025-09-05T17:00:00Z",
+    "matchweek": 3,
+    "home_team_id": "al-wehda",
+    "away_team_id": "damac",
+    "venue": {
+      "en": "Mecca",
+      "ar": "مكة"
+    },
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_xg": 0.33,
+    "away_xg": 0.61,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 20,
+        "team_id": "al-wehda",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 22,
+        "team_id": "damac",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 67,
+        "team_id": "al-wehda",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.06,
+        "away_xg": 0.1
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.11,
+        "away_xg": 0.2
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.22,
+        "away_xg": 0.41
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.28,
+        "away_xg": 0.51
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.33,
+        "away_xg": 0.61
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Wehda beat Damac 2–1, with xG of 0.3–0.6 backing up the result.",
+        "ar": "فاز الوحدة على ضمك 2–1، بأهداف متوقّعة 0.3–0.6 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132118+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-05-al-riyadh-vs-al-fayha",
+    "date": "2025-09-05",
+    "kickoff": "2025-09-05T17:00:00Z",
+    "matchweek": 3,
+    "home_team_id": "al-riyadh",
+    "away_team_id": "al-fayha",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_xg": 1.44,
+    "away_xg": 1.29,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 23,
+        "team_id": "al-riyadh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 25,
+        "team_id": "al-fayha",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 34,
+        "team_id": "al-riyadh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 55,
+        "team_id": "al-riyadh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.24,
+        "away_xg": 0.22
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.48,
+        "away_xg": 0.43
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.96,
+        "away_xg": 0.86
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.2,
+        "away_xg": 1.07
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.44,
+        "away_xg": 1.29
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Riyadh beat Al-Fayha 3–1, with xG of 1.4–1.3 backing up the result.",
+        "ar": "فاز الرياض على الفيحاء 3–1، بأهداف متوقّعة 1.4–1.3 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132122+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-12-al-ahli-vs-al-hilal",
+    "date": "2025-09-12",
+    "kickoff": "2025-09-12T17:00:00Z",
+    "matchweek": 4,
+    "home_team_id": "al-ahli",
+    "away_team_id": "al-hilal",
+    "venue": {
+      "en": "Jeddah",
+      "ar": "جدة"
+    },
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_xg": 1.11,
+    "away_xg": 1.67,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 9,
+        "team_id": "al-ahli",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 68,
+        "team_id": "al-ahli",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.19,
+        "away_xg": 0.28
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.37,
+        "away_xg": 0.56
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.74,
+        "away_xg": 1.11
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.93,
+        "away_xg": 1.39
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.11,
+        "away_xg": 1.67
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ahli beat Al-Hilal 2–0, with xG of 1.1–1.7 backing up the result.",
+        "ar": "فاز الأهلي على الهلال 2–0، بأهداف متوقّعة 1.1–1.7 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132126+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-12-al-ittihad-vs-al-shabab",
+    "date": "2025-09-12",
+    "kickoff": "2025-09-12T17:00:00Z",
+    "matchweek": 4,
+    "home_team_id": "al-ittihad",
+    "away_team_id": "al-shabab",
+    "venue": {
+      "en": "Jeddah",
+      "ar": "جدة"
+    },
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_xg": 1.95,
+    "away_xg": 1.97,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 27,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.33,
+        "away_xg": 0.33
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.65,
+        "away_xg": 0.66
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.3,
+        "away_xg": 1.31
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.62,
+        "away_xg": 1.64
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.95,
+        "away_xg": 1.97
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ittihad beat Al-Shabab 1–0, with xG of 1.9–2.0 backing up the result.",
+        "ar": "فاز الاتحاد على الشباب 1–0، بأهداف متوقّعة 1.9–2.0 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132130+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-12-al-nassr-vs-al-ettifaq",
+    "date": "2025-09-12",
+    "kickoff": "2025-09-12T17:00:00Z",
+    "matchweek": 4,
+    "home_team_id": "al-nassr",
+    "away_team_id": "al-ettifaq",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 6,
+    "away_goals": 0,
+    "home_xg": 1.98,
+    "away_xg": 1.66,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 24,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 32,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 36,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 44,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 53,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 71,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.33,
+        "away_xg": 0.28
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.66,
+        "away_xg": 0.55
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.32,
+        "away_xg": 1.11
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.65,
+        "away_xg": 1.38
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.98,
+        "away_xg": 1.66
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Nassr beat Al-Ettifaq 6–0, with xG of 2.0–1.7 backing up the result.",
+        "ar": "فاز النصر على الاتفاق 6–0، بأهداف متوقّعة 2.0–1.7 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132134+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-12-al-kholood-vs-al-fateh",
+    "date": "2025-09-12",
+    "kickoff": "2025-09-12T17:00:00Z",
+    "matchweek": 4,
+    "home_team_id": "al-kholood",
+    "away_team_id": "al-fateh",
+    "venue": {
+      "en": "Ar Rass",
+      "ar": "الرس"
+    },
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_xg": 1.07,
+    "away_xg": 1.73,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 18,
+        "team_id": "al-fateh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 31,
+        "team_id": "al-fateh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 37,
+        "team_id": "al-kholood",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.18,
+        "away_xg": 0.29
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.36,
+        "away_xg": 0.58
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.71,
+        "away_xg": 1.15
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.89,
+        "away_xg": 1.44
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.07,
+        "away_xg": 1.73
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Fateh won 2–1 at Al-Kholood, with xG of 1.1–1.7 backing up the result.",
+        "ar": "فاز الفتح على أرض الخلود 2–1، بأهداف متوقّعة 1.1–1.7 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132138+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-12-al-najma-vs-al-taawoun",
+    "date": "2025-09-12",
+    "kickoff": "2025-09-12T17:00:00Z",
+    "matchweek": 4,
+    "home_team_id": "al-najma",
+    "away_team_id": "al-taawoun",
+    "venue": {
+      "en": "Unayzah",
+      "ar": "عنيزة"
+    },
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_xg": 0.79,
+    "away_xg": 1.49,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 53,
+        "team_id": "al-najma",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 63,
+        "team_id": "al-taawoun",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 65,
+        "team_id": "al-najma",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 75,
+        "team_id": "al-taawoun",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.13,
+        "away_xg": 0.25
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.26,
+        "away_xg": 0.5
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.53,
+        "away_xg": 0.99
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.66,
+        "away_xg": 1.24
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.79,
+        "away_xg": 1.49
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Najma and Al-Taawoun drew 2–2, with xG of 0.8–1.5 backing up the result.",
+        "ar": "تعادل النجمة مع التعاون 2–2، بأهداف متوقّعة 0.8–1.5 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132142+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-12-al-raed-vs-al-khaleej",
+    "date": "2025-09-12",
+    "kickoff": "2025-09-12T17:00:00Z",
+    "matchweek": 4,
+    "home_team_id": "al-raed",
+    "away_team_id": "al-khaleej",
+    "venue": {
+      "en": "Buraidah",
+      "ar": "بريدة"
+    },
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_xg": 1.22,
+    "away_xg": 1.89,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 30,
+        "team_id": "al-raed",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 46,
+        "team_id": "al-khaleej",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 71,
+        "team_id": "al-khaleej",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.2,
+        "away_xg": 0.32
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.41,
+        "away_xg": 0.63
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.81,
+        "away_xg": 1.26
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.02,
+        "away_xg": 1.57
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.22,
+        "away_xg": 1.89
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Khaleej won 2–1 at Al-Raed, with xG of 1.2–1.9 backing up the result.",
+        "ar": "فاز الخليج على أرض الرائد 2–1، بأهداف متوقّعة 1.2–1.9 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132146+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-12-al-okhdood-vs-al-wehda",
+    "date": "2025-09-12",
+    "kickoff": "2025-09-12T17:00:00Z",
+    "matchweek": 4,
+    "home_team_id": "al-okhdood",
+    "away_team_id": "al-wehda",
+    "venue": {
+      "en": "Najran",
+      "ar": "نجران"
+    },
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_xg": 1.76,
+    "away_xg": 1.52,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 5,
+        "team_id": "al-wehda",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.29,
+        "away_xg": 0.25
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.59,
+        "away_xg": 0.51
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.17,
+        "away_xg": 1.01
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.47,
+        "away_xg": 1.27
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.76,
+        "away_xg": 1.52
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Wehda won 1–0 at Al-Okhdood, with xG of 1.8–1.5 backing up the result.",
+        "ar": "فاز الوحدة على أرض الأخدود 1–0، بأهداف متوقّعة 1.8–1.5 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132150+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-12-al-qadsiah-vs-al-riyadh",
+    "date": "2025-09-12",
+    "kickoff": "2025-09-12T17:00:00Z",
+    "matchweek": 4,
+    "home_team_id": "al-qadsiah",
+    "away_team_id": "al-riyadh",
+    "venue": {
+      "en": "Khobar",
+      "ar": "الخبر"
+    },
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_xg": 1.91,
+    "away_xg": 0.94,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.32,
+        "away_xg": 0.16
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.64,
+        "away_xg": 0.31
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.27,
+        "away_xg": 0.63
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.59,
+        "away_xg": 0.78
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.91,
+        "away_xg": 0.94
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Qadsiah and Al-Riyadh drew 0–0, with xG of 1.9–0.9 backing up the result.",
+        "ar": "تعادل القادسية مع الرياض 0–0، بأهداف متوقّعة 1.9–0.9 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132154+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-12-damac-vs-al-fayha",
+    "date": "2025-09-12",
+    "kickoff": "2025-09-12T17:00:00Z",
+    "matchweek": 4,
+    "home_team_id": "damac",
+    "away_team_id": "al-fayha",
+    "venue": {
+      "en": "Khamis Mushait",
+      "ar": "خميس مشيط"
+    },
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_xg": 1.97,
+    "away_xg": 1.55,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 26,
+        "team_id": "al-fayha",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 30,
+        "team_id": "al-fayha",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 33,
+        "team_id": "damac",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 60,
+        "team_id": "damac",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.33,
+        "away_xg": 0.26
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.66,
+        "away_xg": 0.52
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.31,
+        "away_xg": 1.03
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.64,
+        "away_xg": 1.29
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.97,
+        "away_xg": 1.55
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Damac and Al-Fayha drew 2–2, with xG of 2.0–1.6 backing up the result.",
+        "ar": "تعادل ضمك مع الفيحاء 2–2، بأهداف متوقّعة 2.0–1.6 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132158+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-19-al-hilal-vs-al-shabab",
+    "date": "2025-09-19",
+    "kickoff": "2025-09-19T17:00:00Z",
+    "matchweek": 5,
+    "home_team_id": "al-hilal",
+    "away_team_id": "al-shabab",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_xg": 2.1,
+    "away_xg": 1.11,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 43,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 59,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 74,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 77,
+        "team_id": "al-shabab",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.35,
+        "away_xg": 0.19
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.7,
+        "away_xg": 0.37
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.4,
+        "away_xg": 0.74
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.75,
+        "away_xg": 0.93
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.1,
+        "away_xg": 1.11
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Hilal beat Al-Shabab 3–1, with xG of 2.1–1.1 backing up the result.",
+        "ar": "فاز الهلال على الشباب 3–1، بأهداف متوقّعة 2.1–1.1 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132163+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-19-al-ettifaq-vs-al-ahli",
+    "date": "2025-09-19",
+    "kickoff": "2025-09-19T17:00:00Z",
+    "matchweek": 5,
+    "home_team_id": "al-ettifaq",
+    "away_team_id": "al-ahli",
+    "venue": {
+      "en": "Dammam",
+      "ar": "الدمام"
+    },
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_xg": 1.26,
+    "away_xg": 1.39,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 31,
+        "team_id": "al-ahli",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 64,
+        "team_id": "al-ahli",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.21,
+        "away_xg": 0.23
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.42,
+        "away_xg": 0.46
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.84,
+        "away_xg": 0.93
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.05,
+        "away_xg": 1.16
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.26,
+        "away_xg": 1.39
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ahli won 2–0 at Al-Ettifaq, with xG of 1.3–1.4 backing up the result.",
+        "ar": "فاز الأهلي على أرض الاتفاق 2–0، بأهداف متوقّعة 1.3–1.4 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132167+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-19-al-fateh-vs-al-ittihad",
+    "date": "2025-09-19",
+    "kickoff": "2025-09-19T17:00:00Z",
+    "matchweek": 5,
+    "home_team_id": "al-fateh",
+    "away_team_id": "al-ittihad",
+    "venue": {
+      "en": "Al-Hasa",
+      "ar": "الأحساء"
+    },
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_xg": 0.86,
+    "away_xg": 2.21,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 12,
+        "team_id": "al-fateh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 15,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 58,
+        "team_id": "al-fateh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.14,
+        "away_xg": 0.37
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.29,
+        "away_xg": 0.74
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.57,
+        "away_xg": 1.47
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.72,
+        "away_xg": 1.84
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.86,
+        "away_xg": 2.21
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Fateh beat Al-Ittihad 2–1, with xG of 0.9–2.2 backing up the result.",
+        "ar": "فاز الفتح على الاتحاد 2–1، بأهداف متوقّعة 0.9–2.2 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132171+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-19-al-taawoun-vs-al-nassr",
+    "date": "2025-09-19",
+    "kickoff": "2025-09-19T17:00:00Z",
+    "matchweek": 5,
+    "home_team_id": "al-taawoun",
+    "away_team_id": "al-nassr",
+    "venue": {
+      "en": "Buraidah",
+      "ar": "بريدة"
+    },
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_xg": 1.33,
+    "away_xg": 2.36,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 38,
+        "team_id": "al-taawoun",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 72,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.22,
+        "away_xg": 0.39
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.44,
+        "away_xg": 0.79
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.89,
+        "away_xg": 1.57
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.11,
+        "away_xg": 1.97
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.33,
+        "away_xg": 2.36
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Taawoun and Al-Nassr drew 1–1, with xG of 1.3–2.4 backing up the result.",
+        "ar": "تعادل التعاون مع النصر 1–1، بأهداف متوقّعة 1.3–2.4 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132175+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-19-al-khaleej-vs-al-kholood",
+    "date": "2025-09-19",
+    "kickoff": "2025-09-19T17:00:00Z",
+    "matchweek": 5,
+    "home_team_id": "al-khaleej",
+    "away_team_id": "al-kholood",
+    "venue": {
+      "en": "Saihat",
+      "ar": "سيهات"
+    },
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_xg": 2.69,
+    "away_xg": 0.82,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 42,
+        "team_id": "al-khaleej",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 55,
+        "team_id": "al-khaleej",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 82,
+        "team_id": "al-kholood",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.45,
+        "away_xg": 0.14
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.9,
+        "away_xg": 0.27
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.79,
+        "away_xg": 0.55
+      },
+      {
+        "minute": 75,
+        "home_xg": 2.24,
+        "away_xg": 0.68
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.69,
+        "away_xg": 0.82
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Khaleej beat Al-Kholood 2–1, with xG of 2.7–0.8 backing up the result.",
+        "ar": "فاز الخليج على الخلود 2–1، بأهداف متوقّعة 2.7–0.8 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132180+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-19-al-wehda-vs-al-najma",
+    "date": "2025-09-19",
+    "kickoff": "2025-09-19T17:00:00Z",
+    "matchweek": 5,
+    "home_team_id": "al-wehda",
+    "away_team_id": "al-najma",
+    "venue": {
+      "en": "Mecca",
+      "ar": "مكة"
+    },
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_xg": 0.57,
+    "away_xg": 0.65,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 76,
+        "team_id": "al-wehda",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.09,
+        "away_xg": 0.11
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.19,
+        "away_xg": 0.22
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.38,
+        "away_xg": 0.43
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.47,
+        "away_xg": 0.54
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.57,
+        "away_xg": 0.65
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Wehda beat Al-Najma 1–0, with xG of 0.6–0.7 backing up the result.",
+        "ar": "فاز الوحدة على النجمة 1–0، بأهداف متوقّعة 0.6–0.7 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132185+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-19-al-riyadh-vs-al-raed",
+    "date": "2025-09-19",
+    "kickoff": "2025-09-19T17:00:00Z",
+    "matchweek": 5,
+    "home_team_id": "al-riyadh",
+    "away_team_id": "al-raed",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_xg": 1.55,
+    "away_xg": 0.1,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 58,
+        "team_id": "al-raed",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 82,
+        "team_id": "al-raed",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.26,
+        "away_xg": 0.02
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.52,
+        "away_xg": 0.03
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.03,
+        "away_xg": 0.07
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.29,
+        "away_xg": 0.08
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.55,
+        "away_xg": 0.1
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Raed won 2–0 at Al-Riyadh, with xG of 1.6–0.1 backing up the result.",
+        "ar": "فاز الرائد على أرض الرياض 2–0، بأهداف متوقّعة 1.6–0.1 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132191+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-19-al-fayha-vs-al-okhdood",
+    "date": "2025-09-19",
+    "kickoff": "2025-09-19T17:00:00Z",
+    "matchweek": 5,
+    "home_team_id": "al-fayha",
+    "away_team_id": "al-okhdood",
+    "venue": {
+      "en": "Al Majma'ah",
+      "ar": "المجمعة"
+    },
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_xg": 1.51,
+    "away_xg": 1.13,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 7,
+        "team_id": "al-okhdood",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 15,
+        "team_id": "al-fayha",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 28,
+        "team_id": "al-fayha",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.25,
+        "away_xg": 0.19
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.5,
+        "away_xg": 0.38
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.01,
+        "away_xg": 0.75
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.26,
+        "away_xg": 0.94
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.51,
+        "away_xg": 1.13
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Fayha beat Al-Okhdood 2–1, with xG of 1.5–1.1 backing up the result.",
+        "ar": "فاز الفيحاء على الأخدود 2–1، بأهداف متوقّعة 1.5–1.1 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132195+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-19-damac-vs-al-qadsiah",
+    "date": "2025-09-19",
+    "kickoff": "2025-09-19T17:00:00Z",
+    "matchweek": 5,
+    "home_team_id": "damac",
+    "away_team_id": "al-qadsiah",
+    "venue": {
+      "en": "Khamis Mushait",
+      "ar": "خميس مشيط"
+    },
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_xg": 0.66,
+    "away_xg": 1.88,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 16,
+        "team_id": "damac",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 50,
+        "team_id": "damac",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.11,
+        "away_xg": 0.31
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.22,
+        "away_xg": 0.63
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.44,
+        "away_xg": 1.25
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.55,
+        "away_xg": 1.57
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.66,
+        "away_xg": 1.88
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Damac beat Al-Qadsiah 2–0, with xG of 0.7–1.9 backing up the result.",
+        "ar": "فاز ضمك على القادسية 2–0، بأهداف متوقّعة 0.7–1.9 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132200+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-26-al-ettifaq-vs-al-hilal",
+    "date": "2025-09-26",
+    "kickoff": "2025-09-26T17:00:00Z",
+    "matchweek": 6,
+    "home_team_id": "al-ettifaq",
+    "away_team_id": "al-hilal",
+    "venue": {
+      "en": "Dammam",
+      "ar": "الدمام"
+    },
+    "home_goals": 1,
+    "away_goals": 3,
+    "home_xg": 1.2,
+    "away_xg": 2.6,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 27,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 35,
+        "team_id": "al-ettifaq",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 36,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 81,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.2,
+        "away_xg": 0.43
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.4,
+        "away_xg": 0.87
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.8,
+        "away_xg": 1.73
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.0,
+        "away_xg": 2.17
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.2,
+        "away_xg": 2.6
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Hilal won 3–1 at Al-Ettifaq, with xG of 1.2–2.6 backing up the result.",
+        "ar": "فاز الهلال على أرض الاتفاق 3–1، بأهداف متوقّعة 1.2–2.6 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132205+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-26-al-shabab-vs-al-fateh",
+    "date": "2025-09-26",
+    "kickoff": "2025-09-26T17:00:00Z",
+    "matchweek": 6,
+    "home_team_id": "al-shabab",
+    "away_team_id": "al-fateh",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_xg": 1.4,
+    "away_xg": 1.13,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 6,
+        "team_id": "al-fateh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 32,
+        "team_id": "al-fateh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 54,
+        "team_id": "al-shabab",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 80,
+        "team_id": "al-shabab",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.23,
+        "away_xg": 0.19
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.47,
+        "away_xg": 0.38
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.93,
+        "away_xg": 0.75
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.17,
+        "away_xg": 0.94
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.4,
+        "away_xg": 1.13
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Shabab and Al-Fateh drew 2–2, with xG of 1.4–1.1 backing up the result.",
+        "ar": "تعادل الشباب مع الفتح 2–2، بأهداف متوقّعة 1.4–1.1 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132209+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-26-al-ahli-vs-al-taawoun",
+    "date": "2025-09-26",
+    "kickoff": "2025-09-26T17:00:00Z",
+    "matchweek": 6,
+    "home_team_id": "al-ahli",
+    "away_team_id": "al-taawoun",
+    "venue": {
+      "en": "Jeddah",
+      "ar": "جدة"
+    },
+    "home_goals": 3,
+    "away_goals": 0,
+    "home_xg": 2.06,
+    "away_xg": 1.24,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 14,
+        "team_id": "al-ahli",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 29,
+        "team_id": "al-ahli",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 42,
+        "team_id": "al-ahli",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.34,
+        "away_xg": 0.21
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.69,
+        "away_xg": 0.41
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.37,
+        "away_xg": 0.83
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.72,
+        "away_xg": 1.03
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.06,
+        "away_xg": 1.24
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ahli beat Al-Taawoun 3–0, with xG of 2.1–1.2 backing up the result.",
+        "ar": "فاز الأهلي على التعاون 3–0، بأهداف متوقّعة 2.1–1.2 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132213+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-26-al-ittihad-vs-al-khaleej",
+    "date": "2025-09-26",
+    "kickoff": "2025-09-26T17:00:00Z",
+    "matchweek": 6,
+    "home_team_id": "al-ittihad",
+    "away_team_id": "al-khaleej",
+    "venue": {
+      "en": "Jeddah",
+      "ar": "جدة"
+    },
+    "home_goals": 4,
+    "away_goals": 2,
+    "home_xg": 2.09,
+    "away_xg": 1.29,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 6,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 8,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 21,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 61,
+        "team_id": "al-khaleej",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 64,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 72,
+        "team_id": "al-khaleej",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.35,
+        "away_xg": 0.22
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.7,
+        "away_xg": 0.43
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.39,
+        "away_xg": 0.86
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.74,
+        "away_xg": 1.07
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.09,
+        "away_xg": 1.29
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ittihad beat Al-Khaleej 4–2, with xG of 2.1–1.3 backing up the result.",
+        "ar": "فاز الاتحاد على الخليج 4–2، بأهداف متوقّعة 2.1–1.3 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132217+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-26-al-nassr-vs-al-wehda",
+    "date": "2025-09-26",
+    "kickoff": "2025-09-26T17:00:00Z",
+    "matchweek": 6,
+    "home_team_id": "al-nassr",
+    "away_team_id": "al-wehda",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 1,
+    "away_goals": 3,
+    "home_xg": 2.09,
+    "away_xg": 1.18,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 34,
+        "team_id": "al-wehda",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 45,
+        "team_id": "al-wehda",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 50,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 72,
+        "team_id": "al-wehda",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.35,
+        "away_xg": 0.2
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.7,
+        "away_xg": 0.39
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.39,
+        "away_xg": 0.79
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.74,
+        "away_xg": 0.98
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.09,
+        "away_xg": 1.18
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Wehda won 3–1 at Al-Nassr, with xG of 2.1–1.2 backing up the result.",
+        "ar": "فاز الوحدة على أرض النصر 3–1، بأهداف متوقّعة 2.1–1.2 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132221+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-26-al-kholood-vs-al-riyadh",
+    "date": "2025-09-26",
+    "kickoff": "2025-09-26T17:00:00Z",
+    "matchweek": 6,
+    "home_team_id": "al-kholood",
+    "away_team_id": "al-riyadh",
+    "venue": {
+      "en": "Ar Rass",
+      "ar": "الرس"
+    },
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_xg": 0.6,
+    "away_xg": 0.56,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 30,
+        "team_id": "al-riyadh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 82,
+        "team_id": "al-riyadh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.1,
+        "away_xg": 0.09
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.2,
+        "away_xg": 0.19
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.4,
+        "away_xg": 0.37
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.5,
+        "away_xg": 0.47
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.6,
+        "away_xg": 0.56
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Riyadh won 2–0 at Al-Kholood, with xG of 0.6–0.6 backing up the result.",
+        "ar": "فاز الرياض على أرض الخلود 2–0، بأهداف متوقّعة 0.6–0.6 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132225+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-26-al-najma-vs-al-fayha",
+    "date": "2025-09-26",
+    "kickoff": "2025-09-26T17:00:00Z",
+    "matchweek": 6,
+    "home_team_id": "al-najma",
+    "away_team_id": "al-fayha",
+    "venue": {
+      "en": "Unayzah",
+      "ar": "عنيزة"
+    },
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_xg": 0.77,
+    "away_xg": 1.36,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 70,
+        "team_id": "al-najma",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 75,
+        "team_id": "al-najma",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.13,
+        "away_xg": 0.23
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.26,
+        "away_xg": 0.45
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.51,
+        "away_xg": 0.91
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.64,
+        "away_xg": 1.13
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.77,
+        "away_xg": 1.36
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Najma beat Al-Fayha 2–0, with xG of 0.8–1.4 backing up the result.",
+        "ar": "فاز النجمة على الفيحاء 2–0، بأهداف متوقّعة 0.8–1.4 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132229+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-26-al-raed-vs-damac",
+    "date": "2025-09-26",
+    "kickoff": "2025-09-26T17:00:00Z",
+    "matchweek": 6,
+    "home_team_id": "al-raed",
+    "away_team_id": "damac",
+    "venue": {
+      "en": "Buraidah",
+      "ar": "بريدة"
+    },
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_xg": 1.03,
+    "away_xg": 1.02,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 81,
+        "team_id": "damac",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.17,
+        "away_xg": 0.17
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.34,
+        "away_xg": 0.34
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.69,
+        "away_xg": 0.68
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.86,
+        "away_xg": 0.85
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.03,
+        "away_xg": 1.02
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Damac won 1–0 at Al-Raed, with xG of 1.0–1.0 backing up the result.",
+        "ar": "فاز ضمك على أرض الرائد 1–0، بأهداف متوقّعة 1.0–1.0 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132233+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-09-26-al-okhdood-vs-al-qadsiah",
+    "date": "2025-09-26",
+    "kickoff": "2025-09-26T17:00:00Z",
+    "matchweek": 6,
+    "home_team_id": "al-okhdood",
+    "away_team_id": "al-qadsiah",
+    "venue": {
+      "en": "Najran",
+      "ar": "نجران"
+    },
+    "home_goals": 0,
+    "away_goals": 3,
+    "home_xg": 0.26,
+    "away_xg": 2.17,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 6,
+        "team_id": "al-qadsiah",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 36,
+        "team_id": "al-qadsiah",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 39,
+        "team_id": "al-qadsiah",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.04,
+        "away_xg": 0.36
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.09,
+        "away_xg": 0.72
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.17,
+        "away_xg": 1.45
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.22,
+        "away_xg": 1.81
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.26,
+        "away_xg": 2.17
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Qadsiah won 3–0 at Al-Okhdood, with xG of 0.3–2.2 backing up the result.",
+        "ar": "فاز القادسية على أرض الأخدود 3–0، بأهداف متوقّعة 0.3–2.2 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132237+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-03-al-hilal-vs-al-fateh",
+    "date": "2025-10-03",
+    "kickoff": "2025-10-03T17:00:00Z",
+    "matchweek": 7,
+    "home_team_id": "al-hilal",
+    "away_team_id": "al-fateh",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 3,
+    "away_goals": 0,
+    "home_xg": 3.46,
+    "away_xg": 0.42,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 5,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 14,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 51,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.58,
+        "away_xg": 0.07
+      },
+      {
+        "minute": 30,
+        "home_xg": 1.15,
+        "away_xg": 0.14
+      },
+      {
+        "minute": 60,
+        "home_xg": 2.31,
+        "away_xg": 0.28
+      },
+      {
+        "minute": 75,
+        "home_xg": 2.88,
+        "away_xg": 0.35
+      },
+      {
+        "minute": 90,
+        "home_xg": 3.46,
+        "away_xg": 0.42
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Hilal beat Al-Fateh 3–0, with xG of 3.5–0.4 backing up the result.",
+        "ar": "فاز الهلال على الفتح 3–0، بأهداف متوقّعة 3.5–0.4 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132243+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-03-al-taawoun-vs-al-ettifaq",
+    "date": "2025-10-03",
+    "kickoff": "2025-10-03T17:00:00Z",
+    "matchweek": 7,
+    "home_team_id": "al-taawoun",
+    "away_team_id": "al-ettifaq",
+    "venue": {
+      "en": "Buraidah",
+      "ar": "بريدة"
+    },
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_xg": 1.72,
+    "away_xg": 1.79,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 47,
+        "team_id": "al-ettifaq",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 75,
+        "team_id": "al-taawoun",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.29,
+        "away_xg": 0.3
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.57,
+        "away_xg": 0.6
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.15,
+        "away_xg": 1.19
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.43,
+        "away_xg": 1.49
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.72,
+        "away_xg": 1.79
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Taawoun and Al-Ettifaq drew 1–1, with xG of 1.7–1.8 backing up the result.",
+        "ar": "تعادل التعاون مع الاتفاق 1–1، بأهداف متوقّعة 1.7–1.8 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132247+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-03-al-khaleej-vs-al-shabab",
+    "date": "2025-10-03",
+    "kickoff": "2025-10-03T17:00:00Z",
+    "matchweek": 7,
+    "home_team_id": "al-khaleej",
+    "away_team_id": "al-shabab",
+    "venue": {
+      "en": "Saihat",
+      "ar": "سيهات"
+    },
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_xg": 1.25,
+    "away_xg": 1.18,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 30,
+        "team_id": "al-shabab",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 56,
+        "team_id": "al-khaleej",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 59,
+        "team_id": "al-shabab",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 65,
+        "team_id": "al-khaleej",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.21,
+        "away_xg": 0.2
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.42,
+        "away_xg": 0.39
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.83,
+        "away_xg": 0.79
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.04,
+        "away_xg": 0.98
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.25,
+        "away_xg": 1.18
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Khaleej and Al-Shabab drew 2–2, with xG of 1.2–1.2 backing up the result.",
+        "ar": "تعادل الخليج مع الشباب 2–2، بأهداف متوقّعة 1.2–1.2 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132252+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-03-al-wehda-vs-al-ahli",
+    "date": "2025-10-03",
+    "kickoff": "2025-10-03T17:00:00Z",
+    "matchweek": 7,
+    "home_team_id": "al-wehda",
+    "away_team_id": "al-ahli",
+    "venue": {
+      "en": "Mecca",
+      "ar": "مكة"
+    },
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_xg": 1.06,
+    "away_xg": 1.42,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 37,
+        "team_id": "al-wehda",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 67,
+        "team_id": "al-wehda",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.18,
+        "away_xg": 0.24
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.35,
+        "away_xg": 0.47
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.71,
+        "away_xg": 0.95
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.88,
+        "away_xg": 1.18
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.06,
+        "away_xg": 1.42
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Wehda beat Al-Ahli 2–0, with xG of 1.1–1.4 backing up the result.",
+        "ar": "فاز الوحدة على الأهلي 2–0، بأهداف متوقّعة 1.1–1.4 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132256+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-03-al-riyadh-vs-al-ittihad",
+    "date": "2025-10-03",
+    "kickoff": "2025-10-03T17:00:00Z",
+    "matchweek": 7,
+    "home_team_id": "al-riyadh",
+    "away_team_id": "al-ittihad",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_xg": 1.04,
+    "away_xg": 1.71,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 56,
+        "team_id": "al-riyadh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 60,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.17,
+        "away_xg": 0.28
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.35,
+        "away_xg": 0.57
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.69,
+        "away_xg": 1.14
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.87,
+        "away_xg": 1.43
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.04,
+        "away_xg": 1.71
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Riyadh and Al-Ittihad drew 1–1, with xG of 1.0–1.7 backing up the result.",
+        "ar": "تعادل الرياض مع الاتحاد 1–1، بأهداف متوقّعة 1.0–1.7 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132260+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-03-al-fayha-vs-al-nassr",
+    "date": "2025-10-03",
+    "kickoff": "2025-10-03T17:00:00Z",
+    "matchweek": 7,
+    "home_team_id": "al-fayha",
+    "away_team_id": "al-nassr",
+    "venue": {
+      "en": "Al Majma'ah",
+      "ar": "المجمعة"
+    },
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_xg": 0.1,
+    "away_xg": 1.74,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 60,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 66,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 82,
+        "team_id": "al-fayha",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.02,
+        "away_xg": 0.29
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.03,
+        "away_xg": 0.58
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.07,
+        "away_xg": 1.16
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.08,
+        "away_xg": 1.45
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.1,
+        "away_xg": 1.74
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Nassr won 2–1 at Al-Fayha, with xG of 0.1–1.7 backing up the result.",
+        "ar": "فاز النصر على أرض الفيحاء 2–1، بأهداف متوقّعة 0.1–1.7 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132264+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-03-damac-vs-al-kholood",
+    "date": "2025-10-03",
+    "kickoff": "2025-10-03T17:00:00Z",
+    "matchweek": 7,
+    "home_team_id": "damac",
+    "away_team_id": "al-kholood",
+    "venue": {
+      "en": "Khamis Mushait",
+      "ar": "خميس مشيط"
+    },
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_xg": 1.62,
+    "away_xg": 0.9,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 17,
+        "team_id": "al-kholood",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 34,
+        "team_id": "damac",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 66,
+        "team_id": "damac",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.27,
+        "away_xg": 0.15
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.54,
+        "away_xg": 0.3
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.08,
+        "away_xg": 0.6
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.35,
+        "away_xg": 0.75
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.62,
+        "away_xg": 0.9
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Damac beat Al-Kholood 2–1, with xG of 1.6–0.9 backing up the result.",
+        "ar": "فاز ضمك على الخلود 2–1، بأهداف متوقّعة 1.6–0.9 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132269+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-03-al-qadsiah-vs-al-najma",
+    "date": "2025-10-03",
+    "kickoff": "2025-10-03T17:00:00Z",
+    "matchweek": 7,
+    "home_team_id": "al-qadsiah",
+    "away_team_id": "al-najma",
+    "venue": {
+      "en": "Khobar",
+      "ar": "الخبر"
+    },
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_xg": 2.61,
+    "away_xg": 0.76,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 60,
+        "team_id": "al-qadsiah",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 77,
+        "team_id": "al-qadsiah",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.43,
+        "away_xg": 0.13
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.87,
+        "away_xg": 0.25
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.74,
+        "away_xg": 0.51
+      },
+      {
+        "minute": 75,
+        "home_xg": 2.17,
+        "away_xg": 0.63
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.61,
+        "away_xg": 0.76
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Qadsiah beat Al-Najma 2–0, with xG of 2.6–0.8 backing up the result.",
+        "ar": "فاز القادسية على النجمة 2–0، بأهداف متوقّعة 2.6–0.8 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132274+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-03-al-okhdood-vs-al-raed",
+    "date": "2025-10-03",
+    "kickoff": "2025-10-03T17:00:00Z",
+    "matchweek": 7,
+    "home_team_id": "al-okhdood",
+    "away_team_id": "al-raed",
+    "venue": {
+      "en": "Najran",
+      "ar": "نجران"
+    },
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_xg": 1.63,
+    "away_xg": 0.99,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 8,
+        "team_id": "al-okhdood",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 21,
+        "team_id": "al-raed",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 41,
+        "team_id": "al-okhdood",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 70,
+        "team_id": "al-okhdood",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.27,
+        "away_xg": 0.17
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.54,
+        "away_xg": 0.33
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.09,
+        "away_xg": 0.66
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.36,
+        "away_xg": 0.82
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.63,
+        "away_xg": 0.99
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Okhdood beat Al-Raed 3–1, with xG of 1.6–1.0 backing up the result.",
+        "ar": "فاز الأخدود على الرائد 3–1، بأهداف متوقّعة 1.6–1.0 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132280+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-10-al-taawoun-vs-al-hilal",
+    "date": "2025-10-10",
+    "kickoff": "2025-10-10T17:00:00Z",
+    "matchweek": 8,
+    "home_team_id": "al-taawoun",
+    "away_team_id": "al-hilal",
+    "venue": {
+      "en": "Buraidah",
+      "ar": "بريدة"
+    },
+    "home_goals": 1,
+    "away_goals": 3,
+    "home_xg": 1.47,
+    "away_xg": 1.31,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 9,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 17,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 28,
+        "team_id": "al-taawoun",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 63,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.24,
+        "away_xg": 0.22
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.49,
+        "away_xg": 0.44
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.98,
+        "away_xg": 0.87
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.23,
+        "away_xg": 1.09
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.47,
+        "away_xg": 1.31
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Hilal won 3–1 at Al-Taawoun, with xG of 1.5–1.3 backing up the result.",
+        "ar": "فاز الهلال على أرض التعاون 3–1، بأهداف متوقّعة 1.5–1.3 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132284+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-10-al-fateh-vs-al-khaleej",
+    "date": "2025-10-10",
+    "kickoff": "2025-10-10T17:00:00Z",
+    "matchweek": 8,
+    "home_team_id": "al-fateh",
+    "away_team_id": "al-khaleej",
+    "venue": {
+      "en": "Al-Hasa",
+      "ar": "الأحساء"
+    },
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_xg": 2.11,
+    "away_xg": 1.69,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 22,
+        "team_id": "al-khaleej",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 34,
+        "team_id": "al-khaleej",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.35,
+        "away_xg": 0.28
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.7,
+        "away_xg": 0.56
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.41,
+        "away_xg": 1.13
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.76,
+        "away_xg": 1.41
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.11,
+        "away_xg": 1.69
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Khaleej won 2–0 at Al-Fateh, with xG of 2.1–1.7 backing up the result.",
+        "ar": "فاز الخليج على أرض الفتح 2–0، بأهداف متوقّعة 2.1–1.7 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132289+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-10-al-ettifaq-vs-al-wehda",
+    "date": "2025-10-10",
+    "kickoff": "2025-10-10T17:00:00Z",
+    "matchweek": 8,
+    "home_team_id": "al-ettifaq",
+    "away_team_id": "al-wehda",
+    "venue": {
+      "en": "Dammam",
+      "ar": "الدمام"
+    },
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_xg": 1.35,
+    "away_xg": 0.1,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 24,
+        "team_id": "al-ettifaq",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 25,
+        "team_id": "al-ettifaq",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 60,
+        "team_id": "al-ettifaq",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 84,
+        "team_id": "al-wehda",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.23,
+        "away_xg": 0.02
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.45,
+        "away_xg": 0.03
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.9,
+        "away_xg": 0.07
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.12,
+        "away_xg": 0.08
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.35,
+        "away_xg": 0.1
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ettifaq beat Al-Wehda 3–1, with xG of 1.4–0.1 backing up the result.",
+        "ar": "فاز الاتفاق على الوحدة 3–1، بأهداف متوقّعة 1.4–0.1 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132295+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-10-al-shabab-vs-al-riyadh",
+    "date": "2025-10-10",
+    "kickoff": "2025-10-10T17:00:00Z",
+    "matchweek": 8,
+    "home_team_id": "al-shabab",
+    "away_team_id": "al-riyadh",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_xg": 1.7,
+    "away_xg": 0.75,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 44,
+        "team_id": "al-riyadh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.28,
+        "away_xg": 0.12
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.57,
+        "away_xg": 0.25
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.13,
+        "away_xg": 0.5
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.42,
+        "away_xg": 0.62
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.7,
+        "away_xg": 0.75
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Riyadh won 1–0 at Al-Shabab, with xG of 1.7–0.8 backing up the result.",
+        "ar": "فاز الرياض على أرض الشباب 1–0، بأهداف متوقّعة 1.7–0.8 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132299+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-10-al-ahli-vs-al-fayha",
+    "date": "2025-10-10",
+    "kickoff": "2025-10-10T17:00:00Z",
+    "matchweek": 8,
+    "home_team_id": "al-ahli",
+    "away_team_id": "al-fayha",
+    "venue": {
+      "en": "Jeddah",
+      "ar": "جدة"
+    },
+    "home_goals": 3,
+    "away_goals": 0,
+    "home_xg": 1.52,
+    "away_xg": 0.47,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 33,
+        "team_id": "al-ahli",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 69,
+        "team_id": "al-ahli",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 79,
+        "team_id": "al-ahli",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.25,
+        "away_xg": 0.08
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.51,
+        "away_xg": 0.16
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.01,
+        "away_xg": 0.31
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.27,
+        "away_xg": 0.39
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.52,
+        "away_xg": 0.47
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ahli beat Al-Fayha 3–0, with xG of 1.5–0.5 backing up the result.",
+        "ar": "فاز الأهلي على الفيحاء 3–0، بأهداف متوقّعة 1.5–0.5 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132303+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-10-al-ittihad-vs-damac",
+    "date": "2025-10-10",
+    "kickoff": "2025-10-10T17:00:00Z",
+    "matchweek": 8,
+    "home_team_id": "al-ittihad",
+    "away_team_id": "damac",
+    "venue": {
+      "en": "Jeddah",
+      "ar": "جدة"
+    },
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_xg": 2.29,
+    "away_xg": 1.03,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 40,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 76,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.38,
+        "away_xg": 0.17
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.76,
+        "away_xg": 0.34
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.53,
+        "away_xg": 0.69
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.91,
+        "away_xg": 0.86
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.29,
+        "away_xg": 1.03
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ittihad beat Damac 2–0, with xG of 2.3–1.0 backing up the result.",
+        "ar": "فاز الاتحاد على ضمك 2–0، بأهداف متوقّعة 2.3–1.0 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132307+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-10-al-nassr-vs-al-qadsiah",
+    "date": "2025-10-10",
+    "kickoff": "2025-10-10T17:00:00Z",
+    "matchweek": 8,
+    "home_team_id": "al-nassr",
+    "away_team_id": "al-qadsiah",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_xg": 2.62,
+    "away_xg": 0.89,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 26,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 68,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.44,
+        "away_xg": 0.15
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.87,
+        "away_xg": 0.3
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.75,
+        "away_xg": 0.59
+      },
+      {
+        "minute": 75,
+        "home_xg": 2.18,
+        "away_xg": 0.74
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.62,
+        "away_xg": 0.89
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Nassr beat Al-Qadsiah 2–0, with xG of 2.6–0.9 backing up the result.",
+        "ar": "فاز النصر على القادسية 2–0، بأهداف متوقّعة 2.6–0.9 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132311+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-10-al-kholood-vs-al-okhdood",
+    "date": "2025-10-10",
+    "kickoff": "2025-10-10T17:00:00Z",
+    "matchweek": 8,
+    "home_team_id": "al-kholood",
+    "away_team_id": "al-okhdood",
+    "venue": {
+      "en": "Ar Rass",
+      "ar": "الرس"
+    },
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_xg": 1.5,
+    "away_xg": 1.81,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.25,
+        "away_xg": 0.3
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.5,
+        "away_xg": 0.6
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.0,
+        "away_xg": 1.21
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.25,
+        "away_xg": 1.51
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.5,
+        "away_xg": 1.81
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Kholood and Al-Okhdood drew 0–0, with xG of 1.5–1.8 backing up the result.",
+        "ar": "تعادل الخلود مع الأخدود 0–0، بأهداف متوقّعة 1.5–1.8 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132316+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-10-al-najma-vs-al-raed",
+    "date": "2025-10-10",
+    "kickoff": "2025-10-10T17:00:00Z",
+    "matchweek": 8,
+    "home_team_id": "al-najma",
+    "away_team_id": "al-raed",
+    "venue": {
+      "en": "Unayzah",
+      "ar": "عنيزة"
+    },
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_xg": 1.7,
+    "away_xg": 1.79,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 77,
+        "team_id": "al-najma",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.28,
+        "away_xg": 0.3
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.57,
+        "away_xg": 0.6
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.13,
+        "away_xg": 1.19
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.42,
+        "away_xg": 1.49
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.7,
+        "away_xg": 1.79
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Najma beat Al-Raed 1–0, with xG of 1.7–1.8 backing up the result.",
+        "ar": "فاز النجمة على الرائد 1–0، بأهداف متوقّعة 1.7–1.8 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132321+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-17-al-hilal-vs-al-khaleej",
+    "date": "2025-10-17",
+    "kickoff": "2025-10-17T17:00:00Z",
+    "matchweek": 9,
+    "home_team_id": "al-hilal",
+    "away_team_id": "al-khaleej",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 3,
+    "away_goals": 0,
+    "home_xg": 2.84,
+    "away_xg": 1.28,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 17,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 43,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 56,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.47,
+        "away_xg": 0.21
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.95,
+        "away_xg": 0.43
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.89,
+        "away_xg": 0.85
+      },
+      {
+        "minute": 75,
+        "home_xg": 2.37,
+        "away_xg": 1.07
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.84,
+        "away_xg": 1.28
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Hilal beat Al-Khaleej 3–0, with xG of 2.8–1.3 backing up the result.",
+        "ar": "فاز الهلال على الخليج 3–0، بأهداف متوقّعة 2.8–1.3 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132325+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-17-al-wehda-vs-al-taawoun",
+    "date": "2025-10-17",
+    "kickoff": "2025-10-17T17:00:00Z",
+    "matchweek": 9,
+    "home_team_id": "al-wehda",
+    "away_team_id": "al-taawoun",
+    "venue": {
+      "en": "Mecca",
+      "ar": "مكة"
+    },
+    "home_goals": 3,
+    "away_goals": 0,
+    "home_xg": 1.17,
+    "away_xg": 1.82,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 64,
+        "team_id": "al-wehda",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 67,
+        "team_id": "al-wehda",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 74,
+        "team_id": "al-wehda",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.19,
+        "away_xg": 0.3
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.39,
+        "away_xg": 0.61
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.78,
+        "away_xg": 1.21
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.97,
+        "away_xg": 1.52
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.17,
+        "away_xg": 1.82
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Wehda beat Al-Taawoun 3–0, with xG of 1.2–1.8 backing up the result.",
+        "ar": "فاز الوحدة على التعاون 3–0، بأهداف متوقّعة 1.2–1.8 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132329+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-17-al-riyadh-vs-al-fateh",
+    "date": "2025-10-17",
+    "kickoff": "2025-10-17T17:00:00Z",
+    "matchweek": 9,
+    "home_team_id": "al-riyadh",
+    "away_team_id": "al-fateh",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_xg": 0.49,
+    "away_xg": 1.13,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 32,
+        "team_id": "al-riyadh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.08,
+        "away_xg": 0.19
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.16,
+        "away_xg": 0.38
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.33,
+        "away_xg": 0.75
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.41,
+        "away_xg": 0.94
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.49,
+        "away_xg": 1.13
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Riyadh beat Al-Fateh 1–0, with xG of 0.5–1.1 backing up the result.",
+        "ar": "فاز الرياض على الفتح 1–0، بأهداف متوقّعة 0.5–1.1 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132334+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-17-al-fayha-vs-al-ettifaq",
+    "date": "2025-10-17",
+    "kickoff": "2025-10-17T17:00:00Z",
+    "matchweek": 9,
+    "home_team_id": "al-fayha",
+    "away_team_id": "al-ettifaq",
+    "venue": {
+      "en": "Al Majma'ah",
+      "ar": "المجمعة"
+    },
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_xg": 1.56,
+    "away_xg": 1.36,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.26,
+        "away_xg": 0.23
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.52,
+        "away_xg": 0.45
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.04,
+        "away_xg": 0.91
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.3,
+        "away_xg": 1.13
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.56,
+        "away_xg": 1.36
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Fayha and Al-Ettifaq drew 0–0, with xG of 1.6–1.4 backing up the result.",
+        "ar": "تعادل الفيحاء مع الاتفاق 0–0، بأهداف متوقّعة 1.6–1.4 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132338+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-17-damac-vs-al-shabab",
+    "date": "2025-10-17",
+    "kickoff": "2025-10-17T17:00:00Z",
+    "matchweek": 9,
+    "home_team_id": "damac",
+    "away_team_id": "al-shabab",
+    "venue": {
+      "en": "Khamis Mushait",
+      "ar": "خميس مشيط"
+    },
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_xg": 1.2,
+    "away_xg": 1.46,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 39,
+        "team_id": "al-shabab",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 48,
+        "team_id": "damac",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 56,
+        "team_id": "damac",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 69,
+        "team_id": "damac",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.2,
+        "away_xg": 0.24
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.4,
+        "away_xg": 0.49
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.8,
+        "away_xg": 0.97
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.0,
+        "away_xg": 1.22
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.2,
+        "away_xg": 1.46
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Damac beat Al-Shabab 3–1, with xG of 1.2–1.5 backing up the result.",
+        "ar": "فاز ضمك على الشباب 3–1، بأهداف متوقّعة 1.2–1.5 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132342+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-17-al-qadsiah-vs-al-ahli",
+    "date": "2025-10-17",
+    "kickoff": "2025-10-17T17:00:00Z",
+    "matchweek": 9,
+    "home_team_id": "al-qadsiah",
+    "away_team_id": "al-ahli",
+    "venue": {
+      "en": "Khobar",
+      "ar": "الخبر"
+    },
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_xg": 1.68,
+    "away_xg": 1.59,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 22,
+        "team_id": "al-qadsiah",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.28,
+        "away_xg": 0.27
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.56,
+        "away_xg": 0.53
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.12,
+        "away_xg": 1.06
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.4,
+        "away_xg": 1.32
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.68,
+        "away_xg": 1.59
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Qadsiah beat Al-Ahli 1–0, with xG of 1.7–1.6 backing up the result.",
+        "ar": "فاز القادسية على الأهلي 1–0، بأهداف متوقّعة 1.7–1.6 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132346+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-17-al-okhdood-vs-al-ittihad",
+    "date": "2025-10-17",
+    "kickoff": "2025-10-17T17:00:00Z",
+    "matchweek": 9,
+    "home_team_id": "al-okhdood",
+    "away_team_id": "al-ittihad",
+    "venue": {
+      "en": "Najran",
+      "ar": "نجران"
+    },
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_xg": 1.72,
+    "away_xg": 2.15,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 48,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 67,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.29,
+        "away_xg": 0.36
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.57,
+        "away_xg": 0.72
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.15,
+        "away_xg": 1.43
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.43,
+        "away_xg": 1.79
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.72,
+        "away_xg": 2.15
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ittihad won 2–0 at Al-Okhdood, with xG of 1.7–2.1 backing up the result.",
+        "ar": "فاز الاتحاد على أرض الأخدود 2–0، بأهداف متوقّعة 1.7–2.1 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132350+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-17-al-raed-vs-al-nassr",
+    "date": "2025-10-17",
+    "kickoff": "2025-10-17T17:00:00Z",
+    "matchweek": 9,
+    "home_team_id": "al-raed",
+    "away_team_id": "al-nassr",
+    "venue": {
+      "en": "Buraidah",
+      "ar": "بريدة"
+    },
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_xg": 0.78,
+    "away_xg": 2.83,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.13,
+        "away_xg": 0.47
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.26,
+        "away_xg": 0.94
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.52,
+        "away_xg": 1.89
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.65,
+        "away_xg": 2.36
+      },
+      {
+        "minute": 90,
+        "home_xg": 0.78,
+        "away_xg": 2.83
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Raed and Al-Nassr drew 0–0, with xG of 0.8–2.8 backing up the result.",
+        "ar": "تعادل الرائد مع النصر 0–0، بأهداف متوقّعة 0.8–2.8 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132354+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-17-al-najma-vs-al-kholood",
+    "date": "2025-10-17",
+    "kickoff": "2025-10-17T17:00:00Z",
+    "matchweek": 9,
+    "home_team_id": "al-najma",
+    "away_team_id": "al-kholood",
+    "venue": {
+      "en": "Unayzah",
+      "ar": "عنيزة"
+    },
+    "home_goals": 4,
+    "away_goals": 0,
+    "home_xg": 1.01,
+    "away_xg": 0.24,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 32,
+        "team_id": "al-najma",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 39,
+        "team_id": "al-najma",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 51,
+        "team_id": "al-najma",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 61,
+        "team_id": "al-najma",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.17,
+        "away_xg": 0.04
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.34,
+        "away_xg": 0.08
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.67,
+        "away_xg": 0.16
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.84,
+        "away_xg": 0.2
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.01,
+        "away_xg": 0.24
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Najma beat Al-Kholood 4–0, with xG of 1.0–0.2 backing up the result.",
+        "ar": "فاز النجمة على الخلود 4–0، بأهداف متوقّعة 1.0–0.2 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132360+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-24-al-wehda-vs-al-hilal",
+    "date": "2025-10-24",
+    "kickoff": "2025-10-24T17:00:00Z",
+    "matchweek": 10,
+    "home_team_id": "al-wehda",
+    "away_team_id": "al-hilal",
+    "venue": {
+      "en": "Mecca",
+      "ar": "مكة"
+    },
+    "home_goals": 0,
+    "away_goals": 3,
+    "home_xg": 1.05,
+    "away_xg": 2.34,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 40,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 44,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 63,
+        "team_id": "al-hilal",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.17,
+        "away_xg": 0.39
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.35,
+        "away_xg": 0.78
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.7,
+        "away_xg": 1.56
+      },
+      {
+        "minute": 75,
+        "home_xg": 0.88,
+        "away_xg": 1.95
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.05,
+        "away_xg": 2.34
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Hilal won 3–0 at Al-Wehda, with xG of 1.1–2.3 backing up the result.",
+        "ar": "فاز الهلال على أرض الوحدة 3–0، بأهداف متوقّعة 1.1–2.3 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132365+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-24-al-khaleej-vs-al-riyadh",
+    "date": "2025-10-24",
+    "kickoff": "2025-10-24T17:00:00Z",
+    "matchweek": 10,
+    "home_team_id": "al-khaleej",
+    "away_team_id": "al-riyadh",
+    "venue": {
+      "en": "Saihat",
+      "ar": "سيهات"
+    },
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_xg": 1.98,
+    "away_xg": 2.33,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 40,
+        "team_id": "al-khaleej",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.33,
+        "away_xg": 0.39
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.66,
+        "away_xg": 0.78
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.32,
+        "away_xg": 1.55
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.65,
+        "away_xg": 1.94
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.98,
+        "away_xg": 2.33
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Khaleej beat Al-Riyadh 1–0, with xG of 2.0–2.3 backing up the result.",
+        "ar": "فاز الخليج على الرياض 1–0، بأهداف متوقّعة 2.0–2.3 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132369+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-24-al-taawoun-vs-al-fayha",
+    "date": "2025-10-24",
+    "kickoff": "2025-10-24T17:00:00Z",
+    "matchweek": 10,
+    "home_team_id": "al-taawoun",
+    "away_team_id": "al-fayha",
+    "venue": {
+      "en": "Buraidah",
+      "ar": "بريدة"
+    },
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_xg": 1.21,
+    "away_xg": 1.15,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 10,
+        "team_id": "al-taawoun",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 25,
+        "team_id": "al-fayha",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 70,
+        "team_id": "al-taawoun",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.2,
+        "away_xg": 0.19
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.4,
+        "away_xg": 0.38
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.81,
+        "away_xg": 0.77
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.01,
+        "away_xg": 0.96
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.21,
+        "away_xg": 1.15
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Taawoun beat Al-Fayha 2–1, with xG of 1.2–1.1 backing up the result.",
+        "ar": "فاز التعاون على الفيحاء 2–1، بأهداف متوقّعة 1.2–1.1 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132378+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-24-al-fateh-vs-damac",
+    "date": "2025-10-24",
+    "kickoff": "2025-10-24T17:00:00Z",
+    "matchweek": 10,
+    "home_team_id": "al-fateh",
+    "away_team_id": "damac",
+    "venue": {
+      "en": "Al-Hasa",
+      "ar": "الأحساء"
+    },
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_xg": 1.52,
+    "away_xg": 0.94,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 46,
+        "team_id": "damac",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 56,
+        "team_id": "al-fateh",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 71,
+        "team_id": "damac",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.25,
+        "away_xg": 0.16
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.51,
+        "away_xg": 0.31
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.01,
+        "away_xg": 0.63
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.27,
+        "away_xg": 0.78
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.52,
+        "away_xg": 0.94
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Damac won 2–1 at Al-Fateh, with xG of 1.5–0.9 backing up the result.",
+        "ar": "فاز ضمك على أرض الفتح 2–1، بأهداف متوقّعة 1.5–0.9 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132383+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-24-al-ettifaq-vs-al-qadsiah",
+    "date": "2025-10-24",
+    "kickoff": "2025-10-24T17:00:00Z",
+    "matchweek": 10,
+    "home_team_id": "al-ettifaq",
+    "away_team_id": "al-qadsiah",
+    "venue": {
+      "en": "Dammam",
+      "ar": "الدمام"
+    },
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_xg": 1.33,
+    "away_xg": 1.64,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.22,
+        "away_xg": 0.27
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.44,
+        "away_xg": 0.55
+      },
+      {
+        "minute": 60,
+        "home_xg": 0.89,
+        "away_xg": 1.09
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.11,
+        "away_xg": 1.37
+      },
+      {
+        "minute": 90,
+        "home_xg": 1.33,
+        "away_xg": 1.64
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ettifaq and Al-Qadsiah drew 0–0, with xG of 1.3–1.6 backing up the result.",
+        "ar": "تعادل الاتفاق مع القادسية 0–0، بأهداف متوقّعة 1.3–1.6 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132387+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-24-al-shabab-vs-al-okhdood",
+    "date": "2025-10-24",
+    "kickoff": "2025-10-24T17:00:00Z",
+    "matchweek": 10,
+    "home_team_id": "al-shabab",
+    "away_team_id": "al-okhdood",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_xg": 2.46,
+    "away_xg": 1.11,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 33,
+        "team_id": "al-shabab",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 58,
+        "team_id": "al-okhdood",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 75,
+        "team_id": "al-okhdood",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.41,
+        "away_xg": 0.19
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.82,
+        "away_xg": 0.37
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.64,
+        "away_xg": 0.74
+      },
+      {
+        "minute": 75,
+        "home_xg": 2.05,
+        "away_xg": 0.93
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.46,
+        "away_xg": 1.11
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Okhdood won 2–1 at Al-Shabab, with xG of 2.5–1.1 backing up the result.",
+        "ar": "فاز الأخدود على أرض الشباب 2–1، بأهداف متوقّعة 2.5–1.1 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132391+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-24-al-ahli-vs-al-raed",
+    "date": "2025-10-24",
+    "kickoff": "2025-10-24T17:00:00Z",
+    "matchweek": 10,
+    "home_team_id": "al-ahli",
+    "away_team_id": "al-raed",
+    "venue": {
+      "en": "Jeddah",
+      "ar": "جدة"
+    },
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_xg": 2.33,
+    "away_xg": 0.53,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 23,
+        "team_id": "al-ahli",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      },
+      {
+        "minute": 26,
+        "team_id": "al-ahli",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.39,
+        "away_xg": 0.09
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.78,
+        "away_xg": 0.18
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.55,
+        "away_xg": 0.35
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.94,
+        "away_xg": 0.44
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.33,
+        "away_xg": 0.53
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ahli beat Al-Raed 2–0, with xG of 2.3–0.5 backing up the result.",
+        "ar": "فاز الأهلي على الرائد 2–0، بأهداف متوقّعة 2.3–0.5 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132395+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-24-al-ittihad-vs-al-najma",
+    "date": "2025-10-24",
+    "kickoff": "2025-10-24T17:00:00Z",
+    "matchweek": 10,
+    "home_team_id": "al-ittihad",
+    "away_team_id": "al-najma",
+    "venue": {
+      "en": "Jeddah",
+      "ar": "جدة"
+    },
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_xg": 2.32,
+    "away_xg": 1.64,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 9,
+        "team_id": "al-ittihad",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.39,
+        "away_xg": 0.27
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.77,
+        "away_xg": 0.55
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.55,
+        "away_xg": 1.09
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.93,
+        "away_xg": 1.37
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.32,
+        "away_xg": 1.64
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Ittihad beat Al-Najma 1–0, with xG of 2.3–1.6 backing up the result.",
+        "ar": "فاز الاتحاد على النجمة 1–0، بأهداف متوقّعة 2.3–1.6 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132400+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-24-al-nassr-vs-al-kholood",
+    "date": "2025-10-24",
+    "kickoff": "2025-10-24T17:00:00Z",
+    "matchweek": 10,
+    "home_team_id": "al-nassr",
+    "away_team_id": "al-kholood",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_xg": 2.36,
+    "away_xg": 0.87,
+    "status": "finished",
+    "fbref_match_id": null,
+    "events": [
+      {
+        "minute": 6,
+        "team_id": "al-nassr",
+        "type": "goal",
+        "player_id": null,
+        "player_name": null,
+        "detail": null
+      }
+    ],
+    "xg_flow": [
+      {
+        "minute": 15,
+        "home_xg": 0.39,
+        "away_xg": 0.15
+      },
+      {
+        "minute": 30,
+        "home_xg": 0.79,
+        "away_xg": 0.29
+      },
+      {
+        "minute": 60,
+        "home_xg": 1.57,
+        "away_xg": 0.58
+      },
+      {
+        "minute": 75,
+        "home_xg": 1.97,
+        "away_xg": 0.72
+      },
+      {
+        "minute": 90,
+        "home_xg": 2.36,
+        "away_xg": 0.87
+      }
+    ],
+    "preview": null,
+    "recap": {
+      "text": {
+        "en": "Al-Nassr beat Al-Kholood 1–0, with xG of 2.4–0.9 backing up the result.",
+        "ar": "فاز النصر على الخلود 1–0، بأهداف متوقّعة 2.4–0.9 تدعم النتيجة."
+      },
+      "generated_at": "2026-05-02T00:36:09.132403+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "2025-10-31-al-hilal-vs-al-riyadh",
+    "date": "2025-10-31",
+    "kickoff": "2025-10-31T17:00:00Z",
+    "matchweek": 11,
+    "home_team_id": "al-hilal",
+    "away_team_id": "al-riyadh",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Hilal vs Al-Riyadh: the model favors Al-Hilal with a 66% win probability (66/24/10 W/D/L). Expected goals lean 1.6–0.4, with 1–0 the most likely scoreline.",
+        "ar": "الهلال ضدّ الرياض: يُرجّح النموذج فوز الهلال باحتمالية 66٪ (66/24/10 ف/ت/خ). الأهداف المتوقّعة 1.6–0.4، والنتيجة الأرجح 1–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132413+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-10-31-al-fayha-vs-al-wehda",
+    "date": "2025-10-31",
+    "kickoff": "2025-10-31T17:00:00Z",
+    "matchweek": 11,
+    "home_team_id": "al-fayha",
+    "away_team_id": "al-wehda",
+    "venue": {
+      "en": "Al Majma'ah",
+      "ar": "المجمعة"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Fayha vs Al-Wehda: the model favors Al-Wehda with a 55% win probability (20/25/55 W/D/L). Expected goals lean 0.8–1.6, with 0–1 the most likely scoreline.",
+        "ar": "الفيحاء ضدّ الوحدة: يُرجّح النموذج فوز الوحدة باحتمالية 55٪ (20/25/55 ف/ت/خ). الأهداف المتوقّعة 0.8–1.6، والنتيجة الأرجح 0–1."
+      },
+      "generated_at": "2026-05-02T00:36:09.132420+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-10-31-damac-vs-al-khaleej",
+    "date": "2025-10-31",
+    "kickoff": "2025-10-31T17:00:00Z",
+    "matchweek": 11,
+    "home_team_id": "damac",
+    "away_team_id": "al-khaleej",
+    "venue": {
+      "en": "Khamis Mushait",
+      "ar": "خميس مشيط"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Damac vs Al-Khaleej: the model favors Damac with a 52% win probability (52/25/23 W/D/L). Expected goals lean 1.6–1.0, with 1–0 the most likely scoreline.",
+        "ar": "ضمك ضدّ الخليج: يُرجّح النموذج فوز ضمك باحتمالية 52٪ (52/25/23 ف/ت/خ). الأهداف المتوقّعة 1.6–1.0، والنتيجة الأرجح 1–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132428+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-10-31-al-qadsiah-vs-al-taawoun",
+    "date": "2025-10-31",
+    "kickoff": "2025-10-31T17:00:00Z",
+    "matchweek": 11,
+    "home_team_id": "al-qadsiah",
+    "away_team_id": "al-taawoun",
+    "venue": {
+      "en": "Khobar",
+      "ar": "الخبر"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Qadsiah vs Al-Taawoun: the model favors Al-Qadsiah with a 49% win probability (49/33/19 W/D/L). Expected goals lean 1.1–0.6, with 1–0 the most likely scoreline.",
+        "ar": "القادسية ضدّ التعاون: يُرجّح النموذج فوز القادسية باحتمالية 49٪ (49/33/19 ف/ت/خ). الأهداف المتوقّعة 1.1–0.6، والنتيجة الأرجح 1–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132433+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-10-31-al-okhdood-vs-al-fateh",
+    "date": "2025-10-31",
+    "kickoff": "2025-10-31T17:00:00Z",
+    "matchweek": 11,
+    "home_team_id": "al-okhdood",
+    "away_team_id": "al-fateh",
+    "venue": {
+      "en": "Najran",
+      "ar": "نجران"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Okhdood vs Al-Fateh: the model favors Al-Fateh with a 37% win probability (28/35/37 W/D/L). Expected goals lean 0.7–0.9, with 0–0 the most likely scoreline.",
+        "ar": "الأخدود ضدّ الفتح: يُرجّح النموذج فوز الفتح باحتمالية 37٪ (28/35/37 ف/ت/خ). الأهداف المتوقّعة 0.7–0.9، والنتيجة الأرجح 0–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132439+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-10-31-al-raed-vs-al-ettifaq",
+    "date": "2025-10-31",
+    "kickoff": "2025-10-31T17:00:00Z",
+    "matchweek": 11,
+    "home_team_id": "al-raed",
+    "away_team_id": "al-ettifaq",
+    "venue": {
+      "en": "Buraidah",
+      "ar": "بريدة"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Raed vs Al-Ettifaq: the model favors Al-Raed with a 32% win probability (32/38/29 W/D/L). Expected goals lean 0.7–0.7, with 0–0 the most likely scoreline.",
+        "ar": "الرائد ضدّ الاتفاق: يُرجّح النموذج فوز الرائد باحتمالية 32٪ (32/38/29 ف/ت/خ). الأهداف المتوقّعة 0.7–0.7، والنتيجة الأرجح 0–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132445+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-10-31-al-najma-vs-al-shabab",
+    "date": "2025-10-31",
+    "kickoff": "2025-10-31T17:00:00Z",
+    "matchweek": 11,
+    "home_team_id": "al-najma",
+    "away_team_id": "al-shabab",
+    "venue": {
+      "en": "Unayzah",
+      "ar": "عنيزة"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Najma vs Al-Shabab: the model favors Al-Najma with a 62% win probability (62/24/14 W/D/L). Expected goals lean 1.6–0.6, with 1–0 the most likely scoreline.",
+        "ar": "النجمة ضدّ الشباب: يُرجّح النموذج فوز النجمة باحتمالية 62٪ (62/24/14 ف/ت/خ). الأهداف المتوقّعة 1.6–0.6، والنتيجة الأرجح 1–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132451+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-10-31-al-kholood-vs-al-ahli",
+    "date": "2025-10-31",
+    "kickoff": "2025-10-31T17:00:00Z",
+    "matchweek": 11,
+    "home_team_id": "al-kholood",
+    "away_team_id": "al-ahli",
+    "venue": {
+      "en": "Ar Rass",
+      "ar": "الرس"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Kholood vs Al-Ahli: the model favors Al-Ahli with a 78% win probability (4/18/78 W/D/L). Expected goals lean 0.2–1.9, with 0–1 the most likely scoreline.",
+        "ar": "الخلود ضدّ الأهلي: يُرجّح النموذج فوز الأهلي باحتمالية 78٪ (4/18/78 ف/ت/خ). الأهداف المتوقّعة 0.2–1.9، والنتيجة الأرجح 0–1."
+      },
+      "generated_at": "2026-05-02T00:36:09.132462+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-10-31-al-nassr-vs-al-ittihad",
+    "date": "2025-10-31",
+    "kickoff": "2025-10-31T17:00:00Z",
+    "matchweek": 11,
+    "home_team_id": "al-nassr",
+    "away_team_id": "al-ittihad",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Nassr vs Al-Ittihad: the model favors Al-Nassr with a 43% win probability (43/34/23 W/D/L). Expected goals lean 1.0–0.6, with 1–0 the most likely scoreline.",
+        "ar": "النصر ضدّ الاتحاد: يُرجّح النموذج فوز النصر باحتمالية 43٪ (43/34/23 ف/ت/خ). الأهداف المتوقّعة 1.0–0.6، والنتيجة الأرجح 1–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132470+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-07-al-fayha-vs-al-hilal",
+    "date": "2025-11-07",
+    "kickoff": "2025-11-07T17:00:00Z",
+    "matchweek": 12,
+    "home_team_id": "al-fayha",
+    "away_team_id": "al-hilal",
+    "venue": {
+      "en": "Al Majma'ah",
+      "ar": "المجمعة"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Fayha vs Al-Hilal: the model favors Al-Hilal with a 80% win probability (6/13/80 W/D/L). Expected goals lean 0.6–2.6, with 0–2 the most likely scoreline.",
+        "ar": "الفيحاء ضدّ الهلال: يُرجّح النموذج فوز الهلال باحتمالية 80٪ (6/13/80 ف/ت/خ). الأهداف المتوقّعة 0.6–2.6، والنتيجة الأرجح 0–2."
+      },
+      "generated_at": "2026-05-02T00:36:09.132476+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-07-al-riyadh-vs-damac",
+    "date": "2025-11-07",
+    "kickoff": "2025-11-07T17:00:00Z",
+    "matchweek": 12,
+    "home_team_id": "al-riyadh",
+    "away_team_id": "damac",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Riyadh vs Damac: the model favors Al-Riyadh with a 34% win probability (34/35/31 W/D/L). Expected goals lean 0.8–0.8, with 0–0 the most likely scoreline.",
+        "ar": "الرياض ضدّ ضمك: يُرجّح النموذج فوز الرياض باحتمالية 34٪ (34/35/31 ف/ت/خ). الأهداف المتوقّعة 0.8–0.8، والنتيجة الأرجح 0–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132482+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-07-al-wehda-vs-al-qadsiah",
+    "date": "2025-11-07",
+    "kickoff": "2025-11-07T17:00:00Z",
+    "matchweek": 12,
+    "home_team_id": "al-wehda",
+    "away_team_id": "al-qadsiah",
+    "venue": {
+      "en": "Mecca",
+      "ar": "مكة"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Wehda vs Al-Qadsiah: the model favors Al-Wehda with a 40% win probability (40/37/23 W/D/L). Expected goals lean 0.8–0.6, with 0–0 the most likely scoreline.",
+        "ar": "الوحدة ضدّ القادسية: يُرجّح النموذج فوز الوحدة باحتمالية 40٪ (40/37/23 ف/ت/خ). الأهداف المتوقّعة 0.8–0.6، والنتيجة الأرجح 0–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132488+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-07-al-khaleej-vs-al-okhdood",
+    "date": "2025-11-07",
+    "kickoff": "2025-11-07T17:00:00Z",
+    "matchweek": 12,
+    "home_team_id": "al-khaleej",
+    "away_team_id": "al-okhdood",
+    "venue": {
+      "en": "Saihat",
+      "ar": "سيهات"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Khaleej vs Al-Okhdood: the model favors Al-Khaleej with a 54% win probability (54/28/18 W/D/L). Expected goals lean 1.4–0.7, with 1–0 the most likely scoreline.",
+        "ar": "الخليج ضدّ الأخدود: يُرجّح النموذج فوز الخليج باحتمالية 54٪ (54/28/18 ف/ت/خ). الأهداف المتوقّعة 1.4–0.7، والنتيجة الأرجح 1–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132495+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-07-al-taawoun-vs-al-raed",
+    "date": "2025-11-07",
+    "kickoff": "2025-11-07T17:00:00Z",
+    "matchweek": 12,
+    "home_team_id": "al-taawoun",
+    "away_team_id": "al-raed",
+    "venue": {
+      "en": "Buraidah",
+      "ar": "بريدة"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Taawoun vs Al-Raed: the model favors Al-Taawoun with a 44% win probability (44/34/22 W/D/L). Expected goals lean 1.0–0.6, with 1–0 the most likely scoreline.",
+        "ar": "التعاون ضدّ الرائد: يُرجّح النموذج فوز التعاون باحتمالية 44٪ (44/34/22 ف/ت/خ). الأهداف المتوقّعة 1.0–0.6، والنتيجة الأرجح 1–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132501+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-07-al-fateh-vs-al-najma",
+    "date": "2025-11-07",
+    "kickoff": "2025-11-07T17:00:00Z",
+    "matchweek": 12,
+    "home_team_id": "al-fateh",
+    "away_team_id": "al-najma",
+    "venue": {
+      "en": "Al-Hasa",
+      "ar": "الأحساء"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Fateh vs Al-Najma: the model favors Al-Najma with a 40% win probability (28/32/40 W/D/L). Expected goals lean 0.8–1.1, with 0–1 the most likely scoreline.",
+        "ar": "الفتح ضدّ النجمة: يُرجّح النموذج فوز النجمة باحتمالية 40٪ (28/32/40 ف/ت/خ). الأهداف المتوقّعة 0.8–1.1، والنتيجة الأرجح 0–1."
+      },
+      "generated_at": "2026-05-02T00:36:09.132506+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-07-al-ettifaq-vs-al-kholood",
+    "date": "2025-11-07",
+    "kickoff": "2025-11-07T17:00:00Z",
+    "matchweek": 12,
+    "home_team_id": "al-ettifaq",
+    "away_team_id": "al-kholood",
+    "venue": {
+      "en": "Dammam",
+      "ar": "الدمام"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Ettifaq vs Al-Kholood: the model favors Al-Ettifaq with a 59% win probability (59/29/11 W/D/L). Expected goals lean 1.3–0.4, with 1–0 the most likely scoreline.",
+        "ar": "الاتفاق ضدّ الخلود: يُرجّح النموذج فوز الاتفاق باحتمالية 59٪ (59/29/11 ف/ت/خ). الأهداف المتوقّعة 1.3–0.4، والنتيجة الأرجح 1–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132512+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-07-al-shabab-vs-al-nassr",
+    "date": "2025-11-07",
+    "kickoff": "2025-11-07T17:00:00Z",
+    "matchweek": 12,
+    "home_team_id": "al-shabab",
+    "away_team_id": "al-nassr",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Shabab vs Al-Nassr: the model favors Al-Nassr with a 77% win probability (7/17/77 W/D/L). Expected goals lean 0.5–2.1, with 0–2 the most likely scoreline.",
+        "ar": "الشباب ضدّ النصر: يُرجّح النموذج فوز النصر باحتمالية 77٪ (7/17/77 ف/ت/خ). الأهداف المتوقّعة 0.5–2.1، والنتيجة الأرجح 0–2."
+      },
+      "generated_at": "2026-05-02T00:36:09.132517+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-07-al-ahli-vs-al-ittihad",
+    "date": "2025-11-07",
+    "kickoff": "2025-11-07T17:00:00Z",
+    "matchweek": 12,
+    "home_team_id": "al-ahli",
+    "away_team_id": "al-ittihad",
+    "venue": {
+      "en": "Jeddah",
+      "ar": "جدة"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Ahli vs Al-Ittihad: the model favors neither side with a 33% win probability (33/34/33 W/D/L). Expected goals lean 0.8–0.9, with 0–0 the most likely scoreline.",
+        "ar": "الأهلي ضدّ الاتحاد: يُرجّح النموذج فوز أي من الفريقين باحتمالية 33٪ (33/34/33 ف/ت/خ). الأهداف المتوقّعة 0.8–0.9، والنتيجة الأرجح 0–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132522+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-14-al-hilal-vs-damac",
+    "date": "2025-11-14",
+    "kickoff": "2025-11-14T17:00:00Z",
+    "matchweek": 13,
+    "home_team_id": "al-hilal",
+    "away_team_id": "damac",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Hilal vs Damac: the model favors Al-Hilal with a 68% win probability (68/20/11 W/D/L). Expected goals lean 1.9–0.6, with 1–0 the most likely scoreline.",
+        "ar": "الهلال ضدّ ضمك: يُرجّح النموذج فوز الهلال باحتمالية 68٪ (68/20/11 ف/ت/خ). الأهداف المتوقّعة 1.9–0.6، والنتيجة الأرجح 1–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132529+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-14-al-qadsiah-vs-al-fayha",
+    "date": "2025-11-14",
+    "kickoff": "2025-11-14T17:00:00Z",
+    "matchweek": 13,
+    "home_team_id": "al-qadsiah",
+    "away_team_id": "al-fayha",
+    "venue": {
+      "en": "Khobar",
+      "ar": "الخبر"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Qadsiah vs Al-Fayha: the model favors Al-Qadsiah with a 53% win probability (53/30/17 W/D/L). Expected goals lean 1.2–0.6, with 1–0 the most likely scoreline.",
+        "ar": "القادسية ضدّ الفيحاء: يُرجّح النموذج فوز القادسية باحتمالية 53٪ (53/30/17 ف/ت/خ). الأهداف المتوقّعة 1.2–0.6، والنتيجة الأرجح 1–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132542+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-14-al-okhdood-vs-al-riyadh",
+    "date": "2025-11-14",
+    "kickoff": "2025-11-14T17:00:00Z",
+    "matchweek": 13,
+    "home_team_id": "al-okhdood",
+    "away_team_id": "al-riyadh",
+    "venue": {
+      "en": "Najran",
+      "ar": "نجران"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Okhdood vs Al-Riyadh: the model favors Al-Riyadh with a 41% win probability (20/39/41 W/D/L). Expected goals lean 0.5–0.8, with 0–0 the most likely scoreline.",
+        "ar": "الأخدود ضدّ الرياض: يُرجّح النموذج فوز الرياض باحتمالية 41٪ (20/39/41 ف/ت/خ). الأهداف المتوقّعة 0.5–0.8، والنتيجة الأرجح 0–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132547+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-14-al-raed-vs-al-wehda",
+    "date": "2025-11-14",
+    "kickoff": "2025-11-14T17:00:00Z",
+    "matchweek": 13,
+    "home_team_id": "al-raed",
+    "away_team_id": "al-wehda",
+    "venue": {
+      "en": "Buraidah",
+      "ar": "بريدة"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Raed vs Al-Wehda: the model favors Al-Wehda with a 50% win probability (16/34/50 W/D/L). Expected goals lean 0.5–1.1, with 0–1 the most likely scoreline.",
+        "ar": "الرائد ضدّ الوحدة: يُرجّح النموذج فوز الوحدة باحتمالية 50٪ (16/34/50 ف/ت/خ). الأهداف المتوقّعة 0.5–1.1، والنتيجة الأرجح 0–1."
+      },
+      "generated_at": "2026-05-02T00:36:09.132552+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-14-al-najma-vs-al-khaleej",
+    "date": "2025-11-14",
+    "kickoff": "2025-11-14T17:00:00Z",
+    "matchweek": 13,
+    "home_team_id": "al-najma",
+    "away_team_id": "al-khaleej",
+    "venue": {
+      "en": "Unayzah",
+      "ar": "عنيزة"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Najma vs Al-Khaleej: the model favors Al-Najma with a 48% win probability (48/28/24 W/D/L). Expected goals lean 1.4–0.9, with 1–0 the most likely scoreline.",
+        "ar": "النجمة ضدّ الخليج: يُرجّح النموذج فوز النجمة باحتمالية 48٪ (48/28/24 ف/ت/خ). الأهداف المتوقّعة 1.4–0.9، والنتيجة الأرجح 1–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132557+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-14-al-kholood-vs-al-taawoun",
+    "date": "2025-11-14",
+    "kickoff": "2025-11-14T17:00:00Z",
+    "matchweek": 13,
+    "home_team_id": "al-kholood",
+    "away_team_id": "al-taawoun",
+    "venue": {
+      "en": "Ar Rass",
+      "ar": "الرس"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Kholood vs Al-Taawoun: the model favors Al-Taawoun with a 57% win probability (14/29/57 W/D/L). Expected goals lean 0.5–1.3, with 0–1 the most likely scoreline.",
+        "ar": "الخلود ضدّ التعاون: يُرجّح النموذج فوز التعاون باحتمالية 57٪ (14/29/57 ف/ت/خ). الأهداف المتوقّعة 0.5–1.3، والنتيجة الأرجح 0–1."
+      },
+      "generated_at": "2026-05-02T00:36:09.132562+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-14-al-nassr-vs-al-fateh",
+    "date": "2025-11-14",
+    "kickoff": "2025-11-14T17:00:00Z",
+    "matchweek": 13,
+    "home_team_id": "al-nassr",
+    "away_team_id": "al-fateh",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Nassr vs Al-Fateh: the model favors Al-Nassr with a 76% win probability (76/18/7 W/D/L). Expected goals lean 2.0–0.4, with 2–0 the most likely scoreline.",
+        "ar": "النصر ضدّ الفتح: يُرجّح النموذج فوز النصر باحتمالية 76٪ (76/18/7 ف/ت/خ). الأهداف المتوقّعة 2.0–0.4، والنتيجة الأرجح 2–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132566+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-14-al-ittihad-vs-al-ettifaq",
+    "date": "2025-11-14",
+    "kickoff": "2025-11-14T17:00:00Z",
+    "matchweek": 13,
+    "home_team_id": "al-ittihad",
+    "away_team_id": "al-ettifaq",
+    "venue": {
+      "en": "Jeddah",
+      "ar": "جدة"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Ittihad vs Al-Ettifaq: the model favors Al-Ittihad with a 77% win probability (77/17/6 W/D/L). Expected goals lean 2.1–0.4, with 2–0 the most likely scoreline.",
+        "ar": "الاتحاد ضدّ الاتفاق: يُرجّح النموذج فوز الاتحاد باحتمالية 77٪ (77/17/6 ف/ت/خ). الأهداف المتوقّعة 2.1–0.4، والنتيجة الأرجح 2–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132571+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-14-al-ahli-vs-al-shabab",
+    "date": "2025-11-14",
+    "kickoff": "2025-11-14T17:00:00Z",
+    "matchweek": 13,
+    "home_team_id": "al-ahli",
+    "away_team_id": "al-shabab",
+    "venue": {
+      "en": "Jeddah",
+      "ar": "جدة"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Ahli vs Al-Shabab: the model favors Al-Ahli with a 76% win probability (76/17/7 W/D/L). Expected goals lean 2.2–0.5, with 2–0 the most likely scoreline.",
+        "ar": "الأهلي ضدّ الشباب: يُرجّح النموذج فوز الأهلي باحتمالية 76٪ (76/17/7 ف/ت/خ). الأهداف المتوقّعة 2.2–0.5، والنتيجة الأرجح 2–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132576+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-21-al-qadsiah-vs-al-hilal",
+    "date": "2025-11-21",
+    "kickoff": "2025-11-21T17:00:00Z",
+    "matchweek": 14,
+    "home_team_id": "al-qadsiah",
+    "away_team_id": "al-hilal",
+    "venue": {
+      "en": "Khobar",
+      "ar": "الخبر"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Qadsiah vs Al-Hilal: the model favors Al-Hilal with a 53% win probability (15/32/53 W/D/L). Expected goals lean 0.5–1.2, with 0–1 the most likely scoreline.",
+        "ar": "القادسية ضدّ الهلال: يُرجّح النموذج فوز الهلال باحتمالية 53٪ (15/32/53 ف/ت/خ). الأهداف المتوقّعة 0.5–1.2، والنتيجة الأرجح 0–1."
+      },
+      "generated_at": "2026-05-02T00:36:09.132581+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-21-damac-vs-al-okhdood",
+    "date": "2025-11-21",
+    "kickoff": "2025-11-21T17:00:00Z",
+    "matchweek": 14,
+    "home_team_id": "damac",
+    "away_team_id": "al-okhdood",
+    "venue": {
+      "en": "Khamis Mushait",
+      "ar": "خميس مشيط"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Damac vs Al-Okhdood: the model favors Damac with a 59% win probability (59/28/13 W/D/L). Expected goals lean 1.4–0.5, with 1–0 the most likely scoreline.",
+        "ar": "ضمك ضدّ الأخدود: يُرجّح النموذج فوز ضمك باحتمالية 59٪ (59/28/13 ف/ت/خ). الأهداف المتوقّعة 1.4–0.5، والنتيجة الأرجح 1–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132586+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-21-al-fayha-vs-al-raed",
+    "date": "2025-11-21",
+    "kickoff": "2025-11-21T17:00:00Z",
+    "matchweek": 14,
+    "home_team_id": "al-fayha",
+    "away_team_id": "al-raed",
+    "venue": {
+      "en": "Al Majma'ah",
+      "ar": "المجمعة"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Fayha vs Al-Raed: the model favors Al-Fayha with a 42% win probability (42/34/24 W/D/L). Expected goals lean 1.0–0.7, with 1–0 the most likely scoreline.",
+        "ar": "الفيحاء ضدّ الرائد: يُرجّح النموذج فوز الفيحاء باحتمالية 42٪ (42/34/24 ف/ت/خ). الأهداف المتوقّعة 1.0–0.7، والنتيجة الأرجح 1–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132590+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-21-al-riyadh-vs-al-najma",
+    "date": "2025-11-21",
+    "kickoff": "2025-11-21T17:00:00Z",
+    "matchweek": 14,
+    "home_team_id": "al-riyadh",
+    "away_team_id": "al-najma",
+    "venue": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Riyadh vs Al-Najma: the model favors Al-Riyadh with a 34% win probability (34/38/29 W/D/L). Expected goals lean 0.8–0.7, with 0–0 the most likely scoreline.",
+        "ar": "الرياض ضدّ النجمة: يُرجّح النموذج فوز الرياض باحتمالية 34٪ (34/38/29 ف/ت/خ). الأهداف المتوقّعة 0.8–0.7، والنتيجة الأرجح 0–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132595+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-21-al-wehda-vs-al-kholood",
+    "date": "2025-11-21",
+    "kickoff": "2025-11-21T17:00:00Z",
+    "matchweek": 14,
+    "home_team_id": "al-wehda",
+    "away_team_id": "al-kholood",
+    "venue": {
+      "en": "Mecca",
+      "ar": "مكة"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Wehda vs Al-Kholood: the model favors Al-Wehda with a 80% win probability (80/16/4 W/D/L). Expected goals lean 2.0–0.3, with 2–0 the most likely scoreline.",
+        "ar": "الوحدة ضدّ الخلود: يُرجّح النموذج فوز الوحدة باحتمالية 80٪ (80/16/4 ف/ت/خ). الأهداف المتوقّعة 2.0–0.3، والنتيجة الأرجح 2–0."
+      },
+      "generated_at": "2026-05-02T00:36:09.132602+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-21-al-khaleej-vs-al-nassr",
+    "date": "2025-11-21",
+    "kickoff": "2025-11-21T17:00:00Z",
+    "matchweek": 14,
+    "home_team_id": "al-khaleej",
+    "away_team_id": "al-nassr",
+    "venue": {
+      "en": "Saihat",
+      "ar": "سيهات"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Khaleej vs Al-Nassr: the model favors Al-Nassr with a 65% win probability (13/22/65 W/D/L). Expected goals lean 0.6–1.8, with 0–1 the most likely scoreline.",
+        "ar": "الخليج ضدّ النصر: يُرجّح النموذج فوز النصر باحتمالية 65٪ (13/22/65 ف/ت/خ). الأهداف المتوقّعة 0.6–1.8، والنتيجة الأرجح 0–1."
+      },
+      "generated_at": "2026-05-02T00:36:09.132606+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-21-al-taawoun-vs-al-ittihad",
+    "date": "2025-11-21",
+    "kickoff": "2025-11-21T17:00:00Z",
+    "matchweek": 14,
+    "home_team_id": "al-taawoun",
+    "away_team_id": "al-ittihad",
+    "venue": {
+      "en": "Buraidah",
+      "ar": "بريدة"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Taawoun vs Al-Ittihad: the model favors Al-Ittihad with a 65% win probability (12/23/65 W/D/L). Expected goals lean 0.6–1.7, with 0–1 the most likely scoreline.",
+        "ar": "التعاون ضدّ الاتحاد: يُرجّح النموذج فوز الاتحاد باحتمالية 65٪ (12/23/65 ف/ت/خ). الأهداف المتوقّعة 0.6–1.7، والنتيجة الأرجح 0–1."
+      },
+      "generated_at": "2026-05-02T00:36:09.132613+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-21-al-fateh-vs-al-ahli",
+    "date": "2025-11-21",
+    "kickoff": "2025-11-21T17:00:00Z",
+    "matchweek": 14,
+    "home_team_id": "al-fateh",
+    "away_team_id": "al-ahli",
+    "venue": {
+      "en": "Al-Hasa",
+      "ar": "الأحساء"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Fateh vs Al-Ahli: the model favors Al-Ahli with a 55% win probability (18/27/55 W/D/L). Expected goals lean 0.7–1.4, with 0–1 the most likely scoreline.",
+        "ar": "الفتح ضدّ الأهلي: يُرجّح النموذج فوز الأهلي باحتمالية 55٪ (18/27/55 ف/ت/خ). الأهداف المتوقّعة 0.7–1.4، والنتيجة الأرجح 0–1."
+      },
+      "generated_at": "2026-05-02T00:36:09.132618+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  },
+  {
+    "id": "2025-11-21-al-ettifaq-vs-al-shabab",
+    "date": "2025-11-21",
+    "kickoff": "2025-11-21T17:00:00Z",
+    "matchweek": 14,
+    "home_team_id": "al-ettifaq",
+    "away_team_id": "al-shabab",
+    "venue": {
+      "en": "Dammam",
+      "ar": "الدمام"
+    },
+    "home_goals": null,
+    "away_goals": null,
+    "home_xg": null,
+    "away_xg": null,
+    "status": "scheduled",
+    "fbref_match_id": null,
+    "events": [],
+    "xg_flow": [],
+    "preview": {
+      "text": {
+        "en": "Al-Ettifaq vs Al-Shabab: the model favors Al-Ettifaq with a 41% win probability (41/29/30 W/D/L). Expected goals lean 1.2–1.0, with 1–1 the most likely scoreline.",
+        "ar": "الاتفاق ضدّ الشباب: يُرجّح النموذج فوز الاتفاق باحتمالية 41٪ (41/29/30 ف/ت/خ). الأهداف المتوقّعة 1.2–1.0، والنتيجة الأرجح 1–1."
+      },
+      "generated_at": "2026-05-02T00:36:09.132623+00:00",
+      "source": "template"
+    },
+    "recap": null,
+    "sources": {}
+  }
+]

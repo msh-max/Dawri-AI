@@ -1,1 +1,1510 @@
-[]
+[
+  {
+    "id": "salem-al-dawsari",
+    "name": {
+      "en": "Salem Al-Dawsari",
+      "ar": "سالم الدوسري"
+    },
+    "team_id": "al-hilal",
+    "position": "FW",
+    "detailed_position": "LW",
+    "jersey_number": 10,
+    "nationality": {
+      "en": "Saudi Arabia",
+      "ar": "السعودية"
+    },
+    "birth_date": "1991-08-19",
+    "height_cm": 173,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 10,
+      "minutes": 890,
+      "goals": 6,
+      "assists": 4,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "xg": 5.4,
+      "xa": 3.8,
+      "npxg": null,
+      "progressive_carries": 64,
+      "progressive_passes": 78,
+      "shots": 28,
+      "shots_on_target": 14,
+      "pass_completion_pct": 82.1,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Salem Al-Dawsari has been Al-Hilal's forward of choice this season, with 890 minutes across 10 matches. He grades top-25% versus positional peers in chance quality created and passing accuracy. The trade-off is below-average output in progressive carrying.",
+        "ar": "حضر سالم الدوسري كمهاجم أساسي في صفوف الهلال هذا الموسم، بـ890 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في جودة الفرص الممنوحة، ودقة التمرير. في المقابل، إنتاجه في التقدّم بالكرة دون المتوسط."
+      },
+      "generated_at": "2026-05-02T00:36:09.130281+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "ruben-neves",
+    "name": {
+      "en": "Rúben Neves",
+      "ar": "روبن نيفيز"
+    },
+    "team_id": "al-hilal",
+    "position": "MF",
+    "detailed_position": "DM",
+    "jersey_number": 8,
+    "nationality": {
+      "en": "Portugal",
+      "ar": "البرتغال"
+    },
+    "birth_date": "1997-03-13",
+    "height_cm": 180,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 10,
+      "minutes": 900,
+      "goals": 2,
+      "assists": 3,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "xg": 1.8,
+      "xa": 2.6,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": 145,
+      "shots": null,
+      "shots_on_target": null,
+      "pass_completion_pct": 88.9,
+      "tackles": 27,
+      "interceptions": 18,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Rúben Neves has been Al-Hilal's midfielder of choice this season, with 900 minutes across 10 matches. He grades top-25% versus positional peers in passing accuracy and progressive passing. The trade-off is below-average output in goalscoring and creating chances.",
+        "ar": "حضر روبن نيفيز كلاعب وسط أساسي في صفوف الهلال هذا الموسم، بـ900 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في دقة التمرير، والتمرير التقدّمي. في المقابل، إنتاجه في التهديف، وصناعة الفرص دون المتوسط."
+      },
+      "generated_at": "2026-05-02T00:36:09.130381+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "aleksandar-mitrovic",
+    "name": {
+      "en": "Aleksandar Mitrović",
+      "ar": "ألكسندر ميتروفيتش"
+    },
+    "team_id": "al-hilal",
+    "position": "FW",
+    "detailed_position": "ST",
+    "jersey_number": 9,
+    "nationality": {
+      "en": "Serbia",
+      "ar": "صربيا"
+    },
+    "birth_date": "1994-09-16",
+    "height_cm": 189,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 9,
+      "minutes": 820,
+      "goals": 12,
+      "assists": 2,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "xg": 10.8,
+      "xa": 1.9,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": null,
+      "shots": 42,
+      "shots_on_target": 24,
+      "pass_completion_pct": null,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": 66.4,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Aleksandar Mitrović has been Al-Hilal's forward of choice this season, with 820 minutes across 10 matches. He grades top-25% versus positional peers in aerial duels, goalscoring and shot quality. The trade-off is below-average output in creating chances.",
+        "ar": "حضر ألكسندر ميتروفيتش كمهاجم أساسي في صفوف الهلال هذا الموسم، بـ820 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في الكرات الهوائية، التهديف، وجودة التسديد. في المقابل، إنتاجه في صناعة الفرص دون المتوسط."
+      },
+      "generated_at": "2026-05-02T00:36:09.130456+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "yassine-bounou",
+    "name": {
+      "en": "Yassine Bounou",
+      "ar": "ياسين بونو"
+    },
+    "team_id": "al-hilal",
+    "position": "GK",
+    "detailed_position": "GK",
+    "jersey_number": 1,
+    "nationality": {
+      "en": "Morocco",
+      "ar": "المغرب"
+    },
+    "birth_date": "1991-04-05",
+    "height_cm": 195,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 10,
+      "minutes": 900,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "xg": 0.0,
+      "xa": 0.1,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": null,
+      "shots": null,
+      "shots_on_target": null,
+      "pass_completion_pct": null,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": 78.5,
+      "clean_sheets": 5
+    },
+    "scout_report": {
+      "text": {
+        "en": "Yassine Bounou has logged 900 minutes for Al-Hilal but doesn't yet rank in the top quartile of any tracked metric versus positional peers.",
+        "ar": "خاض ياسين بونو 900 دقيقة مع الهلال، إلّا أنّه لم يدخل بعد ضمن الربع الأعلى في أيّ من المقاييس المتاحة مقارنةً بنظرائه في مركزه."
+      },
+      "generated_at": "2026-05-02T00:36:09.130466+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "joao-cancelo",
+    "name": {
+      "en": "João Cancelo",
+      "ar": "جواو كانسيلو"
+    },
+    "team_id": "al-hilal",
+    "position": "DF",
+    "detailed_position": "RB",
+    "jersey_number": 7,
+    "nationality": {
+      "en": "Portugal",
+      "ar": "البرتغال"
+    },
+    "birth_date": "1994-05-27",
+    "height_cm": 182,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 9,
+      "starts": 9,
+      "minutes": 810,
+      "goals": 1,
+      "assists": 4,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "xg": 0.8,
+      "xa": 3.2,
+      "npxg": null,
+      "progressive_carries": 72,
+      "progressive_passes": 88,
+      "shots": null,
+      "shots_on_target": null,
+      "pass_completion_pct": 84.6,
+      "tackles": 18,
+      "interceptions": 10,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "João Cancelo has logged 810 minutes for Al-Hilal but doesn't yet rank in the top quartile of any tracked metric versus positional peers.",
+        "ar": "خاض جواو كانسيلو 810 دقيقة مع الهلال، إلّا أنّه لم يدخل بعد ضمن الربع الأعلى في أيّ من المقاييس المتاحة مقارنةً بنظرائه في مركزه."
+      },
+      "generated_at": "2026-05-02T00:36:09.130473+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "cristiano-ronaldo",
+    "name": {
+      "en": "Cristiano Ronaldo",
+      "ar": "كريستيانو رونالدو"
+    },
+    "team_id": "al-nassr",
+    "position": "FW",
+    "detailed_position": "ST",
+    "jersey_number": 7,
+    "nationality": {
+      "en": "Portugal",
+      "ar": "البرتغال"
+    },
+    "birth_date": "1985-02-05",
+    "height_cm": 187,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 10,
+      "minutes": 900,
+      "goals": 14,
+      "assists": 3,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "xg": 12.6,
+      "xa": 2.5,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": null,
+      "shots": 58,
+      "shots_on_target": 32,
+      "pass_completion_pct": null,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": 51.2,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Cristiano Ronaldo has been Al-Nassr's forward of choice this season, with 900 minutes across 10 matches. He grades top-25% versus positional peers in goalscoring and shot quality. The trade-off is below-average output in aerial duels.",
+        "ar": "حضر كريستيانو رونالدو كمهاجم أساسي في صفوف النصر هذا الموسم، بـ900 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في التهديف، وجودة التسديد. في المقابل، إنتاجه في الكرات الهوائية دون المتوسط."
+      },
+      "generated_at": "2026-05-02T00:36:09.130539+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "sadio-mane",
+    "name": {
+      "en": "Sadio Mané",
+      "ar": "ساديو ماني"
+    },
+    "team_id": "al-nassr",
+    "position": "FW",
+    "detailed_position": "LW",
+    "jersey_number": 19,
+    "nationality": {
+      "en": "Senegal",
+      "ar": "السنغال"
+    },
+    "birth_date": "1992-04-10",
+    "height_cm": 175,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 9,
+      "minutes": 820,
+      "goals": 7,
+      "assists": 4,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "xg": 6.4,
+      "xa": 3.6,
+      "npxg": null,
+      "progressive_carries": 82,
+      "progressive_passes": null,
+      "shots": 34,
+      "shots_on_target": 18,
+      "pass_completion_pct": 78.8,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Sadio Mané has been Al-Nassr's forward of choice this season, with 820 minutes across 10 matches. He grades top-25% versus positional peers in chance quality created, creating chances and progressive carrying. The trade-off is below-average output in passing accuracy.",
+        "ar": "حضر ساديو ماني كمهاجم أساسي في صفوف النصر هذا الموسم، بـ820 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في جودة الفرص الممنوحة، صناعة الفرص، والتقدّم بالكرة. في المقابل، إنتاجه في دقة التمرير دون المتوسط."
+      },
+      "generated_at": "2026-05-02T00:36:09.130682+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "marcelo-brozovic",
+    "name": {
+      "en": "Marcelo Brozović",
+      "ar": "مارسيلو بروزوفيتش"
+    },
+    "team_id": "al-nassr",
+    "position": "MF",
+    "detailed_position": "DM",
+    "jersey_number": 77,
+    "nationality": {
+      "en": "Croatia",
+      "ar": "كرواتيا"
+    },
+    "birth_date": "1992-11-16",
+    "height_cm": 181,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 10,
+      "minutes": 890,
+      "goals": 2,
+      "assists": 4,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "xg": 1.6,
+      "xa": 3.1,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": 128,
+      "shots": null,
+      "shots_on_target": null,
+      "pass_completion_pct": 87.4,
+      "tackles": 24,
+      "interceptions": 15,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Marcelo Brozović has been Al-Nassr's midfielder of choice this season, with 890 minutes across 10 matches. He grades top-25% versus positional peers in passing accuracy and progressive passing. The trade-off is below-average output in shot quality and tackling.",
+        "ar": "حضر مارسيلو بروزوفيتش كلاعب وسط أساسي في صفوف النصر هذا الموسم، بـ890 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في دقة التمرير، والتمرير التقدّمي. في المقابل، إنتاجه في جودة التسديد، والتدخّلات دون المتوسط."
+      },
+      "generated_at": "2026-05-02T00:36:09.130775+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "aymeric-laporte",
+    "name": {
+      "en": "Aymeric Laporte",
+      "ar": "أيمريك لابورت"
+    },
+    "team_id": "al-nassr",
+    "position": "DF",
+    "detailed_position": "CB",
+    "jersey_number": 14,
+    "nationality": {
+      "en": "Spain",
+      "ar": "إسبانيا"
+    },
+    "birth_date": "1994-05-27",
+    "height_cm": 191,
+    "foot": "left",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 10,
+      "minutes": 900,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "xg": 1.1,
+      "xa": 0.4,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": null,
+      "shots": null,
+      "shots_on_target": null,
+      "pass_completion_pct": 89.8,
+      "tackles": 14,
+      "interceptions": 22,
+      "aerials_won_pct": 68.2,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Aymeric Laporte has logged 900 minutes for Al-Nassr but doesn't yet rank in the top quartile of any tracked metric versus positional peers.",
+        "ar": "خاض أيمريك لابورت 900 دقيقة مع النصر، إلّا أنّه لم يدخل بعد ضمن الربع الأعلى في أيّ من المقاييس المتاحة مقارنةً بنظرائه في مركزه."
+      },
+      "generated_at": "2026-05-02T00:36:09.130784+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "karim-benzema",
+    "name": {
+      "en": "Karim Benzema",
+      "ar": "كريم بنزيمة"
+    },
+    "team_id": "al-ittihad",
+    "position": "FW",
+    "detailed_position": "ST",
+    "jersey_number": 9,
+    "nationality": {
+      "en": "France",
+      "ar": "فرنسا"
+    },
+    "birth_date": "1987-12-19",
+    "height_cm": 185,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 10,
+      "minutes": 890,
+      "goals": 9,
+      "assists": 5,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "xg": 8.9,
+      "xa": 4.4,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": null,
+      "shots": 44,
+      "shots_on_target": 22,
+      "pass_completion_pct": 80.5,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Karim Benzema has been Al-Ittihad's forward of choice this season, with 890 minutes across 10 matches. He grades top-25% versus positional peers in creating chances, chance quality created and goalscoring.",
+        "ar": "حضر كريم بنزيمة كمهاجم أساسي في صفوف الاتحاد هذا الموسم، بـ890 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في صناعة الفرص، جودة الفرص الممنوحة، والتهديف."
+      },
+      "generated_at": "2026-05-02T00:36:09.130850+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "n-golo-kante",
+    "name": {
+      "en": "N'Golo Kanté",
+      "ar": "إنغولو كانتي"
+    },
+    "team_id": "al-ittihad",
+    "position": "MF",
+    "detailed_position": "CM",
+    "jersey_number": 7,
+    "nationality": {
+      "en": "France",
+      "ar": "فرنسا"
+    },
+    "birth_date": "1991-03-29",
+    "height_cm": 168,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 10,
+      "minutes": 890,
+      "goals": 2,
+      "assists": 3,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "xg": 1.4,
+      "xa": 2.4,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": 92,
+      "shots": null,
+      "shots_on_target": null,
+      "pass_completion_pct": 85.9,
+      "tackles": 42,
+      "interceptions": 28,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "N'Golo Kanté has been Al-Ittihad's midfielder of choice this season, with 890 minutes across 10 matches. He grades top-25% versus positional peers in tackling and reading the game. The trade-off is below-average output in shot quality and chance quality created.",
+        "ar": "حضر إنغولو كانتي كلاعب وسط أساسي في صفوف الاتحاد هذا الموسم، بـ890 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في التدخّلات، وقراءة اللعب. في المقابل، إنتاجه في جودة التسديد، وجودة الفرص الممنوحة دون المتوسط."
+      },
+      "generated_at": "2026-05-02T00:36:09.130914+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "houssem-aouar",
+    "name": {
+      "en": "Houssem Aouar",
+      "ar": "حسام عوار"
+    },
+    "team_id": "al-ittihad",
+    "position": "MF",
+    "detailed_position": "AM",
+    "jersey_number": 8,
+    "nationality": {
+      "en": "Algeria",
+      "ar": "الجزائر"
+    },
+    "birth_date": "1998-06-30",
+    "height_cm": 175,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 8,
+      "minutes": 720,
+      "goals": 4,
+      "assists": 3,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "xg": 3.2,
+      "xa": 2.6,
+      "npxg": null,
+      "progressive_carries": 58,
+      "progressive_passes": null,
+      "shots": null,
+      "shots_on_target": null,
+      "pass_completion_pct": 83.2,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Houssem Aouar has been Al-Ittihad's midfielder of choice this season, with 720 minutes across 10 matches. He grades top-25% versus positional peers in goalscoring and shot quality. The trade-off is below-average output in passing accuracy.",
+        "ar": "حضر حسام عوار كلاعب وسط أساسي في صفوف الاتحاد هذا الموسم، بـ720 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في التهديف، وجودة التسديد. في المقابل، إنتاجه في دقة التمرير دون المتوسط."
+      },
+      "generated_at": "2026-05-02T00:36:09.130965+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "moussa-diaby",
+    "name": {
+      "en": "Moussa Diaby",
+      "ar": "موسى ديابي"
+    },
+    "team_id": "al-ittihad",
+    "position": "FW",
+    "detailed_position": "LW",
+    "jersey_number": 19,
+    "nationality": {
+      "en": "France",
+      "ar": "فرنسا"
+    },
+    "birth_date": "1999-07-07",
+    "height_cm": 170,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 9,
+      "minutes": 820,
+      "goals": 6,
+      "assists": 4,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "xg": 5.8,
+      "xa": 3.2,
+      "npxg": null,
+      "progressive_carries": 92,
+      "progressive_passes": null,
+      "shots": 32,
+      "shots_on_target": 16,
+      "pass_completion_pct": 80.4,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Moussa Diaby has been Al-Ittihad's forward of choice this season, with 820 minutes across 10 matches. He grades top-25% versus positional peers in progressive carrying and creating chances.",
+        "ar": "حضر موسى ديابي كمهاجم أساسي في صفوف الاتحاد هذا الموسم، بـ820 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في التقدّم بالكرة، وصناعة الفرص."
+      },
+      "generated_at": "2026-05-02T00:36:09.131039+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "riyad-mahrez",
+    "name": {
+      "en": "Riyad Mahrez",
+      "ar": "رياض محرز"
+    },
+    "team_id": "al-ahli",
+    "position": "FW",
+    "detailed_position": "RW",
+    "jersey_number": 7,
+    "nationality": {
+      "en": "Algeria",
+      "ar": "الجزائر"
+    },
+    "birth_date": "1991-02-21",
+    "height_cm": 179,
+    "foot": "left",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 10,
+      "minutes": 880,
+      "goals": 5,
+      "assists": 6,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "xg": 4.8,
+      "xa": 5.1,
+      "npxg": null,
+      "progressive_carries": 78,
+      "progressive_passes": null,
+      "shots": 36,
+      "shots_on_target": 18,
+      "pass_completion_pct": 82.4,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Riyad Mahrez has been Al-Ahli's forward of choice this season, with 880 minutes across 10 matches. He grades top-25% versus positional peers in creating chances, chance quality created and passing accuracy.",
+        "ar": "حضر رياض محرز كمهاجم أساسي في صفوف الأهلي هذا الموسم، بـ880 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في صناعة الفرص، جودة الفرص الممنوحة، ودقة التمرير."
+      },
+      "generated_at": "2026-05-02T00:36:09.131112+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "ivan-toney",
+    "name": {
+      "en": "Ivan Toney",
+      "ar": "إيفان توني"
+    },
+    "team_id": "al-ahli",
+    "position": "FW",
+    "detailed_position": "ST",
+    "jersey_number": 17,
+    "nationality": {
+      "en": "England",
+      "ar": "إنجلترا"
+    },
+    "birth_date": "1996-03-16",
+    "height_cm": 179,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 10,
+      "minutes": 890,
+      "goals": 11,
+      "assists": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "xg": 9.4,
+      "xa": 1.8,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": null,
+      "shots": 46,
+      "shots_on_target": 26,
+      "pass_completion_pct": 72.6,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": 58.3,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Ivan Toney has been Al-Ahli's forward of choice this season, with 890 minutes across 10 matches. He grades top-25% versus positional peers in goalscoring and shot quality. The trade-off is below-average output in passing accuracy and creating chances.",
+        "ar": "حضر إيفان توني كمهاجم أساسي في صفوف الأهلي هذا الموسم، بـ890 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في التهديف، وجودة التسديد. في المقابل، إنتاجه في دقة التمرير، وصناعة الفرص دون المتوسط."
+      },
+      "generated_at": "2026-05-02T00:36:09.131185+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "edouard-mendy",
+    "name": {
+      "en": "Édouard Mendy",
+      "ar": "إدوارد ميندي"
+    },
+    "team_id": "al-ahli",
+    "position": "GK",
+    "detailed_position": "GK",
+    "jersey_number": 1,
+    "nationality": {
+      "en": "Senegal",
+      "ar": "السنغال"
+    },
+    "birth_date": "1992-03-01",
+    "height_cm": 197,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 10,
+      "minutes": 900,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "xg": 0.0,
+      "xa": 0.0,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": null,
+      "shots": null,
+      "shots_on_target": null,
+      "pass_completion_pct": null,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": 74.2,
+      "clean_sheets": 4
+    },
+    "scout_report": {
+      "text": {
+        "en": "Édouard Mendy has logged 900 minutes for Al-Ahli but doesn't yet rank in the top quartile of any tracked metric versus positional peers.",
+        "ar": "خاض إدوارد ميندي 900 دقيقة مع الأهلي، إلّا أنّه لم يدخل بعد ضمن الربع الأعلى في أيّ من المقاييس المتاحة مقارنةً بنظرائه في مركزه."
+      },
+      "generated_at": "2026-05-02T00:36:09.131191+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "firas-al-buraikan",
+    "name": {
+      "en": "Firas Al-Buraikan",
+      "ar": "فراس البريكان"
+    },
+    "team_id": "al-ahli",
+    "position": "FW",
+    "detailed_position": "ST",
+    "jersey_number": 11,
+    "nationality": {
+      "en": "Saudi Arabia",
+      "ar": "السعودية"
+    },
+    "birth_date": "1999-05-14",
+    "height_cm": 180,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 8,
+      "minutes": 720,
+      "goals": 6,
+      "assists": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "xg": 5.4,
+      "xa": 1.6,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": null,
+      "shots": 28,
+      "shots_on_target": 14,
+      "pass_completion_pct": null,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Firas Al-Buraikan has logged 720 minutes for Al-Ahli but doesn't yet rank in the top quartile of any tracked metric versus positional peers.",
+        "ar": "خاض فراس البريكان 720 دقيقة مع الأهلي، إلّا أنّه لم يدخل بعد ضمن الربع الأعلى في أيّ من المقاييس المتاحة مقارنةً بنظرائه في مركزه."
+      },
+      "generated_at": "2026-05-02T00:36:09.131241+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "ezequiel-fernandez",
+    "name": {
+      "en": "Ezequiel Fernández",
+      "ar": "إزكيل فيرنانديز"
+    },
+    "team_id": "al-qadsiah",
+    "position": "MF",
+    "detailed_position": "CM",
+    "jersey_number": 5,
+    "nationality": {
+      "en": "Argentina",
+      "ar": "الأرجنتين"
+    },
+    "birth_date": "2002-06-12",
+    "height_cm": 178,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 10,
+      "minutes": 890,
+      "goals": 3,
+      "assists": 2,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "xg": 2.4,
+      "xa": 1.8,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": 78,
+      "shots": null,
+      "shots_on_target": null,
+      "pass_completion_pct": 85.4,
+      "tackles": 28,
+      "interceptions": 14,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Ezequiel Fernández has been Al-Qadsiah's midfielder of choice this season, with 890 minutes across 10 matches. He grades top-25% versus positional peers in tackling. The trade-off is below-average output in reading the game and chance quality created.",
+        "ar": "حضر إزكيل فيرنانديز كلاعب وسط أساسي في صفوف القادسية هذا الموسم، بـ890 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في التدخّلات. في المقابل، إنتاجه في قراءة اللعب، وجودة الفرص الممنوحة دون المتوسط."
+      },
+      "generated_at": "2026-05-02T00:36:09.131308+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "pierre-emerick-aubameyang",
+    "name": {
+      "en": "Pierre-Emerick Aubameyang",
+      "ar": "بيير-إيمريك أوباميانغ"
+    },
+    "team_id": "al-qadsiah",
+    "position": "FW",
+    "detailed_position": "ST",
+    "jersey_number": 9,
+    "nationality": {
+      "en": "Gabon",
+      "ar": "الغابون"
+    },
+    "birth_date": "1989-06-18",
+    "height_cm": 187,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 10,
+      "minutes": 890,
+      "goals": 8,
+      "assists": 3,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "xg": 7.6,
+      "xa": 2.4,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": null,
+      "shots": 40,
+      "shots_on_target": 20,
+      "pass_completion_pct": null,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Pierre-Emerick Aubameyang has logged 890 minutes for Al-Qadsiah but doesn't yet rank in the top quartile of any tracked metric versus positional peers.",
+        "ar": "خاض بيير-إيمريك أوباميانغ 890 دقيقة مع القادسية، إلّا أنّه لم يدخل بعد ضمن الربع الأعلى في أيّ من المقاييس المتاحة مقارنةً بنظرائه في مركزه."
+      },
+      "generated_at": "2026-05-02T00:36:09.131359+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "yannick-carrasco",
+    "name": {
+      "en": "Yannick Carrasco",
+      "ar": "يانيك كاراسكو"
+    },
+    "team_id": "al-shabab",
+    "position": "FW",
+    "detailed_position": "LW",
+    "jersey_number": 21,
+    "nationality": {
+      "en": "Belgium",
+      "ar": "بلجيكا"
+    },
+    "birth_date": "1993-09-04",
+    "height_cm": 181,
+    "foot": "left",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 9,
+      "minutes": 810,
+      "goals": 4,
+      "assists": 3,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "xg": 3.6,
+      "xa": 2.8,
+      "npxg": null,
+      "progressive_carries": 64,
+      "progressive_passes": null,
+      "shots": 24,
+      "shots_on_target": 12,
+      "pass_completion_pct": null,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Yannick Carrasco has logged 810 minutes for Al-Shabab but doesn't yet rank in the top quartile of any tracked metric versus positional peers.",
+        "ar": "خاض يانيك كاراسكو 810 دقيقة مع الشباب، إلّا أنّه لم يدخل بعد ضمن الربع الأعلى في أيّ من المقاييس المتاحة مقارنةً بنظرائه في مركزه."
+      },
+      "generated_at": "2026-05-02T00:36:09.131426+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "georginio-wijnaldum",
+    "name": {
+      "en": "Georginio Wijnaldum",
+      "ar": "جورجينيو فينالدوم"
+    },
+    "team_id": "al-ettifaq",
+    "position": "MF",
+    "detailed_position": "CM",
+    "jersey_number": 5,
+    "nationality": {
+      "en": "Netherlands",
+      "ar": "هولندا"
+    },
+    "birth_date": "1990-11-11",
+    "height_cm": 175,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 10,
+      "minutes": 890,
+      "goals": 3,
+      "assists": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "xg": 2.8,
+      "xa": 1.9,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": 88,
+      "shots": null,
+      "shots_on_target": null,
+      "pass_completion_pct": 86.4,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Georginio Wijnaldum has been Al-Ettifaq's midfielder of choice this season, with 890 minutes across 10 matches. He grades top-25% versus positional peers in shot quality and passing accuracy. The trade-off is below-average output in creating chances and chance quality created.",
+        "ar": "حضر جورجينيو فينالدوم كلاعب وسط أساسي في صفوف الاتفاق هذا الموسم، بـ890 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في جودة التسديد، ودقة التمرير. في المقابل، إنتاجه في صناعة الفرص، وجودة الفرص الممنوحة دون المتوسط."
+      },
+      "generated_at": "2026-05-02T00:36:09.131482+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "moussa-dembele",
+    "name": {
+      "en": "Moussa Dembélé",
+      "ar": "موسى ديمبيلي"
+    },
+    "team_id": "al-ettifaq",
+    "position": "FW",
+    "detailed_position": "ST",
+    "jersey_number": 9,
+    "nationality": {
+      "en": "France",
+      "ar": "فرنسا"
+    },
+    "birth_date": "1996-07-12",
+    "height_cm": 184,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 9,
+      "minutes": 810,
+      "goals": 6,
+      "assists": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "xg": 5.2,
+      "xa": 1.4,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": null,
+      "shots": 28,
+      "shots_on_target": 14,
+      "pass_completion_pct": null,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Moussa Dembélé has logged 810 minutes for Al-Ettifaq but doesn't yet rank in the top quartile of any tracked metric versus positional peers.",
+        "ar": "خاض موسى ديمبيلي 810 دقيقة مع الاتفاق، إلّا أنّه لم يدخل بعد ضمن الربع الأعلى في أيّ من المقاييس المتاحة مقارنةً بنظرائه في مركزه."
+      },
+      "generated_at": "2026-05-02T00:36:09.131534+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "alvaro-medran",
+    "name": {
+      "en": "Álvaro Medrán",
+      "ar": "ألفارو مدران"
+    },
+    "team_id": "al-taawoun",
+    "position": "MF",
+    "detailed_position": "AM",
+    "jersey_number": 10,
+    "nationality": {
+      "en": "Spain",
+      "ar": "إسبانيا"
+    },
+    "birth_date": "1994-03-15",
+    "height_cm": 180,
+    "foot": "left",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 10,
+      "minutes": 890,
+      "goals": 4,
+      "assists": 5,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "xg": 3.8,
+      "xa": 4.2,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": 92,
+      "shots": null,
+      "shots_on_target": null,
+      "pass_completion_pct": 82.6,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Álvaro Medrán has been Al-Taawoun's midfielder of choice this season, with 890 minutes across 10 matches. He grades top-25% versus positional peers in creating chances, chance quality created and goalscoring. The trade-off is below-average output in passing accuracy.",
+        "ar": "حضر ألفارو مدران كلاعب وسط أساسي في صفوف التعاون هذا الموسم، بـ890 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في صناعة الفرص، جودة الفرص الممنوحة، والتهديف. في المقابل، إنتاجه في دقة التمرير دون المتوسط."
+      },
+      "generated_at": "2026-05-02T00:36:09.131589+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "fabio-martins",
+    "name": {
+      "en": "Fábio Martins",
+      "ar": "فابيو مارتينز"
+    },
+    "team_id": "al-khaleej",
+    "position": "FW",
+    "detailed_position": "RW",
+    "jersey_number": 11,
+    "nationality": {
+      "en": "Portugal",
+      "ar": "البرتغال"
+    },
+    "birth_date": "1993-05-23",
+    "height_cm": 169,
+    "foot": "left",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 9,
+      "minutes": 810,
+      "goals": 4,
+      "assists": 3,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "xg": 3.4,
+      "xa": 2.6,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": null,
+      "shots": 22,
+      "shots_on_target": 10,
+      "pass_completion_pct": null,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Fábio Martins has logged 810 minutes for Al-Khaleej but doesn't yet rank in the top quartile of any tracked metric versus positional peers.",
+        "ar": "خاض فابيو مارتينز 810 دقيقة مع الخليج، إلّا أنّه لم يدخل بعد ضمن الربع الأعلى في أيّ من المقاييس المتاحة مقارنةً بنظرائه في مركزه."
+      },
+      "generated_at": "2026-05-02T00:36:09.131697+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "marwan-al-sahafi",
+    "name": {
+      "en": "Marwan Al-Sahafi",
+      "ar": "مروان الصحفي"
+    },
+    "team_id": "al-fateh",
+    "position": "MF",
+    "detailed_position": "CM",
+    "jersey_number": 8,
+    "nationality": {
+      "en": "Saudi Arabia",
+      "ar": "السعودية"
+    },
+    "birth_date": "1995-04-17",
+    "height_cm": 178,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 10,
+      "minutes": 890,
+      "goals": 2,
+      "assists": 4,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "xg": 1.8,
+      "xa": 3.4,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": 72,
+      "shots": null,
+      "shots_on_target": null,
+      "pass_completion_pct": 83.1,
+      "tackles": 22,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Marwan Al-Sahafi has been Al-Fateh's midfielder of choice this season, with 890 minutes across 10 matches. He grades top-25% versus positional peers in chance quality created. The trade-off is below-average output in progressive passing and tackling.",
+        "ar": "حضر مروان الصحفي كلاعب وسط أساسي في صفوف الفتح هذا الموسم، بـ890 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في جودة الفرص الممنوحة. في المقابل، إنتاجه في التمرير التقدّمي، والتدخّلات دون المتوسط."
+      },
+      "generated_at": "2026-05-02T00:36:09.131763+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "georges-mikautadze",
+    "name": {
+      "en": "Georges Mikautadze",
+      "ar": "جورج ميكاوتادزه"
+    },
+    "team_id": "damac",
+    "position": "FW",
+    "detailed_position": "ST",
+    "jersey_number": 17,
+    "nationality": {
+      "en": "Georgia",
+      "ar": "جورجيا"
+    },
+    "birth_date": "2000-10-31",
+    "height_cm": 179,
+    "foot": "left",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 9,
+      "minutes": 820,
+      "goals": 5,
+      "assists": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "xg": 4.6,
+      "xa": 1.4,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": null,
+      "shots": 26,
+      "shots_on_target": 12,
+      "pass_completion_pct": null,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Georges Mikautadze has logged 820 minutes for Damac but doesn't yet rank in the top quartile of any tracked metric versus positional peers.",
+        "ar": "خاض جورج ميكاوتادزه 820 دقيقة مع ضمك، إلّا أنّه لم يدخل بعد ضمن الربع الأعلى في أيّ من المقاييس المتاحة مقارنةً بنظرائه في مركزه."
+      },
+      "generated_at": "2026-05-02T00:36:09.131814+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "fashion-sakala",
+    "name": {
+      "en": "Fashion Sakala",
+      "ar": "فاشن ساكالا"
+    },
+    "team_id": "al-fayha",
+    "position": "FW",
+    "detailed_position": "RW",
+    "jersey_number": 11,
+    "nationality": {
+      "en": "Zambia",
+      "ar": "زامبيا"
+    },
+    "birth_date": "1997-05-08",
+    "height_cm": 178,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 8,
+      "minutes": 720,
+      "goals": 3,
+      "assists": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "xg": 2.8,
+      "xa": 1.6,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": null,
+      "shots": 20,
+      "shots_on_target": 10,
+      "pass_completion_pct": null,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Fashion Sakala has logged 720 minutes for Al-Fayha but doesn't yet rank in the top quartile of any tracked metric versus positional peers.",
+        "ar": "خاض فاشن ساكالا 720 دقيقة مع الفيحاء، إلّا أنّه لم يدخل بعد ضمن الربع الأعلى في أيّ من المقاييس المتاحة مقارنةً بنظرائه في مركزه."
+      },
+      "generated_at": "2026-05-02T00:36:09.131864+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "ever-banega",
+    "name": {
+      "en": "Éver Banega",
+      "ar": "إيفر بانيغا"
+    },
+    "team_id": "al-riyadh",
+    "position": "MF",
+    "detailed_position": "CM",
+    "jersey_number": 6,
+    "nationality": {
+      "en": "Argentina",
+      "ar": "الأرجنتين"
+    },
+    "birth_date": "1988-06-29",
+    "height_cm": 175,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 9,
+      "minutes": 820,
+      "goals": 2,
+      "assists": 4,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "xg": 1.6,
+      "xa": 3.6,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": 76,
+      "shots": null,
+      "shots_on_target": null,
+      "pass_completion_pct": 84.4,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Éver Banega has been Al-Riyadh's midfielder of choice this season, with 820 minutes across 10 matches. He grades top-25% versus positional peers in creating chances and chance quality created. The trade-off is below-average output in shot quality.",
+        "ar": "حضر إيفر بانيغا كلاعب وسط أساسي في صفوف الرياض هذا الموسم، بـ820 دقيقة في 10 مباراة. ويُصنّف ضمن أعلى 25٪ من نظرائه في مركزه في صناعة الفرص، وجودة الفرص الممنوحة. في المقابل، إنتاجه في جودة التسديد دون المتوسط."
+      },
+      "generated_at": "2026-05-02T00:36:09.131917+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  },
+  {
+    "id": "odion-ighalo",
+    "name": {
+      "en": "Odion Ighalo",
+      "ar": "أوديون إيغالو"
+    },
+    "team_id": "al-wehda",
+    "position": "FW",
+    "detailed_position": "ST",
+    "jersey_number": 24,
+    "nationality": {
+      "en": "Nigeria",
+      "ar": "نيجيريا"
+    },
+    "birth_date": "1989-06-16",
+    "height_cm": 188,
+    "foot": "right",
+    "photo_url": null,
+    "fbref_id": null,
+    "wikidata_id": null,
+    "season_stats": {
+      "matches": 10,
+      "starts": 9,
+      "minutes": 810,
+      "goals": 4,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "xg": 3.6,
+      "xa": 0.8,
+      "npxg": null,
+      "progressive_carries": null,
+      "progressive_passes": null,
+      "shots": 22,
+      "shots_on_target": 11,
+      "pass_completion_pct": null,
+      "tackles": null,
+      "interceptions": null,
+      "aerials_won_pct": null,
+      "save_pct": null,
+      "clean_sheets": null
+    },
+    "scout_report": {
+      "text": {
+        "en": "Odion Ighalo has logged 810 minutes for Al-Wehda but doesn't yet rank in the top quartile of any tracked metric versus positional peers.",
+        "ar": "خاض أوديون إيغالو 810 دقيقة مع الوحدة، إلّا أنّه لم يدخل بعد ضمن الربع الأعلى في أيّ من المقاييس المتاحة مقارنةً بنظرائه في مركزه."
+      },
+      "generated_at": "2026-05-02T00:36:09.131966+00:00",
+      "source": "template"
+    },
+    "sources": {}
+  }
+]

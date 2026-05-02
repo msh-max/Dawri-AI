@@ -1,1 +1,416 @@
-[]
+[
+  {
+    "id": "al-hilal",
+    "name": {
+      "en": "Al-Hilal",
+      "ar": "نادي الهلال"
+    },
+    "short_name": {
+      "en": "Al-Hilal",
+      "ar": "الهلال"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q221054",
+    "founded": 1957,
+    "city": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "crest_url": null,
+    "primary_color": "#1E4FAD",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q221054"
+    }
+  },
+  {
+    "id": "al-nassr",
+    "name": {
+      "en": "Al-Nassr",
+      "ar": "نادي النصر"
+    },
+    "short_name": {
+      "en": "Al-Nassr",
+      "ar": "النصر"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q221055",
+    "founded": 1955,
+    "city": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "crest_url": null,
+    "primary_color": "#FFCC00",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q221055"
+    }
+  },
+  {
+    "id": "al-ittihad",
+    "name": {
+      "en": "Al-Ittihad",
+      "ar": "نادي الاتحاد"
+    },
+    "short_name": {
+      "en": "Al-Ittihad",
+      "ar": "الاتحاد"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q221061",
+    "founded": 1927,
+    "city": {
+      "en": "Jeddah",
+      "ar": "جدة"
+    },
+    "crest_url": null,
+    "primary_color": "#000000",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q221061"
+    }
+  },
+  {
+    "id": "al-ahli",
+    "name": {
+      "en": "Al-Ahli",
+      "ar": "نادي الأهلي"
+    },
+    "short_name": {
+      "en": "Al-Ahli",
+      "ar": "الأهلي"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q221060",
+    "founded": 1937,
+    "city": {
+      "en": "Jeddah",
+      "ar": "جدة"
+    },
+    "crest_url": null,
+    "primary_color": "#007A33",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q221060"
+    }
+  },
+  {
+    "id": "al-shabab",
+    "name": {
+      "en": "Al-Shabab",
+      "ar": "نادي الشباب"
+    },
+    "short_name": {
+      "en": "Al-Shabab",
+      "ar": "الشباب"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q221056",
+    "founded": 1947,
+    "city": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "crest_url": null,
+    "primary_color": "#FFFFFF",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q221056"
+    }
+  },
+  {
+    "id": "al-ettifaq",
+    "name": {
+      "en": "Al-Ettifaq",
+      "ar": "نادي الاتفاق"
+    },
+    "short_name": {
+      "en": "Al-Ettifaq",
+      "ar": "الاتفاق"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q221062",
+    "founded": 1944,
+    "city": {
+      "en": "Dammam",
+      "ar": "الدمام"
+    },
+    "crest_url": null,
+    "primary_color": "#C8102E",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q221062"
+    }
+  },
+  {
+    "id": "al-fateh",
+    "name": {
+      "en": "Al-Fateh",
+      "ar": "نادي الفتح"
+    },
+    "short_name": {
+      "en": "Al-Fateh",
+      "ar": "الفتح"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q1376094",
+    "founded": 1958,
+    "city": {
+      "en": "Al-Hasa",
+      "ar": "الأحساء"
+    },
+    "crest_url": null,
+    "primary_color": "#7B2D8E",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q1376094"
+    }
+  },
+  {
+    "id": "al-taawoun",
+    "name": {
+      "en": "Al-Taawoun",
+      "ar": "نادي التعاون"
+    },
+    "short_name": {
+      "en": "Al-Taawoun",
+      "ar": "التعاون"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q1373571",
+    "founded": 1956,
+    "city": {
+      "en": "Buraidah",
+      "ar": "بريدة"
+    },
+    "crest_url": null,
+    "primary_color": "#FFD600",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q1373571"
+    }
+  },
+  {
+    "id": "al-khaleej",
+    "name": {
+      "en": "Al-Khaleej",
+      "ar": "نادي الخليج"
+    },
+    "short_name": {
+      "en": "Al-Khaleej",
+      "ar": "الخليج"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q1525057",
+    "founded": 1945,
+    "city": {
+      "en": "Saihat",
+      "ar": "سيهات"
+    },
+    "crest_url": null,
+    "primary_color": "#0033A0",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q1525057"
+    }
+  },
+  {
+    "id": "al-wehda",
+    "name": {
+      "en": "Al-Wehda",
+      "ar": "نادي الوحدة"
+    },
+    "short_name": {
+      "en": "Al-Wehda",
+      "ar": "الوحدة"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q1373580",
+    "founded": 1945,
+    "city": {
+      "en": "Mecca",
+      "ar": "مكة"
+    },
+    "crest_url": null,
+    "primary_color": "#C8102E",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q1373580"
+    }
+  },
+  {
+    "id": "al-riyadh",
+    "name": {
+      "en": "Al-Riyadh",
+      "ar": "نادي الرياض"
+    },
+    "short_name": {
+      "en": "Al-Riyadh",
+      "ar": "الرياض"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q1373574",
+    "founded": 1954,
+    "city": {
+      "en": "Riyadh",
+      "ar": "الرياض"
+    },
+    "crest_url": null,
+    "primary_color": "#FFFFFF",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q1373574"
+    }
+  },
+  {
+    "id": "al-fayha",
+    "name": {
+      "en": "Al-Fayha",
+      "ar": "نادي الفيحاء"
+    },
+    "short_name": {
+      "en": "Al-Fayha",
+      "ar": "الفيحاء"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q4663316",
+    "founded": 1957,
+    "city": {
+      "en": "Al Majma'ah",
+      "ar": "المجمعة"
+    },
+    "crest_url": null,
+    "primary_color": "#3F2E78",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q4663316"
+    }
+  },
+  {
+    "id": "damac",
+    "name": {
+      "en": "Damac",
+      "ar": "نادي ضمك"
+    },
+    "short_name": {
+      "en": "Damac",
+      "ar": "ضمك"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q1373577",
+    "founded": 1972,
+    "city": {
+      "en": "Khamis Mushait",
+      "ar": "خميس مشيط"
+    },
+    "crest_url": null,
+    "primary_color": "#1E5BA3",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q1373577"
+    }
+  },
+  {
+    "id": "al-qadsiah",
+    "name": {
+      "en": "Al-Qadsiah",
+      "ar": "نادي القادسية"
+    },
+    "short_name": {
+      "en": "Al-Qadsiah",
+      "ar": "القادسية"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q1373587",
+    "founded": 1967,
+    "city": {
+      "en": "Khobar",
+      "ar": "الخبر"
+    },
+    "crest_url": null,
+    "primary_color": "#FFD600",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q1373587"
+    }
+  },
+  {
+    "id": "al-okhdood",
+    "name": {
+      "en": "Al-Okhdood",
+      "ar": "نادي الأخدود"
+    },
+    "short_name": {
+      "en": "Al-Okhdood",
+      "ar": "الأخدود"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q56276850",
+    "founded": 1981,
+    "city": {
+      "en": "Najran",
+      "ar": "نجران"
+    },
+    "crest_url": null,
+    "primary_color": "#FFB800",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q56276850"
+    }
+  },
+  {
+    "id": "al-raed",
+    "name": {
+      "en": "Al-Raed",
+      "ar": "نادي الرائد"
+    },
+    "short_name": {
+      "en": "Al-Raed",
+      "ar": "الرائد"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q1373575",
+    "founded": 1954,
+    "city": {
+      "en": "Buraidah",
+      "ar": "بريدة"
+    },
+    "crest_url": null,
+    "primary_color": "#FFCC00",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q1373575"
+    }
+  },
+  {
+    "id": "al-najma",
+    "name": {
+      "en": "Al-Najma",
+      "ar": "نادي النجمة"
+    },
+    "short_name": {
+      "en": "Al-Najma",
+      "ar": "النجمة"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q1373585",
+    "founded": 1945,
+    "city": {
+      "en": "Unayzah",
+      "ar": "عنيزة"
+    },
+    "crest_url": null,
+    "primary_color": "#0033A0",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q1373585"
+    }
+  },
+  {
+    "id": "al-kholood",
+    "name": {
+      "en": "Al-Kholood",
+      "ar": "نادي الخلود"
+    },
+    "short_name": {
+      "en": "Al-Kholood",
+      "ar": "الخلود"
+    },
+    "fbref_id": null,
+    "wikidata_id": "Q104836970",
+    "founded": 1980,
+    "city": {
+      "en": "Ar Rass",
+      "ar": "الرس"
+    },
+    "crest_url": null,
+    "primary_color": "#3F2E78",
+    "sources": {
+      "wikidata": "https://www.wikidata.org/wiki/Q104836970"
+    }
+  }
+]
