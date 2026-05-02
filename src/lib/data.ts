@@ -55,8 +55,21 @@ function isSnapshotEmpty(s: SeasonSnapshot | null): boolean {
   return (s.teams?.length ?? 0) === 0;
 }
 
+// Single-flight cache for the live season fetch. `loadSeasonSnapshot()` and
+// `isUsingSampleData()` get called from different server components within
+// the same build; without this they race on raw.githubusercontent.com and
+// can disagree about whether live data exists — which is how the demo ends
+// up rendering real standings with the "showing sample data" banner on top.
+let _liveSeasonPromise: Promise<SeasonSnapshot | null> | null = null;
+function getLiveSeason(): Promise<SeasonSnapshot | null> {
+  if (!_liveSeasonPromise) {
+    _liveSeasonPromise = fetchJson<SeasonSnapshot>('season.json');
+  }
+  return _liveSeasonPromise;
+}
+
 export async function loadSeasonSnapshot(): Promise<SeasonSnapshot> {
-  const live = await fetchJson<SeasonSnapshot>('season.json');
+  const live = await getLiveSeason();
   return isSnapshotEmpty(live) ? SAMPLE_SNAPSHOT : (live as SeasonSnapshot);
 }
 
@@ -69,6 +82,6 @@ export function hasLiveData(manifest: DataManifest): boolean {
 }
 
 export async function isUsingSampleData(): Promise<boolean> {
-  const live = await fetchJson<SeasonSnapshot>('season.json');
+  const live = await getLiveSeason();
   return isSnapshotEmpty(live);
 }
