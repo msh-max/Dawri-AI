@@ -1,6 +1,6 @@
 [
   {
-    "fixture_id": "2026-05-08-al-hilal-vs-al-nassr",
+    "fixture_id": "2026-05-15-al-hilal-vs-al-nassr",
     "home_win_prob": 0.43912452867777496,
     "draw_prob": 0.24459096113871873,
     "away_win_prob": 0.31628451018350623,
@@ -26,11 +26,11 @@
         }
       }
     ],
-    "generated_at": "2026-05-07T06:15:32.587871+00:00",
+    "generated_at": "2026-05-08T05:33:49.907210+00:00",
     "model_version": "elo-poisson-0.1"
   },
   {
-    "fixture_id": "2026-05-08-al-ittihad-vs-al-ahli",
+    "fixture_id": "2026-05-15-al-ittihad-vs-al-ahli",
     "home_win_prob": 0.43912452867777496,
     "draw_prob": 0.24459096113871873,
     "away_win_prob": 0.31628451018350623,
@@ -56,11 +56,11 @@
         }
       }
     ],
-    "generated_at": "2026-05-07T06:15:32.587871+00:00",
+    "generated_at": "2026-05-08T05:33:49.907210+00:00",
     "model_version": "elo-poisson-0.1"
   },
   {
-    "fixture_id": "2026-05-08-al-shabab-vs-al-ettifaq",
+    "fixture_id": "2026-05-15-al-shabab-vs-al-ettifaq",
     "home_win_prob": 0.43912452867777496,
     "draw_prob": 0.24459096113871873,
     "away_win_prob": 0.31628451018350623,
@@ -86,11 +86,11 @@
         }
       }
     ],
-    "generated_at": "2026-05-07T06:15:32.587871+00:00",
+    "generated_at": "2026-05-08T05:33:49.907210+00:00",
     "model_version": "elo-poisson-0.1"
   },
   {
-    "fixture_id": "2026-05-08-al-fateh-vs-al-taawoun",
+    "fixture_id": "2026-05-15-al-fateh-vs-al-taawoun",
     "home_win_prob": 0.43912452867777496,
     "draw_prob": 0.24459096113871873,
     "away_win_prob": 0.31628451018350623,
@@ -116,11 +116,11 @@
         }
       }
     ],
-    "generated_at": "2026-05-07T06:15:32.587871+00:00",
+    "generated_at": "2026-05-08T05:33:49.907210+00:00",
     "model_version": "elo-poisson-0.1"
   },
   {
-    "fixture_id": "2026-05-08-al-khaleej-vs-al-wehda",
+    "fixture_id": "2026-05-15-al-khaleej-vs-al-wehda",
     "home_win_prob": 0.43912452867777496,
     "draw_prob": 0.24459096113871873,
     "away_win_prob": 0.31628451018350623,
@@ -146,11 +146,11 @@
         }
       }
     ],
-    "generated_at": "2026-05-07T06:15:32.587871+00:00",
+    "generated_at": "2026-05-08T05:33:49.907210+00:00",
     "model_version": "elo-poisson-0.1"
   },
   {
-    "fixture_id": "2026-05-08-al-riyadh-vs-al-fayha",
+    "fixture_id": "2026-05-15-al-riyadh-vs-al-fayha",
     "home_win_prob": 0.43912452867777496,
     "draw_prob": 0.24459096113871873,
     "away_win_prob": 0.31628451018350623,
@@ -176,11 +176,11 @@
         }
       }
     ],
-    "generated_at": "2026-05-07T06:15:32.587871+00:00",
+    "generated_at": "2026-05-08T05:33:49.907210+00:00",
     "model_version": "elo-poisson-0.1"
   },
   {
-    "fixture_id": "2026-05-08-damac-vs-al-qadsiah",
+    "fixture_id": "2026-05-15-damac-vs-al-qadsiah",
     "home_win_prob": 0.43912452867777496,
     "draw_prob": 0.24459096113871873,
     "away_win_prob": 0.31628451018350623,
@@ -206,11 +206,11 @@
         }
       }
     ],
-    "generated_at": "2026-05-07T06:15:32.587871+00:00",
+    "generated_at": "2026-05-08T05:33:49.907210+00:00",
     "model_version": "elo-poisson-0.1"
   },
   {
-    "fixture_id": "2026-05-08-al-okhdood-vs-al-raed",
+    "fixture_id": "2026-05-15-al-okhdood-vs-al-raed",
     "home_win_prob": 0.43912452867777496,
     "draw_prob": 0.24459096113871873,
     "away_win_prob": 0.31628451018350623,
@@ -236,11 +236,11 @@
         }
       }
     ],
-    "generated_at": "2026-05-07T06:15:32.587871+00:00",
+    "generated_at": "2026-05-08T05:33:49.907210+00:00",
     "model_version": "elo-poisson-0.1"
   },
   {
-    "fixture_id": "2026-05-08-al-najma-vs-al-kholood",
+    "fixture_id": "2026-05-15-al-najma-vs-al-kholood",
     "home_win_prob": 0.43912452867777496,
     "draw_prob": 0.24459096113871873,
     "away_win_prob": 0.31628451018350623,
@@ -266,7 +266,7 @@
         }
       }
     ],
-    "generated_at": "2026-05-07T06:15:32.587871+00:00",
+    "generated_at": "2026-05-08T05:33:49.907210+00:00",
     "model_version": "elo-poisson-0.1"
   }
 ]
