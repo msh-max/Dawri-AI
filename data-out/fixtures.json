@@ -1,8 +1,8 @@
 [
   {
-    "id": "2026-05-15-al-hilal-vs-al-nassr",
-    "date": "2026-05-15",
-    "kickoff": "2026-05-15T18:00:00Z",
+    "id": "2026-05-22-al-hilal-vs-al-nassr",
+    "date": "2026-05-22",
+    "kickoff": "2026-05-22T18:00:00Z",
     "matchweek": 1,
     "home_team_id": "al-hilal",
     "away_team_id": "al-nassr",
@@ -23,16 +23,16 @@
         "en": "Al-Hilal vs Al-Nassr: the model favors Al-Hilal with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
         "ar": "الهلال ضدّ النصر: يُرجّح النموذج فوز الهلال باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
       },
-      "generated_at": "2026-05-14T06:28:25.999689+00:00",
+      "generated_at": "2026-05-15T06:37:35.929795+00:00",
       "source": "template"
     },
     "recap": null,
     "sources": {}
   },
   {
-    "id": "2026-05-15-al-ittihad-vs-al-ahli",
-    "date": "2026-05-15",
-    "kickoff": "2026-05-15T18:00:00Z",
+    "id": "2026-05-22-al-ittihad-vs-al-ahli",
+    "date": "2026-05-22",
+    "kickoff": "2026-05-22T18:00:00Z",
     "matchweek": 1,
     "home_team_id": "al-ittihad",
     "away_team_id": "al-ahli",
@@ -53,16 +53,16 @@
         "en": "Al-Ittihad vs Al-Ahli: the model favors Al-Ittihad with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
         "ar": "الاتحاد ضدّ الأهلي: يُرجّح النموذج فوز الاتحاد باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
       },
-      "generated_at": "2026-05-14T06:28:25.999853+00:00",
+      "generated_at": "2026-05-15T06:37:35.929818+00:00",
       "source": "template"
     },
     "recap": null,
     "sources": {}
   },
   {
-    "id": "2026-05-15-al-shabab-vs-al-ettifaq",
-    "date": "2026-05-15",
-    "kickoff": "2026-05-15T18:00:00Z",
+    "id": "2026-05-22-al-shabab-vs-al-ettifaq",
+    "date": "2026-05-22",
+    "kickoff": "2026-05-22T18:00:00Z",
     "matchweek": 1,
     "home_team_id": "al-shabab",
     "away_team_id": "al-ettifaq",
@@ -83,16 +83,16 @@
         "en": "Al-Shabab vs Al-Ettifaq: the model favors Al-Shabab with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
         "ar": "الشباب ضدّ الاتفاق: يُرجّح النموذج فوز الشباب باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
       },
-      "generated_at": "2026-05-14T06:28:25.999874+00:00",
+      "generated_at": "2026-05-15T06:37:35.929833+00:00",
       "source": "template"
     },
     "recap": null,
     "sources": {}
   },
   {
-    "id": "2026-05-15-al-fateh-vs-al-taawoun",
-    "date": "2026-05-15",
-    "kickoff": "2026-05-15T18:00:00Z",
+    "id": "2026-05-22-al-fateh-vs-al-taawoun",
+    "date": "2026-05-22",
+    "kickoff": "2026-05-22T18:00:00Z",
     "matchweek": 1,
     "home_team_id": "al-fateh",
     "away_team_id": "al-taawoun",
@@ -113,16 +113,16 @@
         "en": "Al-Fateh vs Al-Taawoun: the model favors Al-Fateh with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
         "ar": "الفتح ضدّ التعاون: يُرجّح النموذج فوز الفتح باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
       },
-      "generated_at": "2026-05-14T06:28:25.999893+00:00",
+      "generated_at": "2026-05-15T06:37:35.929848+00:00",
       "source": "template"
     },
     "recap": null,
     "sources": {}
   },
   {
-    "id": "2026-05-15-al-khaleej-vs-al-wehda",
-    "date": "2026-05-15",
-    "kickoff": "2026-05-15T18:00:00Z",
+    "id": "2026-05-22-al-khaleej-vs-al-wehda",
+    "date": "2026-05-22",
+    "kickoff": "2026-05-22T18:00:00Z",
     "matchweek": 1,
     "home_team_id": "al-khaleej",
     "away_team_id": "al-wehda",
@@ -143,16 +143,16 @@
         "en": "Al-Khaleej vs Al-Wehda: the model favors Al-Khaleej with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
         "ar": "الخليج ضدّ الوحدة: يُرجّح النموذج فوز الخليج باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
       },
-      "generated_at": "2026-05-14T06:28:25.999908+00:00",
+      "generated_at": "2026-05-15T06:37:35.929863+00:00",
       "source": "template"
     },
     "recap": null,
     "sources": {}
   },
   {
-    "id": "2026-05-15-al-riyadh-vs-al-fayha",
-    "date": "2026-05-15",
-    "kickoff": "2026-05-15T18:00:00Z",
+    "id": "2026-05-22-al-riyadh-vs-al-fayha",
+    "date": "2026-05-22",
+    "kickoff": "2026-05-22T18:00:00Z",
     "matchweek": 1,
     "home_team_id": "al-riyadh",
     "away_team_id": "al-fayha",
@@ -173,16 +173,16 @@
         "en": "Al-Riyadh vs Al-Fayha: the model favors Al-Riyadh with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
         "ar": "الرياض ضدّ الفيحاء: يُرجّح النموذج فوز الرياض باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
       },
-      "generated_at": "2026-05-14T06:28:25.999917+00:00",
+      "generated_at": "2026-05-15T06:37:35.929876+00:00",
       "source": "template"
     },
     "recap": null,
     "sources": {}
   },
   {
-    "id": "2026-05-15-damac-vs-al-qadsiah",
-    "date": "2026-05-15",
-    "kickoff": "2026-05-15T18:00:00Z",
+    "id": "2026-05-22-damac-vs-al-qadsiah",
+    "date": "2026-05-22",
+    "kickoff": "2026-05-22T18:00:00Z",
     "matchweek": 1,
     "home_team_id": "damac",
     "away_team_id": "al-qadsiah",
@@ -203,16 +203,16 @@
         "en": "Damac vs Al-Qadsiah: the model favors Damac with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
         "ar": "ضمك ضدّ القادسية: يُرجّح النموذج فوز ضمك باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
       },
-      "generated_at": "2026-05-14T06:28:25.999925+00:00",
+      "generated_at": "2026-05-15T06:37:35.929890+00:00",
       "source": "template"
     },
     "recap": null,
     "sources": {}
   },
   {
-    "id": "2026-05-15-al-okhdood-vs-al-raed",
-    "date": "2026-05-15",
-    "kickoff": "2026-05-15T18:00:00Z",
+    "id": "2026-05-22-al-okhdood-vs-al-raed",
+    "date": "2026-05-22",
+    "kickoff": "2026-05-22T18:00:00Z",
     "matchweek": 1,
     "home_team_id": "al-okhdood",
     "away_team_id": "al-raed",
@@ -233,16 +233,16 @@
         "en": "Al-Okhdood vs Al-Raed: the model favors Al-Okhdood with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
         "ar": "الأخدود ضدّ الرائد: يُرجّح النموذج فوز الأخدود باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
       },
-      "generated_at": "2026-05-14T06:28:25.999955+00:00",
+      "generated_at": "2026-05-15T06:37:35.929910+00:00",
       "source": "template"
     },
     "recap": null,
     "sources": {}
   },
   {
-    "id": "2026-05-15-al-najma-vs-al-kholood",
-    "date": "2026-05-15",
-    "kickoff": "2026-05-15T18:00:00Z",
+    "id": "2026-05-22-al-najma-vs-al-kholood",
+    "date": "2026-05-22",
+    "kickoff": "2026-05-22T18:00:00Z",
     "matchweek": 1,
     "home_team_id": "al-najma",
     "away_team_id": "al-kholood",
@@ -263,7 +263,7 @@
         "en": "Al-Najma vs Al-Kholood: the model favors Al-Najma with a 44% win probability (44/24/32 W/D/L). Expected goals lean 1.6–1.3, with 1–1 the most likely scoreline.",
         "ar": "النجمة ضدّ الخلود: يُرجّح النموذج فوز النجمة باحتمالية 44٪ (44/24/32 ف/ت/خ). الأهداف المتوقّعة 1.6–1.3، والنتيجة الأرجح 1–1."
       },
-      "generated_at": "2026-05-14T06:28:25.999965+00:00",
+      "generated_at": "2026-05-15T06:37:35.929932+00:00",
       "source": "template"
     },
     "recap": null,
